@@ -1,0 +1,550 @@
+{
+  "transport_factors_12.968_80.201_800": {
+    "timestamp": 1758308410.689573,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2071039,
+              12.9652732
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Ram Nagar",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2037268,
+              12.9656695
+            ]
+          },
+          "properties": {
+            "bench": "no",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "local_ref": "Sadasiva Nagar",
+            "name": "Sadasiva Nagar",
+            "name:ta": "சதாசிவ நகர்",
+            "public_transport": "platform",
+            "route_ref": "M1",
+            "shelter": "no",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1964403,
+              12.9647635
+            ]
+          },
+          "properties": {
+            "bench": "no",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "kerb": "raised",
+            "kerb:approach_aid": "no",
+            "lit": "no",
+            "name": "Ponniamman Koil",
+            "passenger_information_display": "no",
+            "public_transport": "platform",
+            "route_ref": "M1",
+            "shelter": "no",
+            "tactile_paving": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2003039,
+              12.9654812
+            ]
+          },
+          "properties": {
+            "bench": "no",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "kerb": "raised",
+            "kerb:approach_aid": "no",
+            "lit": "no",
+            "name": "Balaiah Garden",
+            "passenger_information_display": "no",
+            "public_transport": "platform",
+            "route_ref": "M1;V51;45A;17D",
+            "shelter": "no",
+            "tactile_paving": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2003456,
+              12.9655423
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Balaiah Garden",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2029314,
+              12.9739799
+            ]
+          },
+          "properties": {
+            "amenity": "bus_station",
+            "bus": "yes",
+            "name": "Puzhuthivakkam Bus Stand",
+            "public_transport": "station"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2033552,
+              12.9738315
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Puzhithivakkam",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2069875,
+              12.9652457
+            ]
+          },
+          "properties": {
+            "bench": "no",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "kerb": "no",
+            "lit": "no",
+            "name": "Ram Nagar",
+            "name:ta": "ராம் நகர்",
+            "passenger_information_display": "no",
+            "public_transport": "platform",
+            "route_ref": "M1",
+            "shelter": "no",
+            "tactile_paving": "no",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1982835,
+              12.9628608
+            ]
+          },
+          "properties": {
+            "amenity": "bus_station",
+            "bus": "yes",
+            "internet_access": "no",
+            "name": "Madipakkam Bus Stand",
+            "operator": "Chennai Metro Transport Services",
+            "public_transport": "station"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.196993,
+              12.9648737
+            ]
+          },
+          "properties": {
+            "bench": "no",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "public_transport": "platform",
+            "shelter": "no",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1963361,
+              12.9648168
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Ponniamman Koil",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1962538,
+              12.9648849
+            ]
+          },
+          "properties": {
+            "bench": "no",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "kerb": "raised",
+            "kerb:approach_aid": "no",
+            "lit": "no",
+            "name": "Ponniamman Koil",
+            "passenger_information_display": "no",
+            "public_transport": "platform",
+            "route_ref": "M1;V51",
+            "shelter": "no",
+            "tactile_paving": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2013584,
+              12.965438
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "kerb": "raised",
+            "kerb:approach_aid": "no",
+            "lit": "no",
+            "name": "Balaiah Garden",
+            "passenger_information_display": "no",
+            "public_transport": "platform",
+            "route_ref": "M1;V51;45A;17D",
+            "shelter": "yes",
+            "tactile_paving": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2069929,
+              12.9653278
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "kerb": "no",
+            "lit": "no",
+            "name": "Ram Nagar",
+            "passenger_information_display": "no",
+            "public_transport": "platform",
+            "route_ref": "M1;V51",
+            "shelter": "yes",
+            "tactile_paving": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2043863,
+              12.9656308
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Sadasiva Nagar",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2031164,
+              12.9658462
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Sadasiva Nagar",
+            "public_transport": "platform",
+            "route_ref": "M1;V51"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 12.96761,
+      "lon": 80.20142,
+      "radius": 800.0
+    }
+  },
+  "transport_factors_13.087_80.193_800": {
+    "timestamp": 1758308503.400768,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1981881,
+              13.0870648
+            ]
+          },
+          "properties": {
+            "addr:city": "Thirumangalam, Chennai",
+            "addr:postcode": "600040",
+            "addr:street": "Ambattur Estate Road",
+            "bench": "yes",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Thirumangalam EB Office Bus Stop",
+            "network": "MTC",
+            "operator": "Metropolitan Transport Corporation (Chennai) Ltd.",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "website": "https://mtcbus.org/"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1974447,
+              13.0873581
+            ]
+          },
+          "properties": {
+            "highway": "bus_stop",
+            "name": "Thirumangalam EB Office",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1903448,
+              13.0878057
+            ]
+          },
+          "properties": {
+            "highway": "bus_stop",
+            "name": "Collector Nagar",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1893914,
+              13.0875626
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Collector Nagar",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1928879,
+              13.0874491
+            ]
+          },
+          "properties": {
+            "amenity": "taxi",
+            "motorcar": "no",
+            "name": "Thamizhannai Auto Stand",
+            "operator": "CITU"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1984558,
+              13.0906674
+            ]
+          },
+          "properties": {
+            "addr:street": "Jawaharlal Nehru Road, Anna Nagar West, Thirumangalam",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "திருமங்கலம்",
+            "name:en": "Thirumangalam Bus Stop",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1987219,
+              13.0906372
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Thirumanglam",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1997354,
+              13.0825898
+            ]
+          },
+          "properties": {
+            "electrified": "yes",
+            "frequency": "25",
+            "gauge": "1435",
+            "layer": "-1",
+            "name": "Chennai Metro Line 2",
+            "network": "Chennai Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Chennai Metro Rail Limited",
+            "railway": "subway",
+            "subway": "yes",
+            "tunnel": "yes",
+            "voltage": "25000"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.224971,
+              13.0802455
+            ]
+          },
+          "properties": {
+            "layer": "-1",
+            "level": "-2",
+            "name": "Chennai Metro Line 2",
+            "network": "Chennai Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Chennai Metro Rail Limited",
+            "railway": "subway",
+            "subway": "yes",
+            "tunnel": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.192322,
+              13.0017164
+            ]
+          },
+          "properties": {
+            "bridge": "yes",
+            "construction": "subway",
+            "fixme": "Please check the tag bridge and layer, imo not correct",
+            "gauge": "1435",
+            "layer": "2",
+            "line": "5",
+            "name": "Line 5: Shozhinganallur → Madhavaram (u/c)",
+            "network": "Chennai Metro",
+            "oneway": "yes",
+            "operator": "CMRL",
+            "railway": "construction"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1923393,
+              13.0016949
+            ]
+          },
+          "properties": {
+            "bridge": "yes",
+            "construction": "subway",
+            "fixme": "Please check the tag bridge and layer, imo not correct",
+            "gauge": "1435",
+            "layer": "2",
+            "line": "5",
+            "name": "Line 5: Madhavaram → Shozhinganallur (u/c)",
+            "network": "Chennai Metro",
+            "oneway": "yes",
+            "operator": "CMRL",
+            "railway": "construction"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 13.087057,
+      "lon": 80.192808,
+      "radius": 800.0
+    }
+  }
+}

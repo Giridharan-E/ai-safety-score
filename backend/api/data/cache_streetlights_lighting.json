@@ -1,0 +1,26 @@
+{
+  "streetlights_lighting_12.968_80.201_800": {
+    "timestamp": 1758308396.3227813,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 12.96761,
+      "lon": 80.20142,
+      "radius": 800.0
+    }
+  },
+  "streetlights_lighting_13.087_80.193_800": {
+    "timestamp": 1758308474.7254012,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.087057,
+      "lon": 80.192808,
+      "radius": 800.0
+    }
+  }
+}

@@ -1,0 +1,1723 @@
+{
+  "security_factors_12.968_80.201_800": {
+    "timestamp": 1758308413.959298,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2033296,
+              12.9743758
+            ]
+          },
+          "properties": {
+            "access": "private"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2021413,
+              12.9738558
+            ]
+          },
+          "properties": {
+            "access": "private"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2022257,
+              12.9739002
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2050657,
+              12.9673179
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1963745,
+              12.9715806
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.20322,
+              12.9742612
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1970488,
+              12.9702458
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1948909,
+              12.9692287
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1943833,
+              12.9693048
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1942539,
+              12.9692512
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.196068,
+              12.9649296
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1996803,
+              12.971259
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2018687,
+              12.9628161
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2027349,
+              12.9740906
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service",
+            "motor_vehicle": "destination"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2019904,
+              12.9627947
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential",
+            "source": "maxar"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2051584,
+              12.9673638
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "cycleway": "lane",
+            "highway": "service",
+            "name": "Sivaraman Street"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1959023,
+              12.9649472
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.196506,
+              12.9715495
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1970604,
+              12.9703963
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.194902,
+              12.969317
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1944356,
+              12.9693653
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1942404,
+              12.9691966
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2016806,
+              12.9655925
+            ]
+          },
+          "properties": {
+            "barrier": "jersey_barrier",
+            "material": "concrete"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2032577,
+              12.9657742
+            ]
+          },
+          "properties": {
+            "barrier": "jersey_barrier",
+            "material": "concrete"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1996117,
+              12.9712688
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 12.96761,
+      "lon": 80.20142,
+      "radius": 800.0
+    }
+  },
+  "security_factors_13.087_80.193_800": {
+    "timestamp": 1758308512.0449648,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1879935,
+              13.0861085
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1879879,
+              13.086154
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1984403,
+              13.0914318
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "locked": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1974952,
+              13.0921858
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1918901,
+              13.0829125
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1922141,
+              13.083858
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1922905,
+              13.0842388
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1865811,
+              13.0855752
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.191159,
+              13.0812349
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1975271,
+              13.0921858
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "lift_gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1959312,
+              13.0871144
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1956269,
+              13.0890834
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1955965,
+              13.0867964
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1894543,
+              13.0914558
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1930082,
+              13.092823
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1930122,
+              13.0935461
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1929052,
+              13.0906334
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1922077,
+              13.0838092
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1918808,
+              13.0828774
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1973404,
+              13.0887235
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1973333,
+              13.0883201
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1973151,
+              13.087859
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1984207,
+              13.0886967
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1973267,
+              13.0887239
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "lift_gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1972404,
+              13.088842
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1969077,
+              13.0890531
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1987637,
+              13.0898225
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.199046,
+              13.0891178
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1936033,
+              13.0872192
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1944203,
+              13.0871746
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1955079,
+              13.0870382
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1971244,
+              13.0852753
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1879178,
+              13.0861028
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service",
+            "oneway": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1978785,
+              13.0887102
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1921226,
+              13.0918957
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1945331,
+              13.0870381
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1877919,
+              13.0857862
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1877764,
+              13.0859168
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1877017,
+              13.0858859
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1873643,
+              13.0862315
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service",
+            "oneway": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.187911,
+              13.0861483
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service",
+            "oneway": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1872849,
+              13.0860571
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service",
+            "oneway": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.186996,
+              13.0863234
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1876755,
+              13.0861076
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1979262,
+              13.0881763
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1979499,
+              13.0918083
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1914515,
+              13.0828909
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1916618,
+              13.0831808
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential",
+            "source": "digitalglobe"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1910989,
+              13.0806213
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential",
+            "source": "digitalglobe"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1905716,
+              13.0799721
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential",
+            "source": "digitalglobe"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1915745,
+              13.0841529
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential",
+            "source": "digitalglobe"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1968371,
+              13.0854054
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential",
+            "source": "digitalglobe"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1916754,
+              13.0833315
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential",
+            "source": "digitalglobe"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1926654,
+              13.0931659
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential",
+            "source": "digitalglobe"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1927132,
+              13.0912085
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential",
+            "source": "digitalglobe"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1926797,
+              13.0906438
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential",
+            "source": "digitalglobe"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1924892,
+              13.0892659
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential",
+            "source": "digitalglobe"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1924618,
+              13.0924184
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential",
+            "source": "digitalglobe"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1978636,
+              13.0816706
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "building": "yes",
+            "leisure": "sports_hall",
+            "name": "Assemebly | Gym",
+            "operator": "Kendriya vidyalaya"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1944496,
+              13.087041
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1955156,
+              13.0870378
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1927433,
+              13.0909241
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1979858,
+              13.0918092
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1977787,
+              13.0918181
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1970719,
+              13.0889253
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1976076,
+              13.0883135
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1873222,
+              13.0858036
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1869666,
+              13.0864562
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1914664,
+              13.081169
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1913338,
+              13.0809386
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.191364,
+              13.0807771
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential",
+            "source": "digitalglobe"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1910843,
+              13.0806141
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1910912,
+              13.0806215
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.190787,
+              13.0802271
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1956046,
+              13.0890016
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.195798,
+              13.0869328
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1956167,
+              13.0867948
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.189468,
+              13.0915369
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1924734,
+              13.0935213
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1994344,
+              13.0828933
+            ]
+          },
+          "properties": {
+            "barrier": "wall",
+            "height": "0.3",
+            "material": "concrete",
+            "wall": "jersey_barrier"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1914513,
+              13.0841793
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1920969,
+              13.0838761
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential",
+            "oneway": "yes",
+            "source": "digitalglobe"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1921852,
+              13.0842634
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential",
+            "oneway": "yes",
+            "source": "digitalglobe"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1917849,
+              13.0829577
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1913258,
+              13.0835573
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1914876,
+              13.0831727
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1915694,
+              13.0830376
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential",
+            "junction": "roundabout"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.191773,
+              13.0829268
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1915241,
+              13.0833652
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1914706,
+              13.082782
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1983923,
+              13.0881138
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.197595,
+              13.0878471
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1969076,
+              13.0890575
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1875807,
+              13.0860142
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service",
+            "oneway": "yes"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 13.087057,
+      "lon": 80.192808,
+      "radius": 800.0
+    }
+  }
+}

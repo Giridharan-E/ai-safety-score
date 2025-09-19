@@ -1,0 +1,26 @@
+{
+  "beaches_tn_12.968_80.201_800": {
+    "timestamp": 1758308403.9155908,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 12.96761,
+      "lon": 80.20142,
+      "radius": 800.0
+    }
+  },
+  "beaches_tn_13.087_80.193_800": {
+    "timestamp": 1758308484.2287343,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.087057,
+      "lon": 80.192808,
+      "radius": 800.0
+    }
+  }
+}

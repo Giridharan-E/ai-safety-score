@@ -1,0 +1,63 @@
+{
+  "police_stations_12.968_80.201_800": {
+    "timestamp": 1758308393.807345,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2060352,
+              12.9651635
+            ]
+          },
+          "properties": {
+            "amenity": "police",
+            "name": "Police booth",
+            "toilets:wheelchair": "no",
+            "wheelchair": "limited"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 12.96761,
+      "lon": 80.20142,
+      "radius": 800.0
+    }
+  },
+  "police_stations_13.087_80.193_800": {
+    "timestamp": 1758308471.3641112,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1878894,
+              13.0876952
+            ]
+          },
+          "properties": {
+            "addr:city": "Chennai, Tamil Nadu",
+            "addr:postcode": "600040",
+            "addr:street": "ambattur Industrial Estate Road, Anna Nagar, J J Nagar, Mogappair East,",
+            "amenity": "police",
+            "name": "J.J Nagar Police Booth (V3)",
+            "phone": "N/A",
+            "website": "tnpolice.gov.in"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 13.087057,
+      "lon": 80.192808,
+      "radius": 800.0
+    }
+  }
+}

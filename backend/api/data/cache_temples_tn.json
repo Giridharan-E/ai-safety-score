@@ -1,0 +1,256 @@
+{
+  "temples_tn_12.968_80.201_800": {
+    "timestamp": 1758308402.6814911,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1990359,
+              12.9685307
+            ]
+          },
+          "properties": {
+            "addr:city": "chennai",
+            "addr:postcode": "600091",
+            "addr:street": "Sreedharan Road",
+            "amenity": "place_of_worship",
+            "name": "Vinayagar Temple",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1960379,
+              12.9654724
+            ]
+          },
+          "properties": {
+            "addr:city": "chennai",
+            "addr:postcode": "600091",
+            "addr:street": "Ponniamman Koil Street",
+            "amenity": "place_of_worship",
+            "name": "Sri Ponniamman Koil",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2014418,
+              12.9676432
+            ]
+          },
+          "properties": {
+            "addr:city": "chennai",
+            "addr:postcode": "600091",
+            "addr:street": "2nd main road",
+            "amenity": "place_of_worship",
+            "name": "Lord Perumal and Anjaneyar Temple",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2011722,
+              12.9699486
+            ]
+          },
+          "properties": {
+            "addr:city": "chennai",
+            "addr:postcode": "600091",
+            "amenity": "place_of_worship",
+            "name": "Lord Vinayagar Temple",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1972079,
+              12.9661598
+            ]
+          },
+          "properties": {
+            "addr:city": "chennai",
+            "addr:postcode": "600091",
+            "addr:street": "Kalyana Kandasamy Koil Street",
+            "amenity": "place_of_worship",
+            "name": "Sri Kalyana Kandhaswamy Temple",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1985746,
+              12.9617456
+            ]
+          },
+          "properties": {
+            "addr:city": "Chennai",
+            "addr:postcode": "600091",
+            "addr:street": "Ambedkar Salai",
+            "amenity": "place_of_worship",
+            "building": "yes",
+            "building:levels": "0",
+            "layer": "1",
+            "name": "Gunalamman temple",
+            "religion": "hindu",
+            "service_times": "6:00 AM to 11 AM And 4 PM to 9 PM"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2020672,
+              12.9655294
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "building": "yes",
+            "name": "Meenakshi sundareshwar temple",
+            "religion": "hindu",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.196005,
+              12.9648168
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "building": "yes",
+            "religion": "hindu"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 12.96761,
+      "lon": 80.20142,
+      "radius": 800.0
+    }
+  },
+  "temples_tn_13.087_80.193_800": {
+    "timestamp": 1758308482.8678715,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.191621,
+              13.0915789
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "denomination": "gaanapathyam",
+            "name": "Ganesha Temple ( முச்சந்தி விநாயகர் கோவில் )",
+            "religion": "hindu",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1984073,
+              13.084021
+            ]
+          },
+          "properties": {
+            "addr:city": "Thirumangalam, Chennai",
+            "amenity": "place_of_worship",
+            "name": "தேவி கருமாரியம்மன் கோவில்",
+            "name:en": "Devi Karumariamman Kovil",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1960128,
+              13.0839814
+            ]
+          },
+          "properties": {
+            "addr:city": "Thirumangalam, Chennai",
+            "addr:postcode": "600040",
+            "addr:street": "CPWD Quarters Road",
+            "amenity": "place_of_worship",
+            "name": "Temple",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1996913,
+              13.0851449
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "name": "Sri Angalaparameswari Aalayam",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2001294,
+              13.0856086
+            ]
+          },
+          "properties": {
+            "addr:city": "Thirumangalam, Chennai",
+            "addr:postcode": "600040",
+            "addr:street": "13th Main Road",
+            "amenity": "place_of_worship",
+            "building": "yes",
+            "religion": "hindu"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 13.087057,
+      "lon": 80.192808,
+      "radius": 800.0
+    }
+  }
+}

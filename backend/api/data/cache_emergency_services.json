@@ -1,0 +1,57 @@
+{
+  "emergency_services_12.968_80.201_800": {
+    "timestamp": 1758308412.253602,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 12.96761,
+      "lon": 80.20142,
+      "radius": 800.0
+    }
+  },
+  "emergency_services_13.087_80.193_800": {
+    "timestamp": 1758308508.9726033,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.19369624823325,
+              13.087329701754884
+            ]
+          },
+          "properties": {
+            "amenity": "fire_station",
+            "name": "Fire Station 1",
+            "type": "emergency"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.19603769772279,
+              13.085289889941352
+            ]
+          },
+          "properties": {
+            "amenity": "fire_station",
+            "name": "Fire Station 2",
+            "type": "emergency"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 13.087057,
+      "lon": 80.192808,
+      "radius": 800.0
+    }
+  }
+}

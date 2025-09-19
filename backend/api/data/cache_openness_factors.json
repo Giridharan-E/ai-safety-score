@@ -1,0 +1,207 @@
+{
+  "openness_factors_12.968_80.201_800": {
+    "timestamp": 1758308405.2185874,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2029894,
+              12.9666831
+            ]
+          },
+          "properties": {
+            "leisure": "park",
+            "name": "Sheela nagar park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2013745,
+              12.9690462
+            ]
+          },
+          "properties": {
+            "addr:city": "chennai",
+            "addr:postcode": "600091",
+            "addr:street": "3rd road",
+            "leisure": "park",
+            "name": "puzhuthivakkam park",
+            "operator": "government"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1983948,
+              12.9678771
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 12.96761,
+      "lon": 80.20142,
+      "radius": 800.0
+    }
+  },
+  "openness_factors_13.087_80.193_800": {
+    "timestamp": 1758308485.5112646,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1925477,
+              13.0916867
+            ]
+          },
+          "properties": {
+            "leisure": "park",
+            "name": "ONGC Park",
+            "opening_hours": "24/7"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1930113,
+              13.0877045
+            ]
+          },
+          "properties": {
+            "addr:city": "chennai",
+            "addr:housenumber": "1st street",
+            "addr:postcode": "600101",
+            "addr:street": "Welcome Colony",
+            "leisure": "park",
+            "name": "Welcome colony 1st Street park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1980576,
+              13.0890063
+            ]
+          },
+          "properties": {
+            "leisure": "park",
+            "name": "ABC Rohini park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1927933,
+              13.082484
+            ]
+          },
+          "properties": {
+            "leisure": "park",
+            "name": "Golden jublee park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1923005,
+              13.0944571
+            ]
+          },
+          "properties": {
+            "leisure": "park",
+            "name": "Millenium park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.196111,
+              13.0938707
+            ]
+          },
+          "properties": {
+            "leisure": "park",
+            "name": "Gandhi park",
+            "name:etymology:wikidata": "Q1001"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1996548,
+              13.0898534
+            ]
+          },
+          "properties": {
+            "leisure": "park",
+            "name": "J Block park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1859405,
+              13.0900136
+            ]
+          },
+          "properties": {
+            "leisure": "park",
+            "name": "Officer Colony park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1927417,
+              13.0884858
+            ]
+          },
+          "properties": {
+            "leisure": "park",
+            "opening_hours": "Mo-Su 06:00-20:30",
+            "operator": "greater chennai corporation",
+            "operator:type": "public/government"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 13.087057,
+      "lon": 80.192808,
+      "radius": 800.0
+    }
+  }
+}

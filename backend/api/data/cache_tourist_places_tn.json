@@ -1,0 +1,111 @@
+{
+  "tourist_places_tn_12.968_80.201_800": {
+    "timestamp": 1758308401.2483923,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2056001,
+              12.9618906
+            ]
+          },
+          "properties": {
+            "addr:housenumber": "105-G1RajajiNgr",
+            "addr:postcode": "600091",
+            "addr:street": "FirstStreet",
+            "email": "pchandrasekaran3950@gmail.com",
+            "internet_access": "wlan",
+            "opening_hours": "24/7",
+            "phone": "9383354277",
+            "tourism": "apartment"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 12.96761,
+      "lon": 80.20142,
+      "radius": 800.0
+    }
+  },
+  "tourist_places_tn_13.087_80.193_800": {
+    "timestamp": 1758308477.5423295,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1916074,
+              13.0916078
+            ]
+          },
+          "properties": {
+            "addr:housenumber": "27",
+            "addr:street": "Jeevan Bhima Nagar",
+            "name": "Block 27",
+            "tourism": "apartment",
+            "website": "https://apartmentadda.com/jeevan-bhima-nagar"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1927611,
+              13.0862218
+            ]
+          },
+          "properties": {
+            "name": "Five Star Apartments",
+            "tourism": "apartment"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1984003,
+              13.0914342
+            ]
+          },
+          "properties": {
+            "addr:postcode": "600101",
+            "addr:street": "Anna Nagar West Extension",
+            "name": "Pioneer Colony",
+            "tourism": "apartment"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.1924716,
+              13.0925009
+            ]
+          },
+          "properties": {
+            "addr:postcode": "600101",
+            "addr:street": "Anna Nagar West Extension",
+            "name": "ONGC Housing Unit",
+            "tourism": "hostel"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 13.087057,
+      "lon": 80.192808,
+      "radius": 800.0
+    }
+  }
+}
