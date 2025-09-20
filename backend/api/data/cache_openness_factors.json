@@ -926,5 +926,231 @@
       "lon": 77.577509,
       "radius": 1000.0
     }
+  },
+  "openness_factors_13.05_80.282_1000": {
+    "timestamp": 1758397810.5472865,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2805345,
+              13.0504101
+            ]
+          },
+          "properties": {
+            "leisure": "park",
+            "name": "Annie Besant Park",
+            "name:etymology:wikidata": "Q464318"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2802289,
+              13.0449811
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2806556,
+              13.0480852
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2809487,
+              13.050283
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2825556,
+              13.0589881
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2820943,
+              13.0568178
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2814742,
+              13.0534834
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2747099,
+              13.0514923
+            ]
+          },
+          "properties": {
+            "amenity": "school",
+            "landuse": "recreation_ground"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2780068,
+              13.0519388
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2800338,
+              13.0515295
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2805175,
+              13.0515907
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2806055,
+              13.0508442
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2801834,
+              13.050668
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.28025,
+              13.0504428
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2803651,
+              13.0491313
+            ]
+          },
+          "properties": {
+            "leisure": "park",
+            "name": "Vivekananda Park",
+            "name:etymology:wikidata": "Q47478"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2796285,
+              13.0413294
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 13.0499526,
+      "lon": 80.2824026,
+      "radius": 1000.0
+    }
   }
 }

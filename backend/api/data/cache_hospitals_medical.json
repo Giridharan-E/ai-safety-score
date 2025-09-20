@@ -1255,5 +1255,214 @@
       "lon": 77.577509,
       "radius": 1000.0
     }
+  },
+  "hospitals_medical_13.05_80.282_1000": {
+    "timestamp": 1758397796.3162525,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2744473,
+              13.0477722
+            ]
+          },
+          "properties": {
+            "addr:block": "Chennai Zone Ix",
+            "addr:district": "Chennai",
+            "addr:full": "New No: 119, Old No: 56, Ice House Police Station, Triplicane, Dr. Natesan St;Sudandira Nagar",
+            "addr:postcode": "600005;600014",
+            "addr:state": "Tamil Nadu",
+            "amenity": "hospital",
+            "healthcare": "hospital",
+            "name": "Fousiya Hospital",
+            "source": "OpenGovernmentData;Local Knowledge"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2736449,
+              13.0524884
+            ]
+          },
+          "properties": {
+            "addr:district": "Chennai",
+            "addr:full": "No: 290, Triplicane High Road, Triplicane",
+            "addr:postcode": "600014",
+            "addr:state": "Tamil Nadu",
+            "amenity": "hospital",
+            "healthcare": "hospital",
+            "name": "Dr Agarwals Eye Hospital, Triplicane",
+            "source": "OpenGovernmentData"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2735131,
+              13.0508818
+            ]
+          },
+          "properties": {
+            "addr:block": "Chennai Zone Ix",
+            "addr:district": "Chennai",
+            "addr:full": "Muthiah Street, Dr. Natesan Road, Ice House, Mirsahibpet, Royapettah",
+            "addr:postcode": "600005",
+            "addr:state": "Tamil Nadu",
+            "amenity": "hospital",
+            "healthcare": "hospital",
+            "name": "A.R.A Hospital For Women",
+            "source": "OpenGovernmentData"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2779849,
+              13.0544077
+            ]
+          },
+          "properties": {
+            "addr:district": "Chennai",
+            "addr:full": "Narayana Krishnaraja Puram, Triplicane",
+            "addr:postcode": "600005",
+            "addr:state": "Tamil Nadu",
+            "amenity": "clinic",
+            "healthcare": "clinic",
+            "name": "Dr. Vasanthi Clinic",
+            "source": "Local Knowledge"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2747953,
+              13.0490602
+            ]
+          },
+          "properties": {
+            "addr:district": "Chennai",
+            "addr:postcode": "600014",
+            "addr:state": "Tamil Nadu",
+            "amenity": "hospital",
+            "healthcare": "hospital",
+            "name": "Vasantha Hospital",
+            "source": "Local Knowledge"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2774772,
+              13.0546321
+            ]
+          },
+          "properties": {
+            "addr:district": "Chennai",
+            "addr:full": "Narayana Krishnaraja Puram",
+            "addr:postcode": "600005",
+            "addr:state": "Tamil Nadu",
+            "amenity": "hospital",
+            "healthcare": "hospital",
+            "name": "Syma Hospital",
+            "source": "Local Knowledge"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2756509,
+              13.0547617
+            ]
+          },
+          "properties": {
+            "addr:district": "Chennai",
+            "addr:full": "Narayana Krishnaraja Puram, Triplicane",
+            "addr:postcode": "600005",
+            "addr:state": "Tamil Nadu",
+            "amenity": "hospital",
+            "healthcare": "hospital",
+            "name": "Sri Parthasarathy Hospital",
+            "source": "Local Knowledge"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2771022,
+              13.0554568
+            ]
+          },
+          "properties": {
+            "addr:district": "Chennai",
+            "addr:postcode": "600005",
+            "addr:state": "Tamil Nadu",
+            "amenity": "clinic",
+            "healthcare": "clinic",
+            "name": "Homeopathy Clinic",
+            "source": "Local Knowledge"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2784271,
+              13.0594053
+            ]
+          },
+          "properties": {
+            "addr:district": "Chennai",
+            "addr:full": "Triplicane, Victoria Hostel Road",
+            "addr:postcode": "600005",
+            "addr:state": "Tamil Nadu",
+            "amenity": "hospital",
+            "healthcare": "hospital",
+            "name": "Kasturibai Gandhi Hospital",
+            "name:etymology:wikidata": "Q264908",
+            "name:ta": "கஸ்தூர்பா காந்தி மருத்துவமனை",
+            "source": "OpenGovernmentData"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.280639,
+              13.0527537
+            ]
+          },
+          "properties": {
+            "amenity": "hospital",
+            "healthcare": "hospital"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 13.0499526,
+      "lon": 80.2824026,
+      "radius": 1000.0
+    }
   }
 }

@@ -11791,5 +11791,771 @@
       "lon": 77.577509,
       "radius": 1000.0
     }
+  },
+  "security_factors_13.05_80.282_1000": {
+    "timestamp": 1758397831.6640618,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2807604,
+              13.0509441
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2793607,
+              13.0422686
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2788938,
+              13.0432121
+            ]
+          },
+          "properties": {
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2797585,
+              13.0443077
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2780069,
+              13.0434723
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2761686,
+              13.0520612
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2742859,
+              13.050234
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2757154,
+              13.0546542
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2761776,
+              13.0542928
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2764162,
+              13.0542657
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2781734,
+              13.0532715
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2765669,
+              13.0542468
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2799053,
+              13.046355
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.274482,
+              13.0461639
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2808888,
+              13.0519093
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "barrier": "gate"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2792267,
+              13.0432831
+            ]
+          },
+          "properties": {
+            "barrier": "kerb"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2770905,
+              13.0432975
+            ]
+          },
+          "properties": {
+            "barrier": "kerb"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2784556,
+              13.0432868
+            ]
+          },
+          "properties": {
+            "barrier": "kerb"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2754163,
+              13.0433711
+            ]
+          },
+          "properties": {
+            "barrier": "kerb"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2793186,
+              13.0412638
+            ]
+          },
+          "properties": {
+            "barrier": "line"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2787665,
+              13.0424644
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2790756,
+              13.0420287
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2761813,
+              13.0543428
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2755565,
+              13.054662
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2765925,
+              13.054493
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2752004,
+              13.0546986
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2792449,
+              13.0450026
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2796663,
+              13.0443189
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2784178,
+              13.0443071
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2783135,
+              13.0439404
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2780595,
+              13.0445747
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2785641,
+              13.0438053
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2793142,
+              13.0443953
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2779903,
+              13.04404
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2791905,
+              13.0444124
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "covered": "yes",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.280651,
+              13.0510332
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2808019,
+              13.051921
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2796462,
+              13.0514904
+            ]
+          },
+          "properties": {
+            "barrier": "hedge"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2800114,
+              13.0522508
+            ]
+          },
+          "properties": {
+            "area": "yes",
+            "barrier": "hedge"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2740782,
+              13.0502502
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service",
+            "source": "maxar"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2784213,
+              13.0532379
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential",
+            "name": "South Tank Square Street"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2762276,
+              13.0524346
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2760437,
+              13.0522891
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2759475,
+              13.0525412
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2761154,
+              13.0525466
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.27642,
+              13.0544906
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2764411,
+              13.0548084
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2779956,
+              13.0437624
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2799023,
+              13.0466496
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.279834,
+              13.0463712
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2748802,
+              13.0462297
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2750898,
+              13.0461684
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2807398,
+              13.0519179
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2808108,
+              13.0515641
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service",
+            "sidewalk": "both"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 13.0499526,
+      "lon": 80.2824026,
+      "radius": 1000.0
+    }
   }
 }

@@ -14,6 +14,11 @@ urlpatterns = [
     path('admin/feedback/approve/', views.approve_feedback_view, name='approve-feedback'),
     path('admin/feedback/reject/', views.reject_feedback_view, name='reject-feedback'),
     path('admin/feedback/statistics/', views.feedback_statistics_view, name='feedback-statistics'),
+    # Feedback aggregation and collection endpoints
+    path('feedback/location-summary/', views.location_feedback_summary_view, name='location-feedback-summary'),
+    path('feedback/collection-progress/', views.feedback_collection_progress_view, name='feedback-collection-progress'),
+    path('feedback/locations-needing/', views.locations_needing_feedback_view, name='locations-needing-feedback'),
+    path('feedback/analytics/', views.feedback_analytics_view, name='feedback-analytics'),
     # Google Maps API key endpoint
     path('google-maps-key/', views.google_maps_key_view, name='google-maps-key'),
     # Cached safety data endpoint

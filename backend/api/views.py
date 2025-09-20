@@ -416,28 +416,23 @@ def combined_data_view(request):
         "security_features": security_score,  # Security features factor
         "crime_rate": crime_safety_score,  # Use actual crime data
         "natural_surveillance": 0.5,
-        "user_feedback": user_feedback_data["feedback_score"],  # Include user feedback score
+        # Check if 50 feedbacks have been collected before using the score
+        "user_feedback": user_feedback_data["feedback_score"] if user_feedback_data["total_feedbacks"] >= 50 else 0.5,
     }
 
     # Adjust weights using feedback trends
     scoring_engine.update_weights_from_feedback(lat, lon, radius)
-    ai_safety_score, _adj = scoring_engine.score(features, profile={})
     
-    # Calculate enhanced safety score using the formula:
-    # (AI safety score + user feedback avg) / 2
-    user_feedback_count = user_feedback_data["total_feedbacks"]
-    user_feedback_avg = user_feedback_data["average_rating"]
+    # Use the new location-specific scoring method
+    score, _adj, feedback_info = scoring_engine.score_with_location_feedback(
+        features, profile={}, latitude=lat, longitude=lon
+    )
     
-    if user_feedback_count > 0:
-        # Apply the formula: (AI score + user avg) / 2
-        score = (ai_safety_score + user_feedback_avg) / 2
-        
-        print(f"🧮 Enhanced scoring: AI={ai_safety_score:.1f}, User avg={user_feedback_avg:.1f}, Count={user_feedback_count}")
-        print(f"📊 Formula: ({ai_safety_score:.1f} + {user_feedback_avg:.1f}) / 2 = {score:.1f}")
-    else:
-        # No user feedback, use AI score only
-        score = ai_safety_score
-        print(f"🤖 No user feedback, using AI score only: {score:.1f}")
+    # Get the base AI score for comparison
+    ai_safety_score, _ = scoring_engine.score(features, profile={})
+    
+    print(f"🧮 Location-specific scoring: Final={score:.1f}, AI={ai_safety_score:.1f}")
+    print(f"📊 Feedback info: {feedback_info}")
 
     # Weather formatting
     weather_payload = None
@@ -485,13 +480,23 @@ def combined_data_view(request):
         "user_feedback": {
             "average_rating": user_feedback_data["average_rating"],
             "total_feedbacks": user_feedback_data["total_feedbacks"],
-            "feedback_score": user_feedback_data["feedback_score"],
+            "feedback_score": user_feedback_data["feedback_score"] if user_feedback_data["total_feedbacks"] >= 50 else 0.5,
             "recent_ratings": user_feedback_data["user_ratings"][:5],  # Show top 5 recent ratings
+            "location_specific_analysis": {
+                "has_sufficient_feedback": feedback_info["has_sufficient_feedback"],
+                "feedback_count": feedback_info["feedback_count"],
+                "unique_users": feedback_info["unique_users"],
+                "average_rating": feedback_info["average_rating"],
+                "safety_score_from_feedback": feedback_info["safety_score_from_feedback"],
+                "scoring_method": feedback_info["scoring_method"],
+                "ai_score_weight": feedback_info["ai_score_weight"],
+                "user_feedback_weight": feedback_info["user_feedback_weight"]
+            },
             "calculation": {
                 "ai_safety_score": round(ai_safety_score, 1),
                 "user_feedback_avg": user_feedback_data["average_rating"],
                 "feedback_count": user_feedback_data["total_feedbacks"],
-                "formula": f"({ai_safety_score:.1f} + {user_feedback_data['average_rating']:.1f}) / 2" if user_feedback_data["total_feedbacks"] > 0 else "AI score only (no user feedback)",
+                "formula": f"({ai_safety_score:.1f} + {user_feedback_data['average_rating']:.1f}) / 2" if user_feedback_data["total_feedbacks"] >= 50 else "AI score only (less than 50 feedbacks)",
                 "enhanced_score": round(score, 1)
             }
         },
@@ -595,7 +600,6 @@ def simple_data_view(request):
         },
     }
     return Response(resp)
-
 
 @api_view(["POST"])
 @csrf_exempt
@@ -851,6 +855,98 @@ def feedback_statistics_view(request):
 
 
 @api_view(["GET"])
+def location_feedback_summary_view(request):
+    """Get comprehensive feedback summary for a specific location."""
+    try:
+        lat = float(request.GET.get('latitude'))
+        lon = float(request.GET.get('longitude'))
+        radius = float(request.GET.get('radius', 100))  # Default 100m radius
+        
+        if not (-90.0 <= lat <= 90.0 and -180.0 <= lon <= 180.0):
+            return _error_response("invalid_coordinates", "Latitude/longitude out of bounds", status.HTTP_400_BAD_REQUEST)
+        
+        from .services.feedback_aggregation_service import feedback_aggregation_service
+        summary = feedback_aggregation_service.get_location_feedback_summary(lat, lon, radius)
+        
+        return Response({
+            "success": True,
+            "data": summary
+        })
+        
+    except (ValueError, TypeError):
+        return _error_response("invalid_parameters", "Missing or invalid latitude/longitude parameters", status.HTTP_400_BAD_REQUEST)
+    except Exception as e:
+        print(f"❌ Error in location_feedback_summary_view: {e}")
+        return _error_response("summary_error", f"Could not fetch location feedback summary: {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+
+@api_view(["GET"])
+def feedback_collection_progress_view(request):
+    """Get progress towards 50-user feedback threshold for a location."""
+    try:
+        lat = float(request.GET.get('latitude'))
+        lon = float(request.GET.get('longitude'))
+        radius = float(request.GET.get('radius', 100))  # Default 100m radius
+        
+        if not (-90.0 <= lat <= 90.0 and -180.0 <= lon <= 180.0):
+            return _error_response("invalid_coordinates", "Latitude/longitude out of bounds", status.HTTP_400_BAD_REQUEST)
+        
+        from .services.feedback_aggregation_service import feedback_aggregation_service
+        progress = feedback_aggregation_service.get_feedback_collection_progress(lat, lon, radius)
+        
+        return Response({
+            "success": True,
+            "data": progress
+        })
+        
+    except (ValueError, TypeError):
+        return _error_response("invalid_parameters", "Missing or invalid latitude/longitude parameters", status.HTTP_400_BAD_REQUEST)
+    except Exception as e:
+        print(f"❌ Error in feedback_collection_progress_view: {e}")
+        return _error_response("progress_error", f"Could not fetch collection progress: {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+
+@api_view(["GET"])
+def locations_needing_feedback_view(request):
+    """Get locations that need more feedback to reach the 50-user threshold."""
+    try:
+        limit = int(request.GET.get('limit', 10))
+        limit = min(limit, 50)  # Cap at 50 locations
+        
+        from .services.feedback_aggregation_service import feedback_aggregation_service
+        locations = feedback_aggregation_service.get_top_locations_needing_feedback(limit)
+        
+        return Response({
+            "success": True,
+            "count": len(locations),
+            "locations": locations
+        })
+        
+    except (ValueError, TypeError):
+        return _error_response("invalid_parameters", "Invalid limit parameter", status.HTTP_400_BAD_REQUEST)
+    except Exception as e:
+        print(f"❌ Error in locations_needing_feedback_view: {e}")
+        return _error_response("locations_error", f"Could not fetch locations needing feedback: {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+
+@api_view(["GET"])
+def feedback_analytics_view(request):
+    """Get comprehensive analytics about the feedback collection system."""
+    try:
+        from .services.feedback_aggregation_service import feedback_aggregation_service
+        analytics = feedback_aggregation_service.get_feedback_analytics()
+        
+        return Response({
+            "success": True,
+            "data": analytics
+        })
+        
+    except Exception as e:
+        print(f"❌ Error in feedback_analytics_view: {e}")
+        return _error_response("analytics_error", f"Could not fetch feedback analytics: {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+
+@api_view(["GET"])
 def google_maps_key_view(request):
     """Get Google Maps API key for frontend autocomplete"""
     try:
@@ -1097,10 +1193,10 @@ def test_page_view(_request):
         });
         
         autocomplete.addListener('place_changed', function() {
-          const place = autocomplete.getPlace();
-          if (place.geometry && place.geometry.location) {
-            const lat = place.geometry.location.lat();
-            const lng = place.geometry.location.lng();
+          const place = autocomplete.geometry.location;
+          if (place) {
+            const lat = place.lat();
+            const lng = place.lng();
             document.getElementById('lat').value = lat.toFixed(6);
             document.getElementById('lon').value = lng.toFixed(6);
             updateCoordsDisplay(lat, lng, place.formatted_address);
@@ -1449,3 +1545,4 @@ def test_page_view(_request):
     )
     from django.http import HttpResponse
     return HttpResponse(html, content_type="text/html")
+

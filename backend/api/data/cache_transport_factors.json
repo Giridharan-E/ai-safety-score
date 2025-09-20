@@ -4246,5 +4246,404 @@
       "lon": 77.577509,
       "radius": 1000.0
     }
+  },
+  "transport_factors_13.05_80.282_1000": {
+    "timestamp": 1758397828.3155255,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2806267,
+              13.0543596
+            ]
+          },
+          "properties": {
+            "name": "Thiruvallikeni",
+            "public_transport": "stop_position",
+            "railway": "stop",
+            "train": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2778386,
+              13.0512112
+            ]
+          },
+          "properties": {
+            "amenity": "bus_station",
+            "bus": "yes",
+            "name": "V House Bus Terminus",
+            "public_transport": "station"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2796983,
+              13.0505637
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2804835,
+              13.049045
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Ice House stop",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2817387,
+              13.0563899
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bin": "yes",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "lit": "yes",
+            "name": "Kannagi Statue",
+            "name:ta": "கண்ணகி சிலை",
+            "public_transport": "platform",
+            "shelter": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2820086,
+              13.0567968
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bin": "yes",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "lit": "yes",
+            "name": "Kannagi Statue",
+            "name:ta": "கண்ணகி சிலை",
+            "public_transport": "platform",
+            "shelter": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2773605,
+              13.0515688
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2806044,
+              13.0559352
+            ]
+          },
+          "properties": {
+            "internet_access": "no",
+            "name": "Thiruvallikeni",
+            "network": "IR",
+            "operator": "SR",
+            "public_transport": "station",
+            "railway": "station",
+            "ref": "MTCN",
+            "train": "yes",
+            "wikidata": "Q7785486",
+            "wikipedia": "en:Thiruvallikeni railway station"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2769885,
+              13.0455374
+            ]
+          },
+          "properties": {
+            "internet_access": "no",
+            "name": "Light House",
+            "name:ta": "கலங்கரை விளக்கம்",
+            "network": "IR",
+            "operator": "SR",
+            "public_transport": "station",
+            "railway": "station",
+            "ref": "MLHS",
+            "train": "yes",
+            "wikidata": "Q6546029",
+            "wikipedia": "en:Light House railway station"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2796732,
+              13.0505248
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2769914,
+              13.04582
+            ]
+          },
+          "properties": {
+            "name": "Light House",
+            "public_transport": "stop_position",
+            "railway": "stop",
+            "train": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2765589,
+              13.0443521
+            ]
+          },
+          "properties": {
+            "name": "Light House",
+            "public_transport": "stop_position",
+            "railway": "stop",
+            "train": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2805277,
+              13.0559321
+            ]
+          },
+          "properties": {
+            "name": "Thiruvallikeni",
+            "public_transport": "stop_position",
+            "railway": "stop",
+            "train": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2804413,
+              13.0586615
+            ]
+          },
+          "properties": {
+            "bridge": "yes",
+            "electrified": "contact_line",
+            "gauge": "1676",
+            "layer": "2",
+            "name": "MRTS",
+            "railway": "rail",
+            "usage": "main"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2786451,
+              13.0500973
+            ]
+          },
+          "properties": {
+            "bridge": "yes",
+            "electrified": "contact_line",
+            "gauge": "1676",
+            "layer": "2",
+            "name": "MRTS",
+            "railway": "rail",
+            "usage": "main"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2733449,
+              13.0428037
+            ]
+          },
+          "properties": {
+            "bridge": "yes",
+            "electrified": "contact_line",
+            "gauge": "1676",
+            "layer": "1",
+            "name": "MRTS",
+            "railway": "rail",
+            "usage": "main"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2733805,
+              13.042798
+            ]
+          },
+          "properties": {
+            "bridge": "yes",
+            "electrified": "contact_line",
+            "gauge": "1676",
+            "layer": "1",
+            "name": "MRTS",
+            "railway": "rail",
+            "usage": "main"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2786785,
+              13.0500983
+            ]
+          },
+          "properties": {
+            "bridge": "yes",
+            "electrified": "contact_line",
+            "gauge": "1676",
+            "layer": "2",
+            "name": "MRTS",
+            "railway": "rail",
+            "usage": "main"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2805088,
+              13.0586548
+            ]
+          },
+          "properties": {
+            "bridge": "yes",
+            "electrified": "contact_line",
+            "gauge": "1676",
+            "layer": "2",
+            "name": "MRTS",
+            "railway": "rail",
+            "usage": "main"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2528014,
+              13.041627
+            ]
+          },
+          "properties": {
+            "construction": "subway",
+            "gauge": "1435",
+            "layer": "-1",
+            "line": "4",
+            "name": "Line 4: Poonamallee → Light House (u/c)",
+            "network": "Chennai Metro",
+            "oneway": "yes",
+            "operator": "CMRL",
+            "railway": "construction",
+            "tunnel": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2637672,
+              13.0365563
+            ]
+          },
+          "properties": {
+            "construction": "subway",
+            "gauge": "1435",
+            "layer": "-1",
+            "line": "4",
+            "name": "Line 4: Light House → Poonamallee (u/c)",
+            "network": "Chennai Metro",
+            "oneway": "yes",
+            "operator": "CMRL",
+            "railway": "construction",
+            "tunnel": "yes"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 13.0499526,
+      "lon": 80.2824026,
+      "radius": 1000.0
+    }
   }
 }
