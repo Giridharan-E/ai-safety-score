@@ -74,11 +74,15 @@ class ScoringEngine:
 
     def update_weights_from_feedback(self, latitude: float, longitude: float, radius_m: float = 1000.0) -> None:
         """
-        Adjust weights based on recent feedback trends, prioritizing tourist places in Tamil Nadu.
+        Adjust weights based on approved feedback trends, prioritizing tourist places in Tamil Nadu.
+        Only uses approved and auto-approved feedback to prevent manipulation.
         Simple heuristic: if avg rating in region/type is low (<5), increase weight on police/lighting; if high (>8), boost businesses/parks.
         """
         try:
-            qs = Feedback.objects.all()
+            # Only use approved feedback
+            qs = Feedback.objects.filter(
+                approval_status__in=['approved', 'auto_approved']
+            )
             tn_tourism = qs.filter(region__iexact="tamil nadu", place_type__icontains="tourist")
             avg_tn = tn_tourism.aggregate(avg=Avg("rating")).get("avg")
         except Exception:

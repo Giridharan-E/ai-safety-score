@@ -203,5 +203,728 @@
       "lon": 80.192808,
       "radius": 800.0
     }
+  },
+  "openness_factors_13.009_80.005_800": {
+    "timestamp": 1758370855.1096816,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008937338572949,
+      "lon": 80.0046248276498,
+      "radius": 800.0
+    }
+  },
+  "openness_factors_13.009_80.004_800": {
+    "timestamp": 1758370911.0545578,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008717559923799,
+      "lon": 80.00440210654706,
+      "radius": 800.0
+    }
+  },
+  "openness_factors_13.009_80.005_2000": {
+    "timestamp": 1758371062.5004964,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008855213021551,
+      "lon": 80.00453832767488,
+      "radius": 2000.0
+    }
+  },
+  "openness_factors_13.009_80.003_800": {
+    "timestamp": 1758371795.4853923,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008533,
+      "lon": 80.003469,
+      "radius": 800.0
+    }
+  },
+  "openness_factors_13.047_80.282_800": {
+    "timestamp": 1758385615.1179967,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2805345,
+              13.0504101
+            ]
+          },
+          "properties": {
+            "leisure": "park",
+            "name": "Annie Besant Park",
+            "name:etymology:wikidata": "Q464318"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2802289,
+              13.0449811
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2806556,
+              13.0480852
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2809487,
+              13.050283
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2793834,
+              13.0401143
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2814742,
+              13.0534834
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2780068,
+              13.0519388
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2800338,
+              13.0515295
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2805175,
+              13.0515907
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2806055,
+              13.0508442
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2801834,
+              13.050668
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.28025,
+              13.0504428
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2803651,
+              13.0491313
+            ]
+          },
+          "properties": {
+            "leisure": "park",
+            "name": "Vivekananda Park",
+            "name:etymology:wikidata": "Q47478"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2796285,
+              13.0413294
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 13.047126,
+      "lon": 80.282434,
+      "radius": 800.0
+    }
+  },
+  "openness_factors_12.993_80.218_800": {
+    "timestamp": 1758385706.674293,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2159882,
+              13.0042322
+            ]
+          },
+          "properties": {
+            "landuse": "recreation_ground",
+            "leisure": "sports_centre",
+            "name": "Guindy Race Course",
+            "sport": "horse_racing"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2169301,
+              12.9946811
+            ]
+          },
+          "properties": {
+            "landuse": "recreation_ground"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 12.992865,
+      "lon": 80.21788,
+      "radius": 800.0
+    }
+  },
+  "openness_factors_12.963_77.578_800": {
+    "timestamp": 1758386974.307315,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5805412,
+              12.9638755
+            ]
+          },
+          "properties": {
+            "leisure": "park",
+            "name": "Silver Jubilee Park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5762706,
+              12.965718
+            ]
+          },
+          "properties": {
+            "alt_name": "K R Market",
+            "amenity": "marketplace",
+            "building": "retail",
+            "building:levels": "3",
+            "full_name": "Sri Krishnarajendra Market",
+            "name": "City Market"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.582866,
+              12.9636973
+            ]
+          },
+          "properties": {
+            "alt_name": "Sri Krishnarajendra Silver Subilee Park",
+            "leisure": "park",
+            "name": "Silver Jubilee Park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5746917,
+              12.9639468
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5781641,
+              12.9640502
+            ]
+          },
+          "properties": {
+            "amenity": "marketplace"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5805763,
+              12.958053
+            ]
+          },
+          "properties": {
+            "leisure": "park",
+            "name": "Journalist Colony Garden"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5733371,
+              12.9579748
+            ]
+          },
+          "properties": {
+            "landuse": "recreation_ground"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5745313,
+              12.9649534
+            ]
+          },
+          "properties": {
+            "amenity": "marketplace",
+            "landuse": "retail",
+            "name": "Fish and Meat Market"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5725669,
+              12.9576875
+            ]
+          },
+          "properties": {
+            "designation": "Makkala Koota",
+            "leisure": "park",
+            "name": "Makkala Koota Playground & Children Park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5747907,
+              12.961217
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5749383,
+              12.9617743
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5754276,
+              12.9657768
+            ]
+          },
+          "properties": {
+            "amenity": "marketplace",
+            "landuse": "retail"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5844335,
+              12.9617765
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 12.962867,
+      "lon": 77.577509,
+      "radius": 800.0
+    }
+  },
+  "openness_factors_12.963_77.578_1000": {
+    "timestamp": 1758387275.9582462,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5805412,
+              12.9638755
+            ]
+          },
+          "properties": {
+            "leisure": "park",
+            "name": "Silver Jubilee Park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5762706,
+              12.965718
+            ]
+          },
+          "properties": {
+            "alt_name": "K R Market",
+            "amenity": "marketplace",
+            "building": "retail",
+            "building:levels": "3",
+            "full_name": "Sri Krishnarajendra Market",
+            "name": "City Market"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.582866,
+              12.9636973
+            ]
+          },
+          "properties": {
+            "alt_name": "Sri Krishnarajendra Silver Subilee Park",
+            "leisure": "park",
+            "name": "Silver Jubilee Park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5746917,
+              12.9639468
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5781641,
+              12.9640502
+            ]
+          },
+          "properties": {
+            "amenity": "marketplace"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5805763,
+              12.958053
+            ]
+          },
+          "properties": {
+            "leisure": "park",
+            "name": "Journalist Colony Garden"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5733371,
+              12.9579748
+            ]
+          },
+          "properties": {
+            "landuse": "recreation_ground"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5794685,
+              12.9702719
+            ]
+          },
+          "properties": {
+            "amenity": "marketplace",
+            "name": "Ballapurpet Market",
+            "name:kn": "ಬಳ್ಳಾಪುರಪೇಟೆ"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5745313,
+              12.9649534
+            ]
+          },
+          "properties": {
+            "amenity": "marketplace",
+            "landuse": "retail",
+            "name": "Fish and Meat Market"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5725669,
+              12.9576875
+            ]
+          },
+          "properties": {
+            "designation": "Makkala Koota",
+            "leisure": "park",
+            "name": "Makkala Koota Playground & Children Park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5776485,
+              12.954538
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5852852,
+              12.963063
+            ]
+          },
+          "properties": {
+            "leisure": "park",
+            "name": "Canara Bank Park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5747907,
+              12.961217
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5749383,
+              12.9617743
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5754276,
+              12.9657768
+            ]
+          },
+          "properties": {
+            "amenity": "marketplace",
+            "landuse": "retail"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5844335,
+              12.9617765
+            ]
+          },
+          "properties": {
+            "leisure": "park"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 12.962867,
+      "lon": 77.577509,
+      "radius": 1000.0
+    }
   }
 }

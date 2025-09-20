@@ -9,6 +9,11 @@ urlpatterns = [
     # Feedback endpoints
     path('feedback/', views.feedback_view, name='feedback'),
     path('feedback/list/', views.feedback_list_view, name='feedback-list'),
+    # Admin feedback management endpoints
+    path('admin/feedback/pending/', views.pending_feedback_view, name='pending-feedback'),
+    path('admin/feedback/approve/', views.approve_feedback_view, name='approve-feedback'),
+    path('admin/feedback/reject/', views.reject_feedback_view, name='reject-feedback'),
+    path('admin/feedback/statistics/', views.feedback_statistics_view, name='feedback-statistics'),
     # Google Maps API key endpoint
     path('google-maps-key/', views.google_maps_key_view, name='google-maps-key'),
     # Cached safety data endpoint

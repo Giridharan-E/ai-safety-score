@@ -22,5 +22,101 @@
       "lon": 80.192808,
       "radius": 800.0
     }
+  },
+  "streetlights_lighting_13.009_80.005_800": {
+    "timestamp": 1758370848.704956,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008937338572949,
+      "lon": 80.0046248276498,
+      "radius": 800.0
+    }
+  },
+  "streetlights_lighting_13.009_80.004_800": {
+    "timestamp": 1758370903.774692,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008717559923799,
+      "lon": 80.00440210654706,
+      "radius": 800.0
+    }
+  },
+  "streetlights_lighting_13.009_80.005_2000": {
+    "timestamp": 1758371056.4012928,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008855213021551,
+      "lon": 80.00453832767488,
+      "radius": 2000.0
+    }
+  },
+  "streetlights_lighting_13.009_80.003_800": {
+    "timestamp": 1758371787.5987566,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008533,
+      "lon": 80.003469,
+      "radius": 800.0
+    }
+  },
+  "streetlights_lighting_13.047_80.282_800": {
+    "timestamp": 1758385606.2438107,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.047126,
+      "lon": 80.282434,
+      "radius": 800.0
+    }
+  },
+  "streetlights_lighting_12.993_80.218_800": {
+    "timestamp": 1758385698.4235222,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 12.992865,
+      "lon": 80.21788,
+      "radius": 800.0
+    }
+  },
+  "streetlights_lighting_12.963_77.578_800": {
+    "timestamp": 1758386964.7198677,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 12.962867,
+      "lon": 77.577509,
+      "radius": 800.0
+    }
+  },
+  "streetlights_lighting_12.963_77.578_1000": {
+    "timestamp": 1758387267.7351315,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 12.962867,
+      "lon": 77.577509,
+      "radius": 1000.0
+    }
   }
 }

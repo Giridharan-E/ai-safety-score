@@ -107,5 +107,1117 @@
       "lon": 80.192808,
       "radius": 800.0
     }
+  },
+  "tourist_places_tn_13.009_80.005_800": {
+    "timestamp": 1758370851.6136224,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.008949,
+              13.011706
+            ]
+          },
+          "properties": {
+            "name": "chokhi Dhani",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.005644,
+              13.0087972
+            ]
+          },
+          "properties": {
+            "name": "Boys hostel",
+            "tourism": "hostel"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.0072276,
+              13.0104542
+            ]
+          },
+          "properties": {
+            "name": "Chokkidhani",
+            "tourism": "theme_park",
+            "website": "http://chokhidhanichennai.com"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              79.9986957,
+              13.0103327
+            ]
+          },
+          "properties": {
+            "building": "yes",
+            "building:levels": "7",
+            "name": "SIAH Sign-Inn Apart Hotel",
+            "tourism": "hotel"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 13.008937338572949,
+      "lon": 80.0046248276498,
+      "radius": 800.0
+    }
+  },
+  "tourist_places_tn_13.009_80.004_800": {
+    "timestamp": 1758370906.107546,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.008949,
+              13.011706
+            ]
+          },
+          "properties": {
+            "name": "chokhi Dhani",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.005644,
+              13.0087972
+            ]
+          },
+          "properties": {
+            "name": "Boys hostel",
+            "tourism": "hostel"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.0072276,
+              13.0104542
+            ]
+          },
+          "properties": {
+            "name": "Chokkidhani",
+            "tourism": "theme_park",
+            "website": "http://chokhidhanichennai.com"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              79.9986957,
+              13.0103327
+            ]
+          },
+          "properties": {
+            "building": "yes",
+            "building:levels": "7",
+            "name": "SIAH Sign-Inn Apart Hotel",
+            "tourism": "hotel"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 13.008717559923799,
+      "lon": 80.00440210654706,
+      "radius": 800.0
+    }
+  },
+  "tourist_places_tn_13.009_80.005_2000": {
+    "timestamp": 1758371059.1321905,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.008949,
+              13.011706
+            ]
+          },
+          "properties": {
+            "name": "chokhi Dhani",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.005644,
+              13.0087972
+            ]
+          },
+          "properties": {
+            "name": "Boys hostel",
+            "tourism": "hostel"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.0072276,
+              13.0104542
+            ]
+          },
+          "properties": {
+            "name": "Chokkidhani",
+            "tourism": "theme_park",
+            "website": "http://chokhidhanichennai.com"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              79.9986957,
+              13.0103327
+            ]
+          },
+          "properties": {
+            "building": "yes",
+            "building:levels": "7",
+            "name": "SIAH Sign-Inn Apart Hotel",
+            "tourism": "hotel"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 13.008855213021551,
+      "lon": 80.00453832767488,
+      "radius": 2000.0
+    }
+  },
+  "tourist_places_tn_13.009_80.003_800": {
+    "timestamp": 1758371791.0393374,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.008949,
+              13.011706
+            ]
+          },
+          "properties": {
+            "name": "chokhi Dhani",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.005644,
+              13.0087972
+            ]
+          },
+          "properties": {
+            "name": "Boys hostel",
+            "tourism": "hostel"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.0072276,
+              13.0104542
+            ]
+          },
+          "properties": {
+            "name": "Chokkidhani",
+            "tourism": "theme_park",
+            "website": "http://chokhidhanichennai.com"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              79.9986957,
+              13.0103327
+            ]
+          },
+          "properties": {
+            "building": "yes",
+            "building:levels": "7",
+            "name": "SIAH Sign-Inn Apart Hotel",
+            "tourism": "hotel"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 13.008533,
+      "lon": 80.003469,
+      "radius": 800.0
+    }
+  },
+  "tourist_places_tn_13.047_80.282_800": {
+    "timestamp": 1758385609.5943687,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2805333,
+              13.0504233
+            ]
+          },
+          "properties": {
+            "artwork_type": "statue",
+            "name": "Annie Besant",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2803965,
+              13.049125
+            ]
+          },
+          "properties": {
+            "artwork_type": "statue",
+            "name": "Swami Vivekananda",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2804468,
+              13.0492
+            ]
+          },
+          "properties": {
+            "artwork_type": "statue",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2803258,
+              13.0491814
+            ]
+          },
+          "properties": {
+            "artwork_type": "statue",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2803112,
+              13.0490904
+            ]
+          },
+          "properties": {
+            "artwork_type": "statue",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2804189,
+              13.0490429
+            ]
+          },
+          "properties": {
+            "artwork_type": "statue",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2795075,
+              13.0410297
+            ]
+          },
+          "properties": {
+            "artwork_type": "statue",
+            "name": "Veeramamunivar",
+            "name:en": "Veeramamunivar",
+            "name:ta": "வீரமாமுனிவர்",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2803176,
+              13.0455704
+            ]
+          },
+          "properties": {
+            "board_type": "welcome_sign",
+            "information": "board",
+            "name": "Chennai Sign",
+            "tourism": "information"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2803485,
+              13.0462537
+            ]
+          },
+          "properties": {
+            "artwork_type": "statue",
+            "name": "Avvaiyar",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2806395,
+              13.0483888
+            ]
+          },
+          "properties": {
+            "artwork_type": "statue",
+            "name": "Bharathidasan",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2811571,
+              13.0518929
+            ]
+          },
+          "properties": {
+            "artwork_type": "statue",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2800846,
+              13.0474769
+            ]
+          },
+          "properties": {
+            "artwork_type": "statue",
+            "name": "Jayaram Jayalalithaa",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2811507,
+              13.0490081
+            ]
+          },
+          "properties": {
+            "addr:street": "Marina Beach Road",
+            "name": "மாற்று திறனாளிகளுக்கான மரப்பாதை",
+            "name:en": "Differently Abled Wooden Path",
+            "tourism": "information"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2802685,
+              13.0495709
+            ]
+          },
+          "properties": {
+            "area": "yes",
+            "name": "Vivekanandar Illam",
+            "tourism": "attraction",
+            "wikidata": "Q3350092",
+            "wikimedia_commons": "Category:Vivekanandar Illam",
+            "wikipedia": "en:Vivekanandar Illam"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2803222,
+              13.049483
+            ]
+          },
+          "properties": {
+            "building": "yes",
+            "building:levels": "3",
+            "name": "Vivekananda Heritage Museum",
+            "name:etymology:wikidata": "Q47478",
+            "tourism": "museum"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 13.047126,
+      "lon": 80.282434,
+      "radius": 800.0
+    }
+  },
+  "tourist_places_tn_12.993_80.218_800": {
+    "timestamp": 1758385701.6989639,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2208305,
+              12.9894247
+            ]
+          },
+          "properties": {
+            "brand": "Westin",
+            "brand:wikidata": "Q1969162",
+            "name": "Westin",
+            "tourism": "hotel",
+            "wikidata": "Q7988919",
+            "wikipedia": "en:The Westin Chennai Velachery"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2280289,
+              12.9992197
+            ]
+          },
+          "properties": {
+            "boundary": "national_park",
+            "name": "Guindy National Park",
+            "name:en": "Guindy National Park",
+            "name:ml": "ഗിണ്ടി ദേശിയ ഉദ്യാനം",
+            "name:ta": "கிண்டி தேசிய பூங்கா",
+            "natural": "wood",
+            "protect_class": "2",
+            "tourism": "attraction",
+            "wikidata": "Q648548",
+            "wikimedia_commons": "Category:Guindy National Park",
+            "wikipedia": "en:Guindy National Park"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2209102,
+              12.9895567
+            ]
+          },
+          "properties": {
+            "area": "yes",
+            "tourism": "hotel"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 12.992865,
+      "lon": 80.21788,
+      "radius": 800.0
+    }
+  },
+  "tourist_places_tn_12.963_77.578_800": {
+    "timestamp": 1758386968.8772242,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.578642,
+              12.9680027
+            ]
+          },
+          "properties": {
+            "description": "The junction of Doddapet and Chikkapet is said to be the heart of Bangalore Pete that was founded by Kempe Gowda in 1537 AD",
+            "junction": "yes",
+            "name": "Chickpet Cross",
+            "name:kn": "ಚಿಕ್ಕಪೇಟಿ ಕ್ರಾಸ್",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5709546,
+              12.9604081
+            ]
+          },
+          "properties": {
+            "name": "Prakash Cafe & Lodge",
+            "tourism": "hotel"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.571561,
+              12.9608286
+            ]
+          },
+          "properties": {
+            "addr:street": "Pampa Mahakavi Road",
+            "designation": "Hotel Madhuvan",
+            "name": "Hotel Madhuvan",
+            "tourism": "motel"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.570664,
+              12.9641301
+            ]
+          },
+          "properties": {
+            "description": "24 hours rent",
+            "name": "Vardhaman Paradise",
+            "tourism": "hotel"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5769148,
+              12.9693715
+            ]
+          },
+          "properties": {
+            "name": "Danveer Sheth kapurchand rajmalji Jain shwetamber dharmshala",
+            "name:hi": "दानवीर सेठ कपूरचंद राजमलजी जैन श्वेताम्बर धर्मशाला",
+            "tourism": "guest_house"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5779834,
+              12.969018
+            ]
+          },
+          "properties": {
+            "addr:postcode": "560053",
+            "addr:street": "AM Lane",
+            "name": "Kannada Flag",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5738794,
+              12.9573307
+            ]
+          },
+          "properties": {
+            "artwork_type": "bust",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5746292,
+              12.9660395
+            ]
+          },
+          "properties": {
+            "artwork_type": "mural",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5756994,
+              12.9601741
+            ]
+          },
+          "properties": {
+            "name": "J's La Quill Museum",
+            "opening_hours": "10:00-17:00",
+            "phone": "+91 98451 86482",
+            "tourism": "museum",
+            "website": "https://jsquill.com/"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5756615,
+              12.9619035
+            ]
+          },
+          "properties": {
+            "information": "map",
+            "name": "Banni Nodi",
+            "tourism": "information"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5749903,
+              12.9607002
+            ]
+          },
+          "properties": {
+            "information": "map",
+            "name": "Banni Nodi",
+            "tourism": "information"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5737979,
+              12.9594759
+            ]
+          },
+          "properties": {
+            "addr:postcode": "560 002",
+            "addr:street": "Albert Victor Road",
+            "area": "yes",
+            "castle_type": "palace",
+            "historic": "castle",
+            "historic:civilization": "Mysore_Sultanate",
+            "name": "Tippu's Summer Palace",
+            "name:kn": "ಟಿಪ್ಪು ಸುಲ್ತಾನನ ಅರಮನೆ",
+            "tourism": "attraction",
+            "wikidata": "Q7809034",
+            "wikimedia_commons": "Category:Tipu Sultan's Summer Palace",
+            "wikipedia": "en:Tipu Sultan's Summer Palace"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 12.962867,
+      "lon": 77.577509,
+      "radius": 800.0
+    }
+  },
+  "tourist_places_tn_12.963_77.578_1000": {
+    "timestamp": 1758387270.970759,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.578642,
+              12.9680027
+            ]
+          },
+          "properties": {
+            "description": "The junction of Doddapet and Chikkapet is said to be the heart of Bangalore Pete that was founded by Kempe Gowda in 1537 AD",
+            "junction": "yes",
+            "name": "Chickpet Cross",
+            "name:kn": "ಚಿಕ್ಕಪೇಟಿ ಕ್ರಾಸ್",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5709546,
+              12.9604081
+            ]
+          },
+          "properties": {
+            "name": "Prakash Cafe & Lodge",
+            "tourism": "hotel"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.571561,
+              12.9608286
+            ]
+          },
+          "properties": {
+            "addr:street": "Pampa Mahakavi Road",
+            "designation": "Hotel Madhuvan",
+            "name": "Hotel Madhuvan",
+            "tourism": "motel"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5700268,
+              12.9590198
+            ]
+          },
+          "properties": {
+            "name": "B.K. Mariappa Charitable Trust Hostel",
+            "operator": "B. K. Mariappa Trust",
+            "tourism": "hostel",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.570664,
+              12.9641301
+            ]
+          },
+          "properties": {
+            "description": "24 hours rent",
+            "name": "Vardhaman Paradise",
+            "tourism": "hotel"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5794148,
+              12.9701227
+            ]
+          },
+          "properties": {
+            "internet_access": "wlan",
+            "name": "Hotel Tap Comfort",
+            "name:en": "Hotel Tap Comfort",
+            "tourism": "hotel"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5763869,
+              12.9711847
+            ]
+          },
+          "properties": {
+            "addr:street": "B.V.K. Iyengar Road",
+            "name": "Madhu Lodge",
+            "tourism": "hotel"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5769148,
+              12.9693715
+            ]
+          },
+          "properties": {
+            "name": "Danveer Sheth kapurchand rajmalji Jain shwetamber dharmshala",
+            "name:hi": "दानवीर सेठ कपूरचंद राजमलजी जैन श्वेताम्बर धर्मशाला",
+            "tourism": "guest_house"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5779834,
+              12.969018
+            ]
+          },
+          "properties": {
+            "addr:postcode": "560053",
+            "addr:street": "AM Lane",
+            "name": "Kannada Flag",
+            "tourism": "attraction"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5691407,
+              12.9602989
+            ]
+          },
+          "properties": {
+            "check_date": "2023-09-09",
+            "name": "SRM PG for Gents",
+            "tourism": "hostel"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5738794,
+              12.9573307
+            ]
+          },
+          "properties": {
+            "artwork_type": "bust",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5746292,
+              12.9660395
+            ]
+          },
+          "properties": {
+            "artwork_type": "mural",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5756994,
+              12.9601741
+            ]
+          },
+          "properties": {
+            "name": "J's La Quill Museum",
+            "opening_hours": "10:00-17:00",
+            "phone": "+91 98451 86482",
+            "tourism": "museum",
+            "website": "https://jsquill.com/"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5851893,
+              12.9627953
+            ]
+          },
+          "properties": {
+            "artwork_type": "statue",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5854114,
+              12.9631422
+            ]
+          },
+          "properties": {
+            "artwork_type": "bust",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5853703,
+              12.9630781
+            ]
+          },
+          "properties": {
+            "artwork_type": "bust",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5756615,
+              12.9619035
+            ]
+          },
+          "properties": {
+            "information": "map",
+            "name": "Banni Nodi",
+            "tourism": "information"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5749903,
+              12.9607002
+            ]
+          },
+          "properties": {
+            "information": "map",
+            "name": "Banni Nodi",
+            "tourism": "information"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5737979,
+              12.9594759
+            ]
+          },
+          "properties": {
+            "addr:postcode": "560 002",
+            "addr:street": "Albert Victor Road",
+            "area": "yes",
+            "castle_type": "palace",
+            "historic": "castle",
+            "historic:civilization": "Mysore_Sultanate",
+            "name": "Tippu's Summer Palace",
+            "name:kn": "ಟಿಪ್ಪು ಸುಲ್ತಾನನ ಅರಮನೆ",
+            "tourism": "attraction",
+            "wikidata": "Q7809034",
+            "wikimedia_commons": "Category:Tipu Sultan's Summer Palace",
+            "wikipedia": "en:Tipu Sultan's Summer Palace"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 12.962867,
+      "lon": 77.577509,
+      "radius": 1000.0
+    }
   }
 }

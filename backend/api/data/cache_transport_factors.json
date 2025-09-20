@@ -546,5 +546,3705 @@
       "lon": 80.192808,
       "radius": 800.0
     }
+  },
+  "transport_factors_13.009_80.005_800": {
+    "timestamp": 1758370859.4430244,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008937338572949,
+      "lon": 80.0046248276498,
+      "radius": 800.0
+    }
+  },
+  "transport_factors_13.009_80.004_800": {
+    "timestamp": 1758370915.4170706,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008717559923799,
+      "lon": 80.00440210654706,
+      "radius": 800.0
+    }
+  },
+  "transport_factors_13.009_80.005_2000": {
+    "timestamp": 1758371067.170827,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008855213021551,
+      "lon": 80.00453832767488,
+      "radius": 2000.0
+    }
+  },
+  "transport_factors_13.009_80.003_800": {
+    "timestamp": 1758371798.6024878,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008533,
+      "lon": 80.003469,
+      "radius": 800.0
+    }
+  },
+  "transport_factors_13.047_80.282_800": {
+    "timestamp": 1758385619.5139382,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2778386,
+              13.0512112
+            ]
+          },
+          "properties": {
+            "amenity": "bus_station",
+            "bus": "yes",
+            "name": "V House Bus Terminus",
+            "public_transport": "station"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2796983,
+              13.0505637
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2804835,
+              13.049045
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Ice House stop",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2773605,
+              13.0515688
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2769885,
+              13.0455374
+            ]
+          },
+          "properties": {
+            "internet_access": "no",
+            "name": "Light House",
+            "name:ta": "கலங்கரை விளக்கம்",
+            "network": "IR",
+            "operator": "SR",
+            "public_transport": "station",
+            "railway": "station",
+            "ref": "MLHS",
+            "train": "yes",
+            "wikidata": "Q6546029",
+            "wikipedia": "en:Light House railway station"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2796732,
+              13.0505248
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2769914,
+              13.04582
+            ]
+          },
+          "properties": {
+            "name": "Light House",
+            "public_transport": "stop_position",
+            "railway": "stop",
+            "train": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2765589,
+              13.0443521
+            ]
+          },
+          "properties": {
+            "name": "Light House",
+            "public_transport": "stop_position",
+            "railway": "stop",
+            "train": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2786451,
+              13.0500973
+            ]
+          },
+          "properties": {
+            "bridge": "yes",
+            "electrified": "contact_line",
+            "gauge": "1676",
+            "layer": "2",
+            "name": "MRTS",
+            "railway": "rail",
+            "usage": "main"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2733449,
+              13.0428037
+            ]
+          },
+          "properties": {
+            "bridge": "yes",
+            "electrified": "contact_line",
+            "gauge": "1676",
+            "layer": "1",
+            "name": "MRTS",
+            "railway": "rail",
+            "usage": "main"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2733805,
+              13.042798
+            ]
+          },
+          "properties": {
+            "bridge": "yes",
+            "electrified": "contact_line",
+            "gauge": "1676",
+            "layer": "1",
+            "name": "MRTS",
+            "railway": "rail",
+            "usage": "main"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2786785,
+              13.0500983
+            ]
+          },
+          "properties": {
+            "bridge": "yes",
+            "electrified": "contact_line",
+            "gauge": "1676",
+            "layer": "2",
+            "name": "MRTS",
+            "railway": "rail",
+            "usage": "main"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2528014,
+              13.041627
+            ]
+          },
+          "properties": {
+            "construction": "subway",
+            "gauge": "1435",
+            "layer": "-1",
+            "line": "4",
+            "name": "Line 4: Poonamallee → Light House (u/c)",
+            "network": "Chennai Metro",
+            "oneway": "yes",
+            "operator": "CMRL",
+            "railway": "construction",
+            "tunnel": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2637672,
+              13.0365563
+            ]
+          },
+          "properties": {
+            "construction": "subway",
+            "gauge": "1435",
+            "layer": "-1",
+            "line": "4",
+            "name": "Line 4: Light House → Poonamallee (u/c)",
+            "network": "Chennai Metro",
+            "oneway": "yes",
+            "operator": "CMRL",
+            "railway": "construction",
+            "tunnel": "yes"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 13.047126,
+      "lon": 80.282434,
+      "radius": 800.0
+    }
+  },
+  "transport_factors_12.993_80.218_800": {
+    "timestamp": 1758385710.6991816,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2199873,
+              12.9909681
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Guru Nanak College",
+            "operator": "MTC",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2162638,
+              12.997438
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Five Furlong Road",
+            "operator": "MTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2165418,
+              12.9974054
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Velachery Check Post",
+            "operator": "MTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2164502,
+              12.9974127
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Velachery Check Post",
+            "operator": "MTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2230746,
+              12.9877973
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "-IITM Velachery Gate",
+            "operator": "MTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2202958,
+              12.9906984
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Guru Nanak College",
+            "operator": "MTC",
+            "public_transport": "platform",
+            "shelter": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2162966,
+              12.9974701
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bin": "no",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Five Furlong Road",
+            "operator": "MTC",
+            "public_transport": "platform",
+            "shelter": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2166627,
+              12.9973995
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Velachery Check Post",
+            "network": "MTC",
+            "operator": "Metropoliton Transport Corporation (Chennai) Ltd.",
+            "public_transport": "platform",
+            "shelter": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2164321,
+              12.9974859
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "fixme": "Exact Location needs to be fixed",
+            "highway": "bus_stop",
+            "name": "Velachery Check Post",
+            "network": "MTC",
+            "operator": "Metropoliton Transport Corporation (Chennai) Ltd.",
+            "public_transport": "platform",
+            "shelter": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2200242,
+              12.9909955
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Guru Nanak College",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2159576,
+              12.9976865
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Five Furlong Road",
+            "network": "MTC",
+            "operator": "Metropoliton Transport Corporation (Chennai) Ltd.",
+            "public_transport": "platform",
+            "shelter": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2201775,
+              12.99071
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Guru Nanak College",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2195223,
+              12.9910579
+            ]
+          },
+          "properties": {
+            "highway": "bus_stop",
+            "name": "Phoenix Mall",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2183655,
+              12.9871386
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Erikkarai",
+            "public_transport": "platform",
+            "route_ref": "D70;M70;A5A",
+            "shelter": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2181539,
+              12.9873344
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Erikkarai",
+            "public_transport": "platform",
+            "route_ref": "D70;M70;A5A",
+            "shelter": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2203974,
+              12.9903945
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Guru Nanak",
+            "network": "MTC",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2160004,
+              12.9977277
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Five Furlong Road",
+            "public_transport": "stop_position"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 12.992865,
+      "lon": 80.21788,
+      "radius": 800.0
+    }
+  },
+  "transport_factors_12.963_77.578_800": {
+    "timestamp": 1758386978.8900437,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5768931,
+              12.9642064
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "crossing": "uncontrolled",
+            "highway": "traffic_signals",
+            "name": "KR Market",
+            "name:en": "Krishnarajendra Market",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5736663,
+              12.9576092
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Makkala Koota",
+            "name:en": "Makkala Koota",
+            "name:kn": "ಮಕ್ಕಳ ಕೂಟ",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5746822,
+              12.9608898
+            ]
+          },
+          "properties": {
+            "code": "KRMT",
+            "name": "Krishna Rajendra Market",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "network": "Namma Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Bangalore Metro Rail Corporation Limited",
+            "platforms": "2",
+            "public_transport": "stop_position",
+            "public_transport:version": "2",
+            "railway": "stop",
+            "short_name": "K R Market",
+            "source": "http://www.bmrc.co.in/English/Network.htm",
+            "subway": "yes",
+            "wheelchair": "yes",
+            "wikidata": "Q24912918",
+            "wikipedia": "en:Krishna Rajendra Market metro station"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5745737,
+              12.966924
+            ]
+          },
+          "properties": {
+            "code": "CKPE",
+            "name": "Chickpete",
+            "name:hi": "चिकपेटे",
+            "name:kn": "ಚಿಕ್ಕಪೇಟೆ",
+            "network": "Namma Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Bangalore Metro Rail Corporation Limited",
+            "public_transport": "stop_position",
+            "public_transport:version": "2",
+            "railway": "stop",
+            "source": "http://www.bmrc.co.in/English/Network.htm",
+            "subway": "yes",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5844925,
+              12.9636018
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Town Hall",
+            "name:en": "Town Hall",
+            "name:kn": "ಮಹಾನಗರ ಪಾಲಿಕೆ",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5766596,
+              12.9639785
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Krishnarajendra Market",
+            "public_transport": "platform",
+            "short_name": "K R Market",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5842677,
+              12.9639001
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bin": "yes",
+            "bus": "yes",
+            "check_date:bench": "2022-09-25",
+            "covered": "yes",
+            "highway": "bus_stop",
+            "name": "Town Hall",
+            "name:en": "Town Hall",
+            "name:kn": "ಮಹಾನಗರ ಪಾಲಿಕೆ",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5737819,
+              12.9569244
+            ]
+          },
+          "properties": {
+            "highway": "bus_stop",
+            "name": "Makkala Koota",
+            "name:kn": "ಮಕ್ಕಳ ಕೂಟ"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5749819,
+              12.961253
+            ]
+          },
+          "properties": {
+            "alt_name": "Veterinary Hospital",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "KR Market",
+            "name:en": "KR Market",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5771714,
+              12.9560863
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Basappa Circle",
+            "name:kn": "ಬಸಪ್ಪ ವೃತ್ತ",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5750888,
+              12.9612109
+            ]
+          },
+          "properties": {
+            "alt_name": "Veterinary Hospital",
+            "bus": "yes",
+            "name": "KR Market",
+            "name:en": "KR Market",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5772027,
+              12.9601936
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "departures_board": "timetable",
+            "fixme": "Parent relations need to be changed to include corresponding platform node in KBS",
+            "highway": "bus_stop",
+            "name": "Krishnarajendra Market (Kalasipalya)",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "operator": "Bengaluru Metropolitan Transport Corporation",
+            "public_transport": "platform",
+            "short_name": "K R Market",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5745314,
+              12.9669249
+            ]
+          },
+          "properties": {
+            "code": "CKPE",
+            "name": "Chickpete",
+            "name:hi": "चिकपेटे",
+            "name:kn": "ಚಿಕ್ಕಪೇಟೆ",
+            "network": "Namma Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Bangalore Metro Rail Corporation Limited",
+            "public_transport": "stop_position",
+            "public_transport:version": "2",
+            "railway": "stop",
+            "source": "http://www.bmrc.co.in/English/Network.htm",
+            "subway": "yes",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5746404,
+              12.960896
+            ]
+          },
+          "properties": {
+            "code": "KRMT",
+            "name": "Krishna Rajendra Market",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "network": "Namma Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Bangalore Metro Rail Corporation Limited",
+            "platforms": "2",
+            "public_transport": "stop_position",
+            "public_transport:version": "2",
+            "railway": "stop",
+            "short_name": "K R Market",
+            "source": "http://www.bmrc.co.in/English/Network.htm",
+            "subway": "yes",
+            "wheelchair": "yes",
+            "wikidata": "Q24912918",
+            "wikipedia": "en:Krishna Rajendra Market metro station"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5746578,
+              12.9608788
+            ]
+          },
+          "properties": {
+            "code": "KRMT",
+            "lit": "yes",
+            "name": "Krishna Rajendra Market",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "name:ml": "കൃഷ്ണ രാജേന്ദ്ര മാർക്കറ്റ്",
+            "name:ta": "கிருஷ்ண ராஜேந்திர‌ மார்கெட்",
+            "network": "Namma Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Bangalore Metro Rail Corporation Limited",
+            "public_transport": "station",
+            "public_transport:version": "2",
+            "railway": "station",
+            "shelter": "yes",
+            "station": "subway",
+            "subway": "yes",
+            "tunnel": "yes",
+            "website": "https://english.brmc.co.in",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5745566,
+              12.9668974
+            ]
+          },
+          "properties": {
+            "code": "CKPE",
+            "lit": "yes",
+            "name": "Chickpete",
+            "name:hi": "चिकपेटे",
+            "name:kn": "ಚಿಕ್ಕಪೇಟೆ",
+            "name:ml": "ചിക്കപ്പേട്ട",
+            "name:ta": "சிக்கபேட்டே",
+            "network": "Namma Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Bangalore Metro Rail Corporation Limited",
+            "public_transport": "station",
+            "public_transport:version": "2",
+            "railway": "station",
+            "shelter": "yes",
+            "station": "subway",
+            "subway": "yes",
+            "tunnel": "yes",
+            "website": "https://english.brmc.co.in",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5774463,
+              12.9635939
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "KR Market",
+            "name:en": "KR Market",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5772532,
+              12.9565027
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Basappa Circle",
+            "name:en": "Basappa Circle",
+            "name:kn": "ಬಸಪ್ಪ ವೃತ್ತ",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5737037,
+              12.9575961
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Makkala Koota",
+            "name:en": "Makkala Koota",
+            "name:kn": "ಮಕ್ಕಳ ಕೂಟ",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5842663,
+              12.9638239
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Town Hall",
+            "name:en": "Town Hall",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5775287,
+              12.9641556
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "KR Market",
+            "name:en": "KR Market",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5776413,
+              12.9642138
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "highway": "bus_stop",
+            "name": "KR Market",
+            "name:en": "Krishnarajendra Market",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "network": "BMTC",
+            "network:wikidata": "Q3345039",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "short_name": "K R Market",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5730356,
+              12.9573368
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Makkala Koota",
+            "name:en": "Makkala Koota",
+            "name:kn": "ಮಕ್ಕಳ ಕೂಟ",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5730279,
+              12.9572556
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Makkala Koota",
+            "name:en": "Makkala Koota",
+            "name:kn": "ಮಕ್ಕಳ ಕೂಟ",
+            "network": "BMTC",
+            "network:wikidata": "Q3345039",
+            "operator": "BMTC",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5773314,
+              12.9636047
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "KR Market",
+            "name:en": "KR Market",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5844796,
+              12.9636904
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Town Hall",
+            "name:en": "Town Hall",
+            "name:kn": "ಮಹಾನಗರ ಪಾಲಿಕೆ",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5789324,
+              12.9639618
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "KR Market",
+            "name:en": "KR Market",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5788818,
+              12.963972
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "KR Market",
+            "name:en": "KR Market",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "network": "BMTC",
+            "network:wikidata": "Q3345039",
+            "operator": "BMTC",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5761889,
+              12.9645
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "KR Market",
+            "name:en": "KR Market",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "short_name": "K R Market",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5774231,
+              12.9610244
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Platform 6C",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5773141,
+              12.9609478
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Platform 6B",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5772111,
+              12.9608754
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Platform 6A",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5771138,
+              12.960807
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Platform 6",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5773906,
+              12.9608221
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Platform 5B",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5772338,
+              12.9607074
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Platform 5A",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5770855,
+              12.9605989
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Platform 5",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5773696,
+              12.9606322
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Platform 4",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5772587,
+              12.9605549
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Platform 3B",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5771554,
+              12.9604827
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Platform 3A",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5770383,
+              12.960401
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Platform 3",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5772696,
+              12.9564797
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Basappa Circle",
+            "name:en": "Basappa Circle",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5738382,
+              12.9576978
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Makkala Koota",
+            "name:en": "Makkala Koota",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5738621,
+              12.9576895
+            ]
+          },
+          "properties": {
+            "highway": "bus_stop",
+            "name": "Makkala Koota",
+            "name:en": "Makkala Koota",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.574148,
+              12.9584168
+            ]
+          },
+          "properties": {
+            "designation": "Namma Metro - Underground UG2",
+            "electrified": "rail",
+            "gauge": "1435",
+            "layer": "-2",
+            "name": "Namma Metro - Underground UG2",
+            "name:kn": "ನಮ್ಮ ಮೆಟ್ರೋ",
+            "network": "Namma Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Bangalore Metro Rail Corporation Limited",
+            "railway": "subway",
+            "subway": "yes",
+            "tunnel": "yes",
+            "voltage": "750"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5739684,
+              12.9679772
+            ]
+          },
+          "properties": {
+            "designation": "Namma Metro - Underground UG2",
+            "electrified": "rail",
+            "gauge": "1435",
+            "layer": "-2",
+            "level": "-2",
+            "name": "Namma Metro - Underground UG2",
+            "name:kn": "ನಮ್ಮ ಮೆಟ್ರೋ",
+            "network": "Namma Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Bangalore Metro Rail Corporation Limited",
+            "railway": "subway",
+            "subway": "yes",
+            "tunnel": "yes",
+            "voltage": "750"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5746927,
+              12.9639105
+            ]
+          },
+          "properties": {
+            "designation": "Namma Metro - Underground UG2",
+            "electrified": "rail",
+            "gauge": "1435",
+            "layer": "-2",
+            "level": "-2",
+            "name": "Namma Metro - Underground UG2",
+            "name:kn": "ನಮ್ಮ ಮೆಟ್ರೋ",
+            "network": "Namma Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Bangalore Metro Rail Corporation Limited",
+            "railway": "subway",
+            "subway": "yes",
+            "tunnel": "yes",
+            "voltage": "750"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.574106,
+              12.9584192
+            ]
+          },
+          "properties": {
+            "designation": "Namma Metro - Underground UG2",
+            "electrified": "rail",
+            "gauge": "1435",
+            "layer": "-2",
+            "name": "Namma Metro - Underground UG2",
+            "name:kn": "ನಮ್ಮ ಮೆಟ್ರೋ",
+            "network": "Namma Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Bangalore Metro Rail Corporation Limited",
+            "railway": "subway",
+            "subway": "yes",
+            "tunnel": "yes",
+            "voltage": "750"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.577227,
+              12.9604564
+            ]
+          },
+          "properties": {
+            "building": "roof",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5772648,
+              12.9606567
+            ]
+          },
+          "properties": {
+            "building": "roof",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5773004,
+              12.9608504
+            ]
+          },
+          "properties": {
+            "building": "roof",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5772353,
+              12.9609723
+            ]
+          },
+          "properties": {
+            "building": "roof",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5772333,
+              12.9612591
+            ]
+          },
+          "properties": {
+            "building": "roof",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5772939,
+              12.9610142
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5774528,
+              12.9609621
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "name": "Platform 6C",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5772497,
+              12.9608146
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "name": "Platform 6A",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5771482,
+              12.9607409
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "name": "Platform 6",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5774135,
+              12.9607644
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "name": "Platform 5B",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5772628,
+              12.9606552
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "name": "Platform 5A",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5773515,
+              12.9608885
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "name": "Platform 6B",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5771792,
+              12.9609329
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5771141,
+              12.9605474
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "name": "Platform 5",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5771699,
+              12.9604191
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "name": "Platform 3A",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.577283,
+              12.9604984
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "name": "Platform 3B",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5773947,
+              12.9605767
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "name": "Platform 4",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.577057,
+              12.96034
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "name": "Platform 3",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5737473,
+              12.9714403
+            ]
+          },
+          "properties": {
+            "designation": "Namma Metro - Underground UG2",
+            "electrified": "rail",
+            "gauge": "1435",
+            "layer": "-2",
+            "level": "-2",
+            "name": "Namma Metro - Underground UG2",
+            "name:kn": "ನಮ್ಮ ಮೆಟ್ರೋ",
+            "network": "Namma Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Bangalore Metro Rail Corporation Limited",
+            "railway": "subway",
+            "subway": "yes",
+            "tunnel": "yes",
+            "voltage": "750"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5745007,
+              12.9667601
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "building": "yes",
+            "covered": "yes",
+            "departures_board": "realtime",
+            "departures_board:speech_output": "yes",
+            "layer": "2",
+            "level": "2",
+            "name": "Platform 1",
+            "network": "Namma Metro",
+            "operator": "BMRCL",
+            "passenger_information_display": "yes",
+            "public_transport": "platform",
+            "railway": "platform",
+            "ref": "1",
+            "shelter": "yes",
+            "subway": "yes",
+            "surveillance": "yes",
+            "tactile_paving": "yes",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.574598,
+              12.9667579
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "building": "yes",
+            "covered": "yes",
+            "departures_board": "realtime",
+            "departures_board:speech_output": "yes",
+            "layer": "2",
+            "level": "2",
+            "name": "Platform 2",
+            "network": "Namma Metro",
+            "operator": "BMRCL",
+            "passenger_information_display": "yes",
+            "public_transport": "platform",
+            "railway": "platform",
+            "ref": "2",
+            "shelter": "yes",
+            "subway": "yes",
+            "surveillance": "yes",
+            "tactile_paving": "yes",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5745469,
+              12.9605211
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "building": "yes",
+            "covered": "yes",
+            "departures_board": "realtime",
+            "departures_board:speech_output": "yes",
+            "layer": "2",
+            "level": "2",
+            "name": "Platform 1",
+            "network": "Namma Metro",
+            "operator": "BMRCL",
+            "passenger_information_display": "yes",
+            "public_transport": "platform",
+            "railway": "platform",
+            "ref": "1",
+            "shelter": "yes",
+            "subway": "yes",
+            "surveillance": "yes",
+            "tactile_paving": "yes",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5746431,
+              12.9605066
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "building": "yes",
+            "covered": "yes",
+            "departures_board": "realtime",
+            "departures_board:speech_output": "yes",
+            "layer": "2",
+            "level": "2",
+            "name": "Platform 2",
+            "network": "Namma Metro",
+            "operator": "BMRCL",
+            "passenger_information_display": "yes",
+            "public_transport": "platform",
+            "railway": "platform",
+            "ref": "2",
+            "shelter": "yes",
+            "subway": "yes",
+            "surveillance": "yes",
+            "tactile_paving": "yes",
+            "wheelchair": "yes"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 12.962867,
+      "lon": 77.577509,
+      "radius": 800.0
+    }
+  },
+  "transport_factors_12.963_77.578_1000": {
+    "timestamp": 1758387280.8947396,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5768931,
+              12.9642064
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "crossing": "uncontrolled",
+            "highway": "traffic_signals",
+            "name": "KR Market",
+            "name:en": "Krishnarajendra Market",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5736663,
+              12.9576092
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Makkala Koota",
+            "name:en": "Makkala Koota",
+            "name:kn": "ಮಕ್ಕಳ ಕೂಟ",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5746822,
+              12.9608898
+            ]
+          },
+          "properties": {
+            "code": "KRMT",
+            "name": "Krishna Rajendra Market",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "network": "Namma Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Bangalore Metro Rail Corporation Limited",
+            "platforms": "2",
+            "public_transport": "stop_position",
+            "public_transport:version": "2",
+            "railway": "stop",
+            "short_name": "K R Market",
+            "source": "http://www.bmrc.co.in/English/Network.htm",
+            "subway": "yes",
+            "wheelchair": "yes",
+            "wikidata": "Q24912918",
+            "wikipedia": "en:Krishna Rajendra Market metro station"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5745737,
+              12.966924
+            ]
+          },
+          "properties": {
+            "code": "CKPE",
+            "name": "Chickpete",
+            "name:hi": "चिकपेटे",
+            "name:kn": "ಚಿಕ್ಕಪೇಟೆ",
+            "network": "Namma Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Bangalore Metro Rail Corporation Limited",
+            "public_transport": "stop_position",
+            "public_transport:version": "2",
+            "railway": "stop",
+            "source": "http://www.bmrc.co.in/English/Network.htm",
+            "subway": "yes",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5844925,
+              12.9636018
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Town Hall",
+            "name:en": "Town Hall",
+            "name:kn": "ಮಹಾನಗರ ಪಾಲಿಕೆ",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5766596,
+              12.9639785
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Krishnarajendra Market",
+            "public_transport": "platform",
+            "short_name": "K R Market",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5842677,
+              12.9639001
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bin": "yes",
+            "bus": "yes",
+            "check_date:bench": "2022-09-25",
+            "covered": "yes",
+            "highway": "bus_stop",
+            "name": "Town Hall",
+            "name:en": "Town Hall",
+            "name:kn": "ಮಹಾನಗರ ಪಾಲಿಕೆ",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5804651,
+              12.954972
+            ]
+          },
+          "properties": {
+            "highway": "bus_stop",
+            "loc_name": "Lalbagh Fort Road",
+            "name": "Minerva Circle",
+            "name:kn": "ಮಿನರ್ವ ವೃತ್ತ"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5737819,
+              12.9569244
+            ]
+          },
+          "properties": {
+            "highway": "bus_stop",
+            "name": "Makkala Koota",
+            "name:kn": "ಮಕ್ಕಳ ಕೂಟ"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5749819,
+              12.961253
+            ]
+          },
+          "properties": {
+            "alt_name": "Veterinary Hospital",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "KR Market",
+            "name:en": "KR Market",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5702108,
+              12.9678184
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Cottonpet Hospital Super Talkies",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5700688,
+              12.9650246
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "loc_name": "COTTONPET",
+            "name": "Vinayaka Talkies",
+            "name:kn": "ವಿನಾಯಕ ಟಾಕೀಸ್",
+            "public_transport": "platform",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5771714,
+              12.9560863
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Basappa Circle",
+            "name:kn": "ಬಸಪ್ಪ ವೃತ್ತ",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.568668,
+              12.9607243
+            ]
+          },
+          "properties": {
+            "alt_name": "Rayan Circle",
+            "bench": "yes",
+            "bin": "no",
+            "bus": "yes",
+            "highway": "bus_stop",
+            "loc_name": "CHAMARAJA PETE",
+            "name": "Royan Circle",
+            "name:kn": "ರಾಯನ್ ವೃತ್ತ",
+            "public_transport": "platform",
+            "shelter": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5750888,
+              12.9612109
+            ]
+          },
+          "properties": {
+            "alt_name": "Veterinary Hospital",
+            "bus": "yes",
+            "name": "KR Market",
+            "name:en": "KR Market",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5772027,
+              12.9601936
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "departures_board": "timetable",
+            "fixme": "Parent relations need to be changed to include corresponding platform node in KBS",
+            "highway": "bus_stop",
+            "name": "Krishnarajendra Market (Kalasipalya)",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "operator": "Bengaluru Metropolitan Transport Corporation",
+            "public_transport": "platform",
+            "short_name": "K R Market",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5745314,
+              12.9669249
+            ]
+          },
+          "properties": {
+            "code": "CKPE",
+            "name": "Chickpete",
+            "name:hi": "चिकपेटे",
+            "name:kn": "ಚಿಕ್ಕಪೇಟೆ",
+            "network": "Namma Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Bangalore Metro Rail Corporation Limited",
+            "public_transport": "stop_position",
+            "public_transport:version": "2",
+            "railway": "stop",
+            "source": "http://www.bmrc.co.in/English/Network.htm",
+            "subway": "yes",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5746404,
+              12.960896
+            ]
+          },
+          "properties": {
+            "code": "KRMT",
+            "name": "Krishna Rajendra Market",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "network": "Namma Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Bangalore Metro Rail Corporation Limited",
+            "platforms": "2",
+            "public_transport": "stop_position",
+            "public_transport:version": "2",
+            "railway": "stop",
+            "short_name": "K R Market",
+            "source": "http://www.bmrc.co.in/English/Network.htm",
+            "subway": "yes",
+            "wheelchair": "yes",
+            "wikidata": "Q24912918",
+            "wikipedia": "en:Krishna Rajendra Market metro station"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5746578,
+              12.9608788
+            ]
+          },
+          "properties": {
+            "code": "KRMT",
+            "lit": "yes",
+            "name": "Krishna Rajendra Market",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "name:ml": "കൃഷ്ണ രാജേന്ദ്ര മാർക്കറ്റ്",
+            "name:ta": "கிருஷ்ண ராஜேந்திர‌ மார்கெட்",
+            "network": "Namma Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Bangalore Metro Rail Corporation Limited",
+            "public_transport": "station",
+            "public_transport:version": "2",
+            "railway": "station",
+            "shelter": "yes",
+            "station": "subway",
+            "subway": "yes",
+            "tunnel": "yes",
+            "website": "https://english.brmc.co.in",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5745566,
+              12.9668974
+            ]
+          },
+          "properties": {
+            "code": "CKPE",
+            "lit": "yes",
+            "name": "Chickpete",
+            "name:hi": "चिकपेटे",
+            "name:kn": "ಚಿಕ್ಕಪೇಟೆ",
+            "name:ml": "ചിക്കപ്പേട്ട",
+            "name:ta": "சிக்கபேட்டே",
+            "network": "Namma Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Bangalore Metro Rail Corporation Limited",
+            "public_transport": "station",
+            "public_transport:version": "2",
+            "railway": "station",
+            "shelter": "yes",
+            "station": "subway",
+            "subway": "yes",
+            "tunnel": "yes",
+            "website": "https://english.brmc.co.in",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5774463,
+              12.9635939
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "KR Market",
+            "name:en": "KR Market",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5772532,
+              12.9565027
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Basappa Circle",
+            "name:en": "Basappa Circle",
+            "name:kn": "ಬಸಪ್ಪ ವೃತ್ತ",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5737037,
+              12.9575961
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Makkala Koota",
+            "name:en": "Makkala Koota",
+            "name:kn": "ಮಕ್ಕಳ ಕೂಟ",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5842663,
+              12.9638239
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Town Hall",
+            "name:en": "Town Hall",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5775287,
+              12.9641556
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "KR Market",
+            "name:en": "KR Market",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5776413,
+              12.9642138
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "highway": "bus_stop",
+            "name": "KR Market",
+            "name:en": "Krishnarajendra Market",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "network": "BMTC",
+            "network:wikidata": "Q3345039",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "short_name": "K R Market",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5730356,
+              12.9573368
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Makkala Koota",
+            "name:en": "Makkala Koota",
+            "name:kn": "ಮಕ್ಕಳ ಕೂಟ",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5730279,
+              12.9572556
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "Makkala Koota",
+            "name:en": "Makkala Koota",
+            "name:kn": "ಮಕ್ಕಳ ಕೂಟ",
+            "network": "BMTC",
+            "network:wikidata": "Q3345039",
+            "operator": "BMTC",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5773314,
+              12.9636047
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "KR Market",
+            "name:en": "KR Market",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5844796,
+              12.9636904
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Town Hall",
+            "name:en": "Town Hall",
+            "name:kn": "ಮಹಾನಗರ ಪಾಲಿಕೆ",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5789324,
+              12.9639618
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "KR Market",
+            "name:en": "KR Market",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5788818,
+              12.963972
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "KR Market",
+            "name:en": "KR Market",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "network": "BMTC",
+            "network:wikidata": "Q3345039",
+            "operator": "BMTC",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5761889,
+              12.9645
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "name": "KR Market",
+            "name:en": "KR Market",
+            "name:kn": "ಕೃಷ್ಣರಾಜೇಂದ್ರ ಮಾರುಕಟ್ಟೆ",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "short_name": "K R Market",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5685892,
+              12.9638348
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Vinayaka Talkies",
+            "name:en": "Vinayaka Talkies",
+            "name:kn": "ವಿನಾಯಕ ಟಾಕೀಸ್",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5685298,
+              12.963891
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "highway": "bus_stop",
+            "loc_name": "COTTONPET",
+            "name": "Vinayaka Talkies",
+            "name:en": "Vinayaka Talkies",
+            "name:kn": "ವಿನಾಯಕ ಟಾಕೀಸ್",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5774231,
+              12.9610244
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Platform 6C",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5773141,
+              12.9609478
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Platform 6B",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5772111,
+              12.9608754
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Platform 6A",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5771138,
+              12.960807
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Platform 6",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5773906,
+              12.9608221
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Platform 5B",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5772338,
+              12.9607074
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Platform 5A",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5770855,
+              12.9605989
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Platform 5",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5773696,
+              12.9606322
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Platform 4",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5772587,
+              12.9605549
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Platform 3B",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5771554,
+              12.9604827
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Platform 3A",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5770383,
+              12.960401
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Platform 3",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5772696,
+              12.9564797
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Basappa Circle",
+            "name:en": "Basappa Circle",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5738382,
+              12.9576978
+            ]
+          },
+          "properties": {
+            "bus": "yes",
+            "name": "Makkala Koota",
+            "name:en": "Makkala Koota",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "stop_position"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5738621,
+              12.9576895
+            ]
+          },
+          "properties": {
+            "highway": "bus_stop",
+            "name": "Makkala Koota",
+            "name:en": "Makkala Koota",
+            "network": "BMTC",
+            "operator": "BMTC",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.574148,
+              12.9584168
+            ]
+          },
+          "properties": {
+            "designation": "Namma Metro - Underground UG2",
+            "electrified": "rail",
+            "gauge": "1435",
+            "layer": "-2",
+            "name": "Namma Metro - Underground UG2",
+            "name:kn": "ನಮ್ಮ ಮೆಟ್ರೋ",
+            "network": "Namma Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Bangalore Metro Rail Corporation Limited",
+            "railway": "subway",
+            "subway": "yes",
+            "tunnel": "yes",
+            "voltage": "750"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5739684,
+              12.9679772
+            ]
+          },
+          "properties": {
+            "designation": "Namma Metro - Underground UG2",
+            "electrified": "rail",
+            "gauge": "1435",
+            "layer": "-2",
+            "level": "-2",
+            "name": "Namma Metro - Underground UG2",
+            "name:kn": "ನಮ್ಮ ಮೆಟ್ರೋ",
+            "network": "Namma Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Bangalore Metro Rail Corporation Limited",
+            "railway": "subway",
+            "subway": "yes",
+            "tunnel": "yes",
+            "voltage": "750"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5746927,
+              12.9639105
+            ]
+          },
+          "properties": {
+            "designation": "Namma Metro - Underground UG2",
+            "electrified": "rail",
+            "gauge": "1435",
+            "layer": "-2",
+            "level": "-2",
+            "name": "Namma Metro - Underground UG2",
+            "name:kn": "ನಮ್ಮ ಮೆಟ್ರೋ",
+            "network": "Namma Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Bangalore Metro Rail Corporation Limited",
+            "railway": "subway",
+            "subway": "yes",
+            "tunnel": "yes",
+            "voltage": "750"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.574106,
+              12.9584192
+            ]
+          },
+          "properties": {
+            "designation": "Namma Metro - Underground UG2",
+            "electrified": "rail",
+            "gauge": "1435",
+            "layer": "-2",
+            "name": "Namma Metro - Underground UG2",
+            "name:kn": "ನಮ್ಮ ಮೆಟ್ರೋ",
+            "network": "Namma Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Bangalore Metro Rail Corporation Limited",
+            "railway": "subway",
+            "subway": "yes",
+            "tunnel": "yes",
+            "voltage": "750"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.6837457,
+              12.9529789
+            ]
+          },
+          "properties": {
+            "fixme": "Approximate tracing",
+            "name": "Sarjapura-Hebbal Line",
+            "network": "Namma Metro",
+            "railway": "proposed"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.577227,
+              12.9604564
+            ]
+          },
+          "properties": {
+            "building": "roof",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5772648,
+              12.9606567
+            ]
+          },
+          "properties": {
+            "building": "roof",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5773004,
+              12.9608504
+            ]
+          },
+          "properties": {
+            "building": "roof",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5772353,
+              12.9609723
+            ]
+          },
+          "properties": {
+            "building": "roof",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5772333,
+              12.9612591
+            ]
+          },
+          "properties": {
+            "building": "roof",
+            "public_transport": "platform"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5772939,
+              12.9610142
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5774528,
+              12.9609621
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "name": "Platform 6C",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5772497,
+              12.9608146
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "name": "Platform 6A",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5771482,
+              12.9607409
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "name": "Platform 6",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5774135,
+              12.9607644
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "name": "Platform 5B",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5772628,
+              12.9606552
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "name": "Platform 5A",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5773515,
+              12.9608885
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "name": "Platform 6B",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5771792,
+              12.9609329
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5771141,
+              12.9605474
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "name": "Platform 5",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5771699,
+              12.9604191
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "name": "Platform 3A",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.577283,
+              12.9604984
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "name": "Platform 3B",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5773947,
+              12.9605767
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "name": "Platform 4",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.577057,
+              12.96034
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "bus": "yes",
+            "covered": "yes",
+            "name": "Platform 3",
+            "operator": "BMTC",
+            "public_transport": "platform",
+            "shelter": "yes",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5737473,
+              12.9714403
+            ]
+          },
+          "properties": {
+            "designation": "Namma Metro - Underground UG2",
+            "electrified": "rail",
+            "gauge": "1435",
+            "layer": "-2",
+            "level": "-2",
+            "name": "Namma Metro - Underground UG2",
+            "name:kn": "ನಮ್ಮ ಮೆಟ್ರೋ",
+            "network": "Namma Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Bangalore Metro Rail Corporation Limited",
+            "railway": "subway",
+            "subway": "yes",
+            "tunnel": "yes",
+            "voltage": "750"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5745007,
+              12.9667601
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "building": "yes",
+            "covered": "yes",
+            "departures_board": "realtime",
+            "departures_board:speech_output": "yes",
+            "layer": "2",
+            "level": "2",
+            "name": "Platform 1",
+            "network": "Namma Metro",
+            "operator": "BMRCL",
+            "passenger_information_display": "yes",
+            "public_transport": "platform",
+            "railway": "platform",
+            "ref": "1",
+            "shelter": "yes",
+            "subway": "yes",
+            "surveillance": "yes",
+            "tactile_paving": "yes",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.574598,
+              12.9667579
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "building": "yes",
+            "covered": "yes",
+            "departures_board": "realtime",
+            "departures_board:speech_output": "yes",
+            "layer": "2",
+            "level": "2",
+            "name": "Platform 2",
+            "network": "Namma Metro",
+            "operator": "BMRCL",
+            "passenger_information_display": "yes",
+            "public_transport": "platform",
+            "railway": "platform",
+            "ref": "2",
+            "shelter": "yes",
+            "subway": "yes",
+            "surveillance": "yes",
+            "tactile_paving": "yes",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5745469,
+              12.9605211
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "building": "yes",
+            "covered": "yes",
+            "departures_board": "realtime",
+            "departures_board:speech_output": "yes",
+            "layer": "2",
+            "level": "2",
+            "name": "Platform 1",
+            "network": "Namma Metro",
+            "operator": "BMRCL",
+            "passenger_information_display": "yes",
+            "public_transport": "platform",
+            "railway": "platform",
+            "ref": "1",
+            "shelter": "yes",
+            "subway": "yes",
+            "surveillance": "yes",
+            "tactile_paving": "yes",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5746431,
+              12.9605066
+            ]
+          },
+          "properties": {
+            "bench": "yes",
+            "building": "yes",
+            "covered": "yes",
+            "departures_board": "realtime",
+            "departures_board:speech_output": "yes",
+            "layer": "2",
+            "level": "2",
+            "name": "Platform 2",
+            "network": "Namma Metro",
+            "operator": "BMRCL",
+            "passenger_information_display": "yes",
+            "public_transport": "platform",
+            "railway": "platform",
+            "ref": "2",
+            "shelter": "yes",
+            "subway": "yes",
+            "surveillance": "yes",
+            "tactile_paving": "yes",
+            "wheelchair": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5736483,
+              12.9532344
+            ]
+          },
+          "properties": {
+            "bridge": "viaduct",
+            "designation": "Namma Metro - Reach 4",
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "2",
+            "name": "Namma Metro - Reach 4",
+            "name:kn": "ನಮ್ಮ ಮೆಟ್ರೊ",
+            "network": "Namma Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Bangalore Metro Rail Corporation Limited",
+            "railway": "subway",
+            "subway": "yes",
+            "voltage": "750"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5736906,
+              12.9532348
+            ]
+          },
+          "properties": {
+            "bridge": "viaduct",
+            "designation": "Namma Metro - Reach 4",
+            "electrified": "rail",
+            "frequency": "0",
+            "gauge": "1435",
+            "layer": "2",
+            "name": "Namma Metro - Reach 4",
+            "name:kn": "ನಮ್ಮ ಮೆಟ್ರೊ",
+            "network": "Namma Metro",
+            "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/11/08)",
+            "operator": "Bangalore Metro Rail Corporation Limited",
+            "railway": "subway",
+            "subway": "yes",
+            "voltage": "750"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 12.962867,
+      "lon": 77.577509,
+      "radius": 1000.0
+    }
   }
 }

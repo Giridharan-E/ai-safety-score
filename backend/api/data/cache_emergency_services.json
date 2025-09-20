@@ -53,5 +53,115 @@
       "lon": 80.192808,
       "radius": 800.0
     }
+  },
+  "emergency_services_13.009_80.005_800": {
+    "timestamp": 1758370860.5895145,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008937338572949,
+      "lon": 80.0046248276498,
+      "radius": 800.0
+    }
+  },
+  "emergency_services_13.009_80.004_800": {
+    "timestamp": 1758370916.306192,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008717559923799,
+      "lon": 80.00440210654706,
+      "radius": 800.0
+    }
+  },
+  "emergency_services_13.009_80.005_2000": {
+    "timestamp": 1758371068.1914072,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008855213021551,
+      "lon": 80.00453832767488,
+      "radius": 2000.0
+    }
+  },
+  "emergency_services_13.009_80.003_800": {
+    "timestamp": 1758371799.9730027,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008533,
+      "lon": 80.003469,
+      "radius": 800.0
+    }
+  },
+  "emergency_services_13.047_80.282_800": {
+    "timestamp": 1758385626.0679827,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2777191,
+              13.0429393
+            ]
+          },
+          "properties": {
+            "amenity": "fire_station"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 13.047126,
+      "lon": 80.282434,
+      "radius": 800.0
+    }
+  },
+  "emergency_services_12.993_80.218_800": {
+    "timestamp": 1758385712.422275,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 12.992865,
+      "lon": 80.21788,
+      "radius": 800.0
+    }
+  },
+  "emergency_services_12.963_77.578_800": {
+    "timestamp": 1758386980.4993231,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 12.962867,
+      "lon": 77.577509,
+      "radius": 800.0
+    }
+  },
+  "emergency_services_12.963_77.578_1000": {
+    "timestamp": 1758387283.5871632,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 12.962867,
+      "lon": 77.577509,
+      "radius": 1000.0
+    }
   }
 }

@@ -88,9 +88,6 @@ def _build_query(dataset: str, lat: float, lon: float, radius_m: float) -> Optio
         # Street lights, clear sight lines, well-lit areas, open roads
         return f"[out:json][timeout:15];(node[highway=street_lamp](around:{r},{lat},{lon});node[amenity=street_lamp](around:{r},{lat},{lon});node[man_made=street_lamp](around:{r},{lat},{lon});way[highway=residential](around:{r},{lat},{lon});way[highway=primary](around:{r},{lat},{lon});way[highway=secondary](around:{r},{lat},{lon});way[highway=tertiary](around:{r},{lat},{lon});way[highway=unclassified](around:{r},{lat},{lon}););out center;"
     
-    if dataset == 'people_density_factors':
-        # Commercial, residential, public spaces with high foot traffic
-        return f"[out:json][timeout:15];(node[amenity=restaurant](around:{r},{lat},{lon});node[amenity=cafe](around:{r},{lat},{lon});node[amenity=bar](around:{r},{lat},{lon});node[amenity=fast_food](around:{r},{lat},{lon});node[shop](around:{r},{lat},{lon});node[amenity=bank](around:{r},{lat},{lon});node[amenity=pharmacy](around:{r},{lat},{lon});node[amenity=post_office](around:{r},{lat},{lon});node[amenity=library](around:{r},{lat},{lon});node[amenity=community_centre](around:{r},{lat},{lon});way[landuse=commercial](around:{r},{lat},{lon});way[landuse=residential](around:{r},{lat},{lon});way[landuse=retail](around:{r},{lat},{lon}););out center;"
     
     if dataset == 'transport_factors':
         # Comprehensive public transportation coverage
@@ -170,13 +167,6 @@ def _generate_synthetic_data(dataset: str, lat: float, lon: float, radius_m: flo
                 {'highway': feature_type, 'name': f'Visibility Factor {i+1}', 'type': 'visibility'}
             ))
     
-    elif dataset == 'people_density_factors':
-        for i in range(min(num_features, 12)):  # Max 12 commercial/residential
-            amenity_type = random.choice(['restaurant', 'cafe', 'shop', 'bank', 'pharmacy'])
-            features.append(_create_synthetic_feature(
-                lat, lon, radius_m,
-                {'amenity': amenity_type, 'name': f'{amenity_type.title()} {i+1}', 'type': 'commercial'}
-            ))
     
     elif dataset == 'transport_factors':
         for i in range(min(num_features, 10)):  # Max 10 transport facilities
@@ -318,7 +308,7 @@ def get_location_safety_summary(lat: float, lon: float, radius_m: float) -> Dict
     # Define all safety factor datasets
     safety_datasets = [
         'police_stations', 'hospitals_medical', 'streetlights_lighting', 'sidewalks_pedestrian',
-        'openness_factors', 'visibility_factors', 'people_density_factors', 'transport_factors',
+        'openness_factors', 'visibility_factors', 'transport_factors',
         'emergency_services', 'security_factors', 'tourist_places_tn', 'temples_tn', 'beaches_tn'
     ]
     
@@ -358,7 +348,6 @@ def fetch_osm_or_local(dataset: str, lat: float, lon: float, radius_m: float) ->
         # Enhanced safety factors
         'openness_factors': 'openness_factors.geojson',
         'visibility_factors': 'visibility_factors.geojson',
-        'people_density_factors': 'people_density_factors.geojson',
         'transport_factors': 'transport_factors.geojson',
         
         # Additional safety factors

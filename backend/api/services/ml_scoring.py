@@ -54,8 +54,7 @@ class MLScoringService:
             "businesses": 0.05,
             "police_stations": 0.1,
             "hospitals": 0.05,
-            "crime_rate": -0.2,  # Negative weight for crime
-            "people_density": 0.05,
+            "crime_rate": 0.2,  # Negative weight for crime
             "walkability": 0.05,
             "openness": 0.05
         }

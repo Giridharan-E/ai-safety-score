@@ -133,7 +133,6 @@ def combined_data_view(request):
     # Enhanced safety factors (OSM API + synthetic backup)
     osm_openness = fetch_osm_or_local('openness_factors', lat, lon, radius)
     osm_visibility = fetch_osm_or_local('visibility_factors', lat, lon, radius)
-    osm_people_density = fetch_osm_or_local('people_density_factors', lat, lon, radius)
     osm_transport = fetch_osm_or_local('transport_factors', lat, lon, radius)
     
     # Additional safety factors (OSM API + synthetic backup)
@@ -152,7 +151,6 @@ def combined_data_view(request):
     # Process enhanced safety factors
     openness_features = osm_openness.get('features', [])
     visibility_features = osm_visibility.get('features', [])
-    people_density_features = osm_people_density.get('features', [])
     transport_features = osm_transport.get('features', [])
     emergency_features = osm_emergency.get('features', [])
     security_features = osm_security.get('features', [])
@@ -173,7 +171,6 @@ def combined_data_view(request):
     # Filter enhanced safety factors
     openness_near = filter_points_in_radius(lat, lon, radius, openness_features)
     visibility_near = filter_points_in_radius(lat, lon, radius, visibility_features)
-    people_density_near = filter_points_in_radius(lat, lon, radius, people_density_features)
     transport_near = filter_points_in_radius(lat, lon, radius, transport_features)
     emergency_near = filter_points_in_radius(lat, lon, radius, emergency_features)
     security_near = filter_points_in_radius(lat, lon, radius, security_features)
@@ -393,7 +390,6 @@ def combined_data_view(request):
     # Calculate comprehensive safety factor scores
     openness_score = min(len(openness_near) / 10, 1.0)  # Parks, squares, open spaces
     visibility_score = min((len(visibility_near) + len(streetlights_near)) / 25, 1.0)  # Street lights + clear sight lines
-    people_density_score = min(len(people_density_near) / 15, 1.0)  # Commercial, residential areas
     transport_score = min(len(transport_near) / 8, 1.0)  # Public transport facilities
     security_score = min(len(security_near) / 5, 1.0)  # Security features
     
@@ -402,7 +398,6 @@ def combined_data_view(request):
     
     print(f"🌳 Openness score: {openness_score:.2f} ({len(openness_near)} open spaces)")
     print(f"💡 Visibility score: {visibility_score:.2f} ({len(visibility_near)} visibility factors)")
-    print(f"👥 People density score: {people_density_score:.2f} ({len(people_density_near)} density factors)")
     print(f"🚌 Transport score: {transport_score:.2f} ({len(transport_near)} transport facilities)")
     print(f"🔒 Security score: {security_score:.2f} ({len(security_near)} security features)")
     print(f"🏥 Total hospitals: {total_hospitals}")
@@ -414,11 +409,10 @@ def combined_data_view(request):
         "lighting": min(len(streetlights_near) / 20, 1.0),
         "visibility": visibility_score,  # Enhanced visibility calculation
         "sidewalks": min(len(sidewalks_near) / 10, 1.0),
-        "businesses": people_density_score,  # Use people density as business indicator
+        "businesses": 0.5,  # Default business indicator score
         "transport": transport_score,  # Use actual transport data
         "transport_density": transport_score,  # Same as transport for now
         "openness": openness_score,  # New openness factor
-        "people_density": people_density_score,  # New people density factor
         "security_features": security_score,  # Security features factor
         "crime_rate": crime_safety_score,  # Use actual crime data
         "natural_surveillance": 0.5,
@@ -475,7 +469,6 @@ def combined_data_view(request):
             "tourist_places": len(tourist_near),
             "open_spaces": len(openness_near),
             "visibility_factors": len(visibility_near),
-            "people_density_factors": len(people_density_near),
             "transport_facilities": len(transport_near),
             "security_factors": len(security_near),
         },
@@ -515,12 +508,6 @@ def combined_data_view(request):
                 "description": "Street lights and clear sight lines for better visibility",
                 "data_source": "OSM API + Synthetic Backup"
             },
-            "people_density": {
-                "score": round(people_density_score, 2),
-                "count": len(people_density_near),
-                "description": "Commercial and residential areas with natural surveillance",
-                "data_source": "OSM API + Synthetic Backup"
-            },
             "transport": {
                 "score": round(transport_score, 2),
                 "count": len(transport_near),
@@ -541,7 +528,7 @@ def combined_data_view(request):
         "processing_info": {
             "geocoding_used": bool(address and not lat_param and not lon_param),
             "coordinate_source": "address_geocoded" if (address and not lat_param and not lon_param) else "direct_coordinates",
-            "total_places_found": len(police_near) + len(g_hosp) + len(streetlights_near) + len(sidewalks_near) + len(tourist_near) + len(openness_near) + len(visibility_near) + len(people_density_near) + len(transport_near),
+            "total_places_found": len(police_near) + len(g_hosp) + len(streetlights_near) + len(sidewalks_near) + len(tourist_near) + len(openness_near) + len(visibility_near) + len(transport_near),
             "user_feedbacks_analyzed": user_feedback_data["nearby_feedbacks"],
             "data_sources": {
                 "osm_api": "Used for real-time data fetching",
@@ -614,20 +601,25 @@ def simple_data_view(request):
 @csrf_exempt
 def feedback_view(request):
     data = request.data or {}
-    required = ["latitude", "longitude", "rating"]
-    missing = [k for k in required if k not in data]
-    if missing:
-        return _error_response("missing_fields", f"Missing fields: {', '.join(missing)}", status.HTTP_400_BAD_REQUEST)
+    
+    # Import feedback validator
+    from .services.feedback_validator import feedback_validator
+    
+    # Validate feedback using the validator
+    is_valid, validation_errors, approval_status = feedback_validator.validate_feedback(data)
+    
+    if not is_valid:
+        return _error_response(
+            "validation_failed", 
+            f"Validation failed: {'; '.join(validation_errors)}", 
+            status.HTTP_400_BAD_REQUEST
+        )
 
     try:
-        # Validate numeric ranges
+        # Extract validated values
         lat_val = float(data.get("latitude"))
         lon_val = float(data.get("longitude"))
-        if not (-90.0 <= lat_val <= 90.0 and -180.0 <= lon_val <= 180.0):
-            return _error_response("invalid_coordinates", "Latitude/longitude out of bounds", status.HTTP_400_BAD_REQUEST)
         rating_val = int(data.get("rating"))
-        if not (1 <= rating_val <= 10):
-            return _error_response("invalid_rating", "Rating must be between 1 and 10", status.HTTP_400_BAD_REQUEST)
 
         # Auto-generate location ID based on coordinates
         location_id = f"LOC_{int(lat_val * 1000)}_{int(lon_val * 1000)}"
@@ -649,17 +641,39 @@ def feedback_view(request):
         else:
             print(f"📍 Using provided location name: {location_name}")
 
-        fb = Feedback.objects.create(
-            user_id=str(data.get("user_id", ""))[:64],
-            location_id=location_id[:128],
-            location_name=location_name[:256],
-            latitude=lat_val,
-            longitude=lon_val,
-            place_type=str(data.get("place_type", "general"))[:64],
-            region=str(data.get("region", "Unknown"))[:64],
-            rating=rating_val,
-            comment=str(data.get("comment", "")),
-        )
+        # Create feedback with approval status and validation metadata
+        # Handle case where new fields don't exist yet (before migration)
+        try:
+            fb = Feedback.objects.create(
+                user_id=str(data.get("user_id", ""))[:64],
+                location_id=location_id[:128],
+                location_name=location_name[:256],
+                latitude=lat_val,
+                longitude=lon_val,
+                place_type=str(data.get("place_type", "general"))[:64],
+                region=str(data.get("region", "Unknown"))[:64],
+                rating=rating_val,
+                comment=str(data.get("comment", "")),
+                approval_status=approval_status,
+                validation_errors=validation_errors,
+                is_trusted_user=feedback_validator._is_trusted_user(data.get("user_id", "")),
+            )
+        except Exception as db_error:
+            # Fallback: create feedback without new fields (before migration)
+            print(f"⚠️ Using fallback feedback creation: {db_error}")
+            fb = Feedback.objects.create(
+                user_id=str(data.get("user_id", ""))[:64],
+                location_id=location_id[:128],
+                location_name=location_name[:256],
+                latitude=lat_val,
+                longitude=lon_val,
+                place_type=str(data.get("place_type", "general"))[:64],
+                region=str(data.get("region", "Unknown"))[:64],
+                rating=rating_val,
+                comment=str(data.get("comment", "")),
+            )
+            # Override approval status for fallback
+            approval_status = 'auto_approved'  # Assume auto-approved for fallback
         
         # Also save to JSON file
         try:
@@ -674,28 +688,30 @@ def feedback_view(request):
                 print("⚠️ feedback.json is corrupted or empty, initializing new structure")
                 feedback_data = {}
             
-            # Create feedback entry for JSON
-            feedback_entry = {
-                "id": str(fb.id),
-                "user_id": str(data.get("user_id", "")),
-                "location_id": location_id,
-                "location_name": location_name,
-                "latitude": lat_val,
-                "longitude": lon_val,
-                "place_type": str(data.get("place_type", "general")),
-                "region": str(data.get("region", "Unknown")),
-                "rating": rating_val,
-                "comment": str(data.get("comment", "")),
-                "created_at": fb.created_at.isoformat()
-            }
+            # Create feedback entry for JSON (only include approved feedback)
+            if approval_status in ['approved', 'auto_approved']:
+                feedback_entry = {
+                    "id": str(fb.id),
+                    "user_id": str(data.get("user_id", "")),
+                    "location_id": location_id,
+                    "location_name": location_name,
+                    "latitude": lat_val,
+                    "longitude": lon_val,
+                    "place_type": str(data.get("place_type", "general")),
+                    "region": str(data.get("region", "Unknown")),
+                    "rating": rating_val,
+                    "comment": str(data.get("comment", "")),
+                    "created_at": fb.created_at.isoformat(),
+                    "approval_status": approval_status
+                }
             
-            # Initialize feedbacks array if not exists
-            if "feedbacks" not in feedback_data:
-                feedback_data["feedbacks"] = []
-            
-            feedback_data["feedbacks"].append(feedback_entry)
-            feedback_store["write"](feedback_data)
-            print(f"✅ Feedback saved to JSON: {location_id}")
+                # Initialize feedbacks array if not exists
+                if "feedbacks" not in feedback_data:
+                    feedback_data["feedbacks"] = []
+                
+                feedback_data["feedbacks"].append(feedback_entry)
+                feedback_store["write"](feedback_data)
+                print(f"✅ Feedback saved to JSON: {location_id}")
             
         except Exception as e:
             print(f"❌ Warning: Could not save feedback to JSON: {e}")
@@ -704,13 +720,27 @@ def feedback_view(request):
     except (ValueError, IntegrityError) as e:
         return _error_response("invalid_input", f"Invalid input: {e}", status.HTTP_400_BAD_REQUEST)
 
-    # Trigger weight refresh after new feedback
-    try:
-        scoring_engine.update_weights_from_feedback(fb.latitude, fb.longitude)
-    except Exception:
-        pass
+    # Only trigger weight refresh for approved feedback
+    if approval_status in ['approved', 'auto_approved']:
+        try:
+            scoring_engine.update_weights_from_feedback(fb.latitude, fb.longitude)
+        except Exception:
+            pass
 
-    return Response({"id": fb.id, "created_at": fb.created_at}, status=status.HTTP_201_CREATED)
+    # Return response with approval status
+    response_data = {
+        "id": fb.id, 
+        "created_at": fb.created_at,
+        "approval_status": approval_status,
+        "message": "Feedback submitted successfully"
+    }
+    
+    if approval_status == 'auto_approved':
+        response_data["message"] += " and auto-approved"
+    elif approval_status == 'pending':
+        response_data["message"] += " and pending review"
+    
+    return Response(response_data, status=status.HTTP_201_CREATED)
 
 
 @api_view(["GET"])
@@ -740,6 +770,84 @@ def feedback_list_view(request):
         
     except Exception as e:
         return _error_response("json_read_error", f"Could not read feedback data: {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+
+@api_view(["GET"])
+def pending_feedback_view(request):
+    """Get feedback pending manual review."""
+    try:
+        from .services.feedback_validator import feedback_validator
+        pending = feedback_validator.get_pending_feedback()
+        return Response({
+            "count": len(pending),
+            "pending_feedback": pending
+        })
+    except Exception as e:
+        print(f"❌ Error in pending_feedback_view: {e}")
+        return _error_response("fetch_error", f"Could not fetch pending feedback: {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+
+@api_view(["POST"])
+@csrf_exempt
+def approve_feedback_view(request):
+    """Approve a feedback."""
+    try:
+        from .services.feedback_validator import feedback_validator
+        
+        data = request.data or {}
+        feedback_id = data.get('feedback_id')
+        admin_user = data.get('admin_user', 'admin')
+        
+        if not feedback_id:
+            return _error_response("missing_fields", "feedback_id required", status.HTTP_400_BAD_REQUEST)
+        
+        success = feedback_validator.approve_feedback(feedback_id, admin_user)
+        
+        if success:
+            return Response({"message": "Feedback approved successfully"})
+        else:
+            return _error_response("approval_failed", "Failed to approve feedback", status.HTTP_400_BAD_REQUEST)
+    except Exception as e:
+        print(f"❌ Error in approve_feedback_view: {e}")
+        return _error_response("approval_error", f"Error approving feedback: {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+
+@api_view(["POST"])
+@csrf_exempt
+def reject_feedback_view(request):
+    """Reject a feedback."""
+    try:
+        from .services.feedback_validator import feedback_validator
+        
+        data = request.data or {}
+        feedback_id = data.get('feedback_id')
+        admin_user = data.get('admin_user', 'admin')
+        reason = data.get('reason', 'No reason provided')
+        
+        if not feedback_id:
+            return _error_response("missing_fields", "feedback_id required", status.HTTP_400_BAD_REQUEST)
+        
+        success = feedback_validator.reject_feedback(feedback_id, admin_user, reason)
+        
+        if success:
+            return Response({"message": "Feedback rejected successfully"})
+        else:
+            return _error_response("rejection_failed", "Failed to reject feedback", status.HTTP_400_BAD_REQUEST)
+    except Exception as e:
+        print(f"❌ Error in reject_feedback_view: {e}")
+        return _error_response("rejection_error", f"Error rejecting feedback: {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+
+@api_view(["GET"])
+def feedback_statistics_view(request):
+    """Get feedback validation statistics."""
+    try:
+        from .services.feedback_validator import feedback_validator
+        stats = feedback_validator.get_feedback_statistics()
+        return Response(stats)
+    except Exception as e:
+        print(f"❌ Error in feedback_statistics_view: {e}")
+        return _error_response("stats_error", f"Could not fetch statistics: {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 
 @api_view(["GET"])

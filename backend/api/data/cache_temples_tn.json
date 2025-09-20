@@ -252,5 +252,884 @@
       "lon": 80.192808,
       "radius": 800.0
     }
+  },
+  "temples_tn_13.009_80.005_800": {
+    "timestamp": 1758370852.6733706,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008937338572949,
+      "lon": 80.0046248276498,
+      "radius": 800.0
+    }
+  },
+  "temples_tn_13.009_80.004_800": {
+    "timestamp": 1758370907.2176952,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008717559923799,
+      "lon": 80.00440210654706,
+      "radius": 800.0
+    }
+  },
+  "temples_tn_13.009_80.005_2000": {
+    "timestamp": 1758371060.2475243,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008855213021551,
+      "lon": 80.00453832767488,
+      "radius": 2000.0
+    }
+  },
+  "temples_tn_13.009_80.003_800": {
+    "timestamp": 1758371792.4816437,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008533,
+      "lon": 80.003469,
+      "radius": 800.0
+    }
+  },
+  "temples_tn_13.047_80.282_800": {
+    "timestamp": 1758385611.372632,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.047126,
+      "lon": 80.282434,
+      "radius": 800.0
+    }
+  },
+  "temples_tn_12.993_80.218_800": {
+    "timestamp": 1758385703.6566231,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.218143,
+              12.9884372
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "building": "yes",
+            "fixme": "Wrong location - doesn't exist.\nScheduled for deletion.",
+            "name": "Sri Arulmigu Muthumariamman Allayam",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2200094,
+              12.987556
+            ]
+          },
+          "properties": {
+            "addr:city": "Chennai",
+            "addr:postcode": "600042",
+            "addr:street": "Throwpathi Amman Koil 5th Street",
+            "amenity": "place_of_worship",
+            "building": "yes",
+            "name": "Perumal Temple",
+            "religion": "hindu"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 12.992865,
+      "lon": 80.21788,
+      "radius": 800.0
+    }
+  },
+  "temples_tn_12.963_77.578_800": {
+    "timestamp": 1758386971.073659,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5723764,
+              12.9602965
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "designation": "Hanuman Temple",
+            "name": "Anjaneya Temple",
+            "name:kn": "ಆಂಜನೇಯ ದೇವಸ್ಥಾನ",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5789933,
+              12.9587388
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "name": "Mariswamy Matha",
+            "name:kn": "ಮರಿಸ್ವಾಮಿ ಮಠ",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5762859,
+              12.9626153
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "name": "Koti Sri Anjaneya Temple",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.575774,
+              12.962368
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "name": "Koti Dhanvanthri Ganesha Temple",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5766408,
+              12.9615738
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "name": "Jalakanteshwara Temple",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5759104,
+              12.9696095
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "name": "Sri Kanteshwara Swamy Temple",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5790381,
+              12.9686127
+            ]
+          },
+          "properties": {
+            "addr:postcode": "560053",
+            "addr:street": "Avenue Road",
+            "amenity": "place_of_worship",
+            "name": "Balaji Temple",
+            "name:kn": "ಬಾಲಾಜಿ ದೇವಸ್ಥಾನ",
+            "religion": "hindu",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5794819,
+              12.9694658
+            ]
+          },
+          "properties": {
+            "addr:housenumber": "553",
+            "addr:postcode": "560053",
+            "addr:street": "Avenue Road",
+            "alt_name": "Parvathy Someshwara Temple",
+            "amenity": "place_of_worship",
+            "name": "Sri Parvati Someshwara Swamy Temple",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5750367,
+              12.9688981
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "name": "Baneshwar Temple",
+            "religion": "hindu",
+            "survey:date": "2022-07-17"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5846291,
+              12.9632647
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5833357,
+              12.9654636
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "name": "Dharmaraya Swamy Temple",
+            "name:kn": "ಧರ್ಮರಾಯ ಸ್ವಾಮಿ ದೇವಸ್ಥಾನ",
+            "religion": "hindu",
+            "wikidata": "Q2065042",
+            "wikimedia_commons": "Category:Dharmaraya Swamy Temple",
+            "wikipedia": "en:Dharmaraya Swamy Temple"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5741211,
+              12.9595821
+            ]
+          },
+          "properties": {
+            "alt_name": "Kote Lakshmi Venkateshwara Temple",
+            "amenity": "place_of_worship",
+            "heritage": "2",
+            "heritage:operator": "nmma",
+            "heritage:website": "https://nmma.nic.in/nmma/exploreBuiltState.do?state=29",
+            "landuse": "religious",
+            "loc_name": "Sri Venkatramanaswami Temple",
+            "name": "Lakshmi Venkateshwara Temple",
+            "name:kn": "ಲಕ್ಷ್ಮಿ ವೆಂಕಟೇಶ್ವರ ದೇವಸ್ಥಾನ",
+            "official_name": "Kote Shri Prasanna Venkataramana Swami Temple",
+            "ref:nmma": "KR20010665",
+            "religion": "hindu",
+            "start_date": "1689",
+            "wikidata": "Q6433914",
+            "wikipedia": "en:Kote Venkataramana Temple, Bangalore"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5741828,
+              12.9666992
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "building": "temple",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5793311,
+              12.9674719
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "name": "Chamundeshwari Temple",
+            "name:kn": "ಚಾಮುಂಡೇಶ್ವರಿ ದೇವಸ್ಥಾನ",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5793201,
+              12.9674494
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "building": "temple",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5740435,
+              12.9595934
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "building": "temple",
+            "name": "Kote Shri Prasanna Venkataramana Swamy Temple",
+            "religion": "hindu"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 12.962867,
+      "lon": 77.577509,
+      "radius": 800.0
+    }
+  },
+  "temples_tn_12.963_77.578_1000": {
+    "timestamp": 1758387272.6798644,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5735425,
+              12.9709419
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "name": "Sri Kailaseshwara Temple",
+            "name:kn": "ಶ್ರೀ ಕೈಲಾಸೇಶ್ವರ ದೇವಸ್ಥಾನ",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5723764,
+              12.9602965
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "designation": "Hanuman Temple",
+            "name": "Anjaneya Temple",
+            "name:kn": "ಆಂಜನೇಯ ದೇವಸ್ಥಾನ",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5789933,
+              12.9587388
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "name": "Mariswamy Matha",
+            "name:kn": "ಮರಿಸ್ವಾಮಿ ಮಠ",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5701609,
+              12.9608365
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "name": "Adi Shakti Chikka Annamma Temple",
+            "name:kn": "ಆದಿಶಕ್ತಿ ಚಿಕ್ಕ ಅಣ್ಣಮ್ಮ ದೇವಸ್ಥಾನ",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5698739,
+              12.9614011
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "name": "Lakshmi Satyanarana Temple",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5700133,
+              12.9617331
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "name": "Anjaneya Temple",
+            "name:kn": "ಆಂಜನೇಯ ದೇವಸ್ಥಾನ",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5762859,
+              12.9626153
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "name": "Koti Sri Anjaneya Temple",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.575774,
+              12.962368
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "name": "Koti Dhanvanthri Ganesha Temple",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5845939,
+              12.9663581
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5849748,
+              12.9668651
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5755467,
+              12.9542603
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "name": "Maramma Temple",
+            "name:kn": "ಮಾರಮ್ಮ ದೇವಸ್ಥಾನ",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5766408,
+              12.9615738
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "name": "Jalakanteshwara Temple",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5761672,
+              12.9708074
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "name": "Shree Kodahda Ramanjaneya Swamy Temple",
+            "religion": "hindu",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5759104,
+              12.9696095
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "name": "Sri Kanteshwara Swamy Temple",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5790381,
+              12.9686127
+            ]
+          },
+          "properties": {
+            "addr:postcode": "560053",
+            "addr:street": "Avenue Road",
+            "amenity": "place_of_worship",
+            "name": "Balaji Temple",
+            "name:kn": "ಬಾಲಾಜಿ ದೇವಸ್ಥಾನ",
+            "religion": "hindu",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5794819,
+              12.9694658
+            ]
+          },
+          "properties": {
+            "addr:housenumber": "553",
+            "addr:postcode": "560053",
+            "addr:street": "Avenue Road",
+            "alt_name": "Parvathy Someshwara Temple",
+            "amenity": "place_of_worship",
+            "name": "Sri Parvati Someshwara Swamy Temple",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5798033,
+              12.9699453
+            ]
+          },
+          "properties": {
+            "addr:street": "Avenue Road",
+            "amenity": "place_of_worship",
+            "name": "Sri Guru Shanaischara Swamy Temple",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5750367,
+              12.9688981
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "name": "Baneshwar Temple",
+            "religion": "hindu",
+            "survey:date": "2022-07-17"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5846291,
+              12.9632647
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5833357,
+              12.9654636
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "name": "Dharmaraya Swamy Temple",
+            "name:kn": "ಧರ್ಮರಾಯ ಸ್ವಾಮಿ ದೇವಸ್ಥಾನ",
+            "religion": "hindu",
+            "wikidata": "Q2065042",
+            "wikimedia_commons": "Category:Dharmaraya Swamy Temple",
+            "wikipedia": "en:Dharmaraya Swamy Temple"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5837589,
+              12.9674027
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "building": "temple",
+            "name": "Chikka Anamma Temple",
+            "name:kn": "ಚಿಕ್ಕ ಅನ್ನಮ್ಮ",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5741211,
+              12.9595821
+            ]
+          },
+          "properties": {
+            "alt_name": "Kote Lakshmi Venkateshwara Temple",
+            "amenity": "place_of_worship",
+            "heritage": "2",
+            "heritage:operator": "nmma",
+            "heritage:website": "https://nmma.nic.in/nmma/exploreBuiltState.do?state=29",
+            "landuse": "religious",
+            "loc_name": "Sri Venkatramanaswami Temple",
+            "name": "Lakshmi Venkateshwara Temple",
+            "name:kn": "ಲಕ್ಷ್ಮಿ ವೆಂಕಟೇಶ್ವರ ದೇವಸ್ಥಾನ",
+            "official_name": "Kote Shri Prasanna Venkataramana Swami Temple",
+            "ref:nmma": "KR20010665",
+            "religion": "hindu",
+            "start_date": "1689",
+            "wikidata": "Q6433914",
+            "wikipedia": "en:Kote Venkataramana Temple, Bangalore"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5700691,
+              12.9584756
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "building": "temple",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5792557,
+              12.970304
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "building": "temple",
+            "name": "Sri Ranganathaswamy Temple",
+            "name:kn": "ರಂಗನಾಥಸ್ವಾಮಿ ದೇವಸ್ಥಾನ",
+            "religion": "hindu",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5741828,
+              12.9666992
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "building": "temple",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5700521,
+              12.9584747
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "name": "Rameshwara Temple",
+            "name:kn": "ರಾಮೇಶ್ವರ ದೇವಸ್ತಾನ",
+            "religion": "hindu",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5793311,
+              12.9674719
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "name": "Chamundeshwari Temple",
+            "name:kn": "ಚಾಮುಂಡೇಶ್ವರಿ ದೇವಸ್ಥಾನ",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5793201,
+              12.9674494
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "building": "temple",
+            "religion": "hindu"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5740435,
+              12.9595934
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "building": "temple",
+            "name": "Kote Shri Prasanna Venkataramana Swamy Temple",
+            "religion": "hindu"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 12.962867,
+      "lon": 77.577509,
+      "radius": 1000.0
+    }
   }
 }

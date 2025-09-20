@@ -59,5 +59,255 @@
       "lon": 80.192808,
       "radius": 800.0
     }
+  },
+  "police_stations_13.009_80.005_800": {
+    "timestamp": 1758370846.298159,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008937338572949,
+      "lon": 80.0046248276498,
+      "radius": 800.0
+    }
+  },
+  "police_stations_13.009_80.004_800": {
+    "timestamp": 1758370901.5904925,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008717559923799,
+      "lon": 80.00440210654706,
+      "radius": 800.0
+    }
+  },
+  "police_stations_13.009_80.005_2000": {
+    "timestamp": 1758371054.013137,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008855213021551,
+      "lon": 80.00453832767488,
+      "radius": 2000.0
+    }
+  },
+  "police_stations_13.009_80.003_800": {
+    "timestamp": 1758371784.9344406,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008533,
+      "lon": 80.003469,
+      "radius": 800.0
+    }
+  },
+  "police_stations_13.047_80.282_800": {
+    "timestamp": 1758385602.6440587,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.047126,
+      "lon": 80.282434,
+      "radius": 800.0
+    }
+  },
+  "police_stations_12.993_80.218_800": {
+    "timestamp": 1758385694.9538677,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 12.992865,
+      "lon": 80.21788,
+      "radius": 800.0
+    }
+  },
+  "police_stations_12.963_77.578_800": {
+    "timestamp": 1758386960.9386826,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5761878,
+              12.9649402
+            ]
+          },
+          "properties": {
+            "addr:street": "Sultan Road",
+            "alt_name": "City Market Police Station",
+            "amenity": "police",
+            "name": "Krishna Rajendra Market Police Station"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5787039,
+              12.9680176
+            ]
+          },
+          "properties": {
+            "amenity": "police",
+            "name": "Avenue Road Police Chowky"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5720622,
+              12.9601303
+            ]
+          },
+          "properties": {
+            "amenity": "police",
+            "designation": "Central Police Station",
+            "name": "Central Police Station",
+            "name:kn": "ಕೇಂದ್ರಿಯ ಆರಕ್ಷಕ ಠಾಣೆ"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5831297,
+              12.9609483
+            ]
+          },
+          "properties": {
+            "amenity": "police",
+            "building": "yes",
+            "name": "S.J. Park Police"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 12.962867,
+      "lon": 77.577509,
+      "radius": 800.0
+    }
+  },
+  "police_stations_12.963_77.578_1000": {
+    "timestamp": 1758387264.4240873,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5700945,
+              12.9680925
+            ]
+          },
+          "properties": {
+            "amenity": "police",
+            "name": "Cottenpet Police Station",
+            "wheelchair": "no"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5761878,
+              12.9649402
+            ]
+          },
+          "properties": {
+            "addr:street": "Sultan Road",
+            "alt_name": "City Market Police Station",
+            "amenity": "police",
+            "name": "Krishna Rajendra Market Police Station"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5736393,
+              12.9707012
+            ]
+          },
+          "properties": {
+            "amenity": "police",
+            "name": "Chikkapete Police Station",
+            "name:kn": "ಚಿಕ್ಕಪೇಟೆ ಆರಕ್ಷಕ ಠಾಣೆ"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5787039,
+              12.9680176
+            ]
+          },
+          "properties": {
+            "amenity": "police",
+            "name": "Avenue Road Police Chowky"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5720622,
+              12.9601303
+            ]
+          },
+          "properties": {
+            "amenity": "police",
+            "designation": "Central Police Station",
+            "name": "Central Police Station",
+            "name:kn": "ಕೇಂದ್ರಿಯ ಆರಕ್ಷಕ ಠಾಣೆ"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5831297,
+              12.9609483
+            ]
+          },
+          "properties": {
+            "amenity": "police",
+            "building": "yes",
+            "name": "S.J. Park Police"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 12.962867,
+      "lon": 77.577509,
+      "radius": 1000.0
+    }
   }
 }

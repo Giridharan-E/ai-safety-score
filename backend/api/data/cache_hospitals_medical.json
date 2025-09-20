@@ -498,5 +498,762 @@
       "lon": 80.192808,
       "radius": 800.0
     }
+  },
+  "hospitals_medical_13.009_80.005_800": {
+    "timestamp": 1758370847.3437371,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008937338572949,
+      "lon": 80.0046248276498,
+      "radius": 800.0
+    }
+  },
+  "hospitals_medical_13.009_80.004_800": {
+    "timestamp": 1758370902.7029138,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008717559923799,
+      "lon": 80.00440210654706,
+      "radius": 800.0
+    }
+  },
+  "hospitals_medical_13.009_80.005_2000": {
+    "timestamp": 1758371055.2348802,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008855213021551,
+      "lon": 80.00453832767488,
+      "radius": 2000.0
+    }
+  },
+  "hospitals_medical_13.009_80.003_800": {
+    "timestamp": 1758371786.3892443,
+    "data": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "location": {
+      "lat": 13.008533,
+      "lon": 80.003469,
+      "radius": 800.0
+    }
+  },
+  "hospitals_medical_13.047_80.282_800": {
+    "timestamp": 1758385604.6169653,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.280639,
+              13.0527537
+            ]
+          },
+          "properties": {
+            "amenity": "hospital",
+            "healthcare": "hospital"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 13.047126,
+      "lon": 80.282434,
+      "radius": 800.0
+    }
+  },
+  "hospitals_medical_12.993_80.218_800": {
+    "timestamp": 1758385696.438005,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2182467,
+              12.985733
+            ]
+          },
+          "properties": {
+            "amenity": "pharmacy",
+            "name": "Specialist Pharmacy"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2183829,
+              12.9856134
+            ]
+          },
+          "properties": {
+            "addr:street": "7th Cross Street, Rajalaksmi nagar",
+            "amenity": "hospital",
+            "building": "yes",
+            "emergency": "yes",
+            "name": "Xcellent Care Hospital",
+            "operator": "Xcellent Care Super Speciality Hospital ( P ) Ltd.",
+            "website": "http://xcellentcarehospital.com"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 12.992865,
+      "lon": 80.21788,
+      "radius": 800.0
+    }
+  },
+  "hospitals_medical_12.963_77.578_800": {
+    "timestamp": 1758386962.8859317,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5715513,
+              12.9606852
+            ]
+          },
+          "properties": {
+            "amenity": "pharmacy",
+            "check_date": "2025-06-19",
+            "name": "Sri Manjunatha Medical & General Stores"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5736828,
+              12.9671955
+            ]
+          },
+          "properties": {
+            "addr:city": "bangalore",
+            "addr:housenumber": "164",
+            "addr:postcode": "560053",
+            "addr:street": "P.o box 7182,1st floor, sultanpet,",
+            "amenity": "pharmacy",
+            "name": "Fair Deal Pharma (Medkart)",
+            "phone": "080 2234 1736"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5747874,
+              12.9563016
+            ]
+          },
+          "properties": {
+            "addr:district": "Bengaluru Urban",
+            "addr:full": "K. R. Road, V. V. Puram",
+            "addr:postcode": "560004",
+            "addr:state": "Karnataka",
+            "amenity": "hospital",
+            "name": "Kims Hospital and Research Centre",
+            "source": "OpenGovernmentData"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5728562,
+              12.9619528
+            ]
+          },
+          "properties": {
+            "addr:district": "Bengaluru Urban",
+            "addr:full": "Victoria Hospital Campus",
+            "addr:postcode": "560002",
+            "addr:state": "Karnataka",
+            "amenity": "hospital",
+            "healthcare": "hospital",
+            "name": "Institute Of Nephro Urology hospital",
+            "source": "OpenGovernmentData"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5790145,
+              12.9633185
+            ]
+          },
+          "properties": {
+            "addr:district": "Bengaluru Urban",
+            "addr:full": "Near Jamia Masjid, NR Road, Bengaluru",
+            "addr:postcode": "560002",
+            "addr:state": "Karnataka",
+            "amenity": "hospital",
+            "name": "Unani Hospital",
+            "source": "Local Knowledge"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.57708,
+              12.9690341
+            ]
+          },
+          "properties": {
+            "addr:district": "Bengaluru Urban",
+            "addr:full": "Cubbon Pet Main Road, Cubbonpet, Bengaluru",
+            "addr:postcode": "560002",
+            "addr:state": "Karnataka",
+            "amenity": "clinic",
+            "healthcare": "clinic",
+            "name": "Shyam Clinic",
+            "source": "Local Knowledge"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5736948,
+              12.9634957
+            ]
+          },
+          "properties": {
+            "amenity": "hospital",
+            "building": "hospital",
+            "emergency": "yes",
+            "healthcare": "hospital",
+            "heritage": "2",
+            "heritage:operator": "nmma",
+            "heritage:website": "https://nmma.nic.in/nmma/exploreBuiltState.do?state=29",
+            "name": "Victoria Hospital",
+            "name:etymology:wikidata": "Q9439",
+            "name:kn": "ವಿಕ್ಟೋರಿಯಾ ಆಸ್ಪತ್ರೆ",
+            "ref:nmma": "KR20011022",
+            "wheelchair": "yes",
+            "wikidata": "Q7926782",
+            "wikimedia_commons": "Category:Victoria Hospital, Bangalore",
+            "wikipedia": "en:Victoria Hospital (Bangalore Medical College)"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5845256,
+              12.9643477
+            ]
+          },
+          "properties": {
+            "addr:district": "Bengaluru Urban",
+            "addr:full": "Near Town Hall, Sjp Road , South",
+            "addr:postcode": "560002",
+            "addr:state": "Karnataka",
+            "amenity": "hospital",
+            "emergency": "yes",
+            "healthcare": "hospital",
+            "name": "Dasappa Maternity Hospital",
+            "name:kn": "ದಾಸಪ್ಪ ತಿರುಮಲಮ್ಮ ಆಸ್ಪತ್ರೆ",
+            "source": "OpenGovernmentData"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5840403,
+              12.9606538
+            ]
+          },
+          "properties": {
+            "addr:district": "Bengaluru Urban",
+            "addr:full": "Chandrika Tower, JC Road, Bengaluru",
+            "addr:postcode": "560002",
+            "addr:state": "Karnataka",
+            "addr:street": "Jayachamaraja Wodeyar Road",
+            "amenity": "hospital",
+            "healthcare": "hospital",
+            "name": "Trustwell Hospitals",
+            "source": "Local Knowledge",
+            "website": "https://trustwellhospitals.com/"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 12.962867,
+      "lon": 77.577509,
+      "radius": 800.0
+    }
+  },
+  "hospitals_medical_12.963_77.578_1000": {
+    "timestamp": 1758387266.2365744,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5715513,
+              12.9606852
+            ]
+          },
+          "properties": {
+            "amenity": "pharmacy",
+            "check_date": "2025-06-19",
+            "name": "Sri Manjunatha Medical & General Stores"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5736828,
+              12.9671955
+            ]
+          },
+          "properties": {
+            "addr:city": "bangalore",
+            "addr:housenumber": "164",
+            "addr:postcode": "560053",
+            "addr:street": "P.o box 7182,1st floor, sultanpet,",
+            "amenity": "pharmacy",
+            "name": "Fair Deal Pharma (Medkart)",
+            "phone": "080 2234 1736"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.570295,
+              12.9681071
+            ]
+          },
+          "properties": {
+            "addr:city": "bangalore",
+            "addr:housenumber": "76/2",
+            "addr:postcode": "560001",
+            "addr:street": "Avenue Road, Bangalore City",
+            "amenity": "pharmacy",
+            "phone": "+91 80 2287 7428",
+            "source": "www.asklaila.com",
+            "website": "https://www.microlabsltd.com/"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5781228,
+              12.9711822
+            ]
+          },
+          "properties": {
+            "addr:district": "Bengaluru Urban",
+            "addr:full": "7Th Cross, Rangaswamy Temple Street",
+            "addr:postcode": "560053",
+            "addr:state": "Karnataka",
+            "amenity": "hospital",
+            "name": "Amar Hospital",
+            "name:kn": "ಅಮರ್ ಆಸ್ಪತ್ರೆ",
+            "source": "OpenGovernmentData"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5713274,
+              12.9583613
+            ]
+          },
+          "properties": {
+            "addr:district": "Bengaluru Urban",
+            "addr:full": "248,4 Th Main Road Chamarajpet",
+            "addr:postcode": "560018",
+            "addr:state": "Karnataka",
+            "amenity": "clinic",
+            "name": "Jubilee Nursing Home",
+            "source": "OpenGovernmentData"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5770294,
+              12.9717138
+            ]
+          },
+          "properties": {
+            "addr:district": "Bengaluru Urban",
+            "addr:full": "202/3 Mahesh Towers R T Street",
+            "addr:postcode": "560053",
+            "addr:state": "Karnataka",
+            "amenity": "clinic",
+            "name": "Mahesh Clinic",
+            "source": "OpenGovernmentData"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5747874,
+              12.9563016
+            ]
+          },
+          "properties": {
+            "addr:district": "Bengaluru Urban",
+            "addr:full": "K. R. Road, V. V. Puram",
+            "addr:postcode": "560004",
+            "addr:state": "Karnataka",
+            "amenity": "hospital",
+            "name": "Kims Hospital and Research Centre",
+            "source": "OpenGovernmentData"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5830996,
+              12.9563042
+            ]
+          },
+          "properties": {
+            "addr:district": "Bengaluru Urban",
+            "addr:full": "J.C.Road",
+            "addr:postcode": "560002",
+            "addr:state": "Karnataka",
+            "amenity": "hospital",
+            "name": "Bengaluru West Lions Hospital",
+            "operator:type": "private",
+            "source": "OpenGovernmentData",
+            "website": "http://dpal.kar.nic.in/Kanunu%20padakosha%20PDF%20Files/Recognised%20Hospitals.pdf"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5843965,
+              12.9685305
+            ]
+          },
+          "properties": {
+            "addr:district": "Bengaluru Urban",
+            "addr:full": "No 37, Next To Ganesha Temple Near Cubbonpet Market Near Cubbonpet Market",
+            "addr:postcode": "560002",
+            "addr:state": "Karnataka",
+            "amenity": "hospital",
+            "name": "Punarjyoti Eye Hospital, Bengaluru Urban",
+            "source": "OpenGovernmentData"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5728562,
+              12.9619528
+            ]
+          },
+          "properties": {
+            "addr:district": "Bengaluru Urban",
+            "addr:full": "Victoria Hospital Campus",
+            "addr:postcode": "560002",
+            "addr:state": "Karnataka",
+            "amenity": "hospital",
+            "healthcare": "hospital",
+            "name": "Institute Of Nephro Urology hospital",
+            "source": "OpenGovernmentData"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5755649,
+              12.9543465
+            ]
+          },
+          "properties": {
+            "addr:district": "Bengaluru Urban",
+            "addr:full": "506, Aswathankatte Road V V Puram",
+            "addr:postcode": "560004",
+            "addr:state": "Karnataka",
+            "amenity": "hospital",
+            "name": "Venkateswara Hospital, Bengaluru Urban",
+            "name:kn": "ವೆಂಕಟೇಶ್ವರ ಆಸ್ಪತ್ರೆ",
+            "source": "OpenGovernmentData"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5790145,
+              12.9633185
+            ]
+          },
+          "properties": {
+            "addr:district": "Bengaluru Urban",
+            "addr:full": "Near Jamia Masjid, NR Road, Bengaluru",
+            "addr:postcode": "560002",
+            "addr:state": "Karnataka",
+            "amenity": "hospital",
+            "name": "Unani Hospital",
+            "source": "Local Knowledge"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5789065,
+              12.970483
+            ]
+          },
+          "properties": {
+            "addr:district": "Bengaluru Urban",
+            "addr:full": "Anchepet, Chickpet, Bengaluru",
+            "addr:postcode": "560053",
+            "addr:state": "Karnataka",
+            "amenity": "clinic",
+            "name": "Priya Clinic",
+            "source": "Local Knowledge"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5777304,
+              12.9712575
+            ]
+          },
+          "properties": {
+            "addr:district": "Bengaluru Urban",
+            "addr:full": "Rangaswamy Temple Road, Mamulpet, Bengaluru",
+            "addr:postcode": "560053",
+            "addr:state": "Karnataka",
+            "amenity": "clinic",
+            "name": "Sham Singh Clinic",
+            "source": "Local Knowledge"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5734571,
+              12.9702549
+            ]
+          },
+          "properties": {
+            "addr:district": "Bengaluru Urban",
+            "addr:full": "Santhusapet, Bengaluru",
+            "addr:postcode": "560053",
+            "addr:state": "Karnataka",
+            "amenity": "hospital",
+            "name": "Manavarthapet Pregnancy Hospital",
+            "source": "Local Knowledge"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.57708,
+              12.9690341
+            ]
+          },
+          "properties": {
+            "addr:district": "Bengaluru Urban",
+            "addr:full": "Cubbon Pet Main Road, Cubbonpet, Bengaluru",
+            "addr:postcode": "560002",
+            "addr:state": "Karnataka",
+            "amenity": "clinic",
+            "healthcare": "clinic",
+            "name": "Shyam Clinic",
+            "source": "Local Knowledge"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5828736,
+              12.9564805
+            ]
+          },
+          "properties": {
+            "amenity": "pharmacy",
+            "name": "Max Medicals"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5718768,
+              12.9571579
+            ]
+          },
+          "properties": {
+            "addr:housenumber": "38/1",
+            "addr:street": "Pampa Mahakavi Road",
+            "addr:unit": "3",
+            "amenity": "pharmacy",
+            "check_date": "2023-09-09",
+            "dispensing": "yes",
+            "drive_through": "no",
+            "healthcare": "pharmacy",
+            "name": "Sri Lakshminarasimha Drug Centre"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5824398,
+              12.9569057
+            ]
+          },
+          "properties": {
+            "amenity": "hospital",
+            "name": "H Siddiah Referral Hospital"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5736948,
+              12.9634957
+            ]
+          },
+          "properties": {
+            "amenity": "hospital",
+            "building": "hospital",
+            "emergency": "yes",
+            "healthcare": "hospital",
+            "heritage": "2",
+            "heritage:operator": "nmma",
+            "heritage:website": "https://nmma.nic.in/nmma/exploreBuiltState.do?state=29",
+            "name": "Victoria Hospital",
+            "name:etymology:wikidata": "Q9439",
+            "name:kn": "ವಿಕ್ಟೋರಿಯಾ ಆಸ್ಪತ್ರೆ",
+            "ref:nmma": "KR20011022",
+            "wheelchair": "yes",
+            "wikidata": "Q7926782",
+            "wikimedia_commons": "Category:Victoria Hospital, Bangalore",
+            "wikipedia": "en:Victoria Hospital (Bangalore Medical College)"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5845256,
+              12.9643477
+            ]
+          },
+          "properties": {
+            "addr:district": "Bengaluru Urban",
+            "addr:full": "Near Town Hall, Sjp Road , South",
+            "addr:postcode": "560002",
+            "addr:state": "Karnataka",
+            "amenity": "hospital",
+            "emergency": "yes",
+            "healthcare": "hospital",
+            "name": "Dasappa Maternity Hospital",
+            "name:kn": "ದಾಸಪ್ಪ ತಿರುಮಲಮ್ಮ ಆಸ್ಪತ್ರೆ",
+            "source": "OpenGovernmentData"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              77.5840403,
+              12.9606538
+            ]
+          },
+          "properties": {
+            "addr:district": "Bengaluru Urban",
+            "addr:full": "Chandrika Tower, JC Road, Bengaluru",
+            "addr:postcode": "560002",
+            "addr:state": "Karnataka",
+            "addr:street": "Jayachamaraja Wodeyar Road",
+            "amenity": "hospital",
+            "healthcare": "hospital",
+            "name": "Trustwell Hospitals",
+            "source": "Local Knowledge",
+            "website": "https://trustwellhospitals.com/"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 12.962867,
+      "lon": 77.577509,
+      "radius": 1000.0
+    }
   }
 }
