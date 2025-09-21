@@ -19,6 +19,10 @@ urlpatterns = [
     path('feedback/collection-progress/', views.feedback_collection_progress_view, name='feedback-collection-progress'),
     path('feedback/locations-needing/', views.locations_needing_feedback_view, name='locations-needing-feedback'),
     path('feedback/analytics/', views.feedback_analytics_view, name='feedback-analytics'),
+    # Trip recommendation endpoints
+    path('trip/recommendation/', views.trip_recommendation_view, name='trip-recommendation'),
+    path('trip/weather-analysis/', views.trip_weather_analysis_view, name='trip-weather-analysis'),
+    path('trip/tourist-factors/', views.trip_tourist_factors_view, name='trip-tourist-factors'),
     # Google Maps API key endpoint
     path('google-maps-key/', views.google_maps_key_view, name='google-maps-key'),
     # Cached safety data endpoint

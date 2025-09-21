@@ -1464,5 +1464,72 @@
       "lon": 80.2824026,
       "radius": 1000.0
     }
+  },
+  "hospitals_medical_13.05_80.282_800": {
+    "timestamp": 1758419973.090987,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2779849,
+              13.0544077
+            ]
+          },
+          "properties": {
+            "addr:district": "Chennai",
+            "addr:full": "Narayana Krishnaraja Puram, Triplicane",
+            "addr:postcode": "600005",
+            "addr:state": "Tamil Nadu",
+            "amenity": "clinic",
+            "healthcare": "clinic",
+            "name": "Dr. Vasanthi Clinic",
+            "source": "Local Knowledge"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2774772,
+              13.0546321
+            ]
+          },
+          "properties": {
+            "addr:district": "Chennai",
+            "addr:full": "Narayana Krishnaraja Puram",
+            "addr:postcode": "600005",
+            "addr:state": "Tamil Nadu",
+            "amenity": "hospital",
+            "healthcare": "hospital",
+            "name": "Syma Hospital",
+            "source": "Local Knowledge"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.280639,
+              13.0527537
+            ]
+          },
+          "properties": {
+            "amenity": "hospital",
+            "healthcare": "hospital"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 13.049953,
+      "lon": 80.282403,
+      "radius": 800.0
+    }
   }
 }

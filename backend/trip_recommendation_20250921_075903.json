@@ -1,0 +1,181 @@
+{
+  "trip_details": {
+    "start_date": "2025-11-22",
+    "end_date": "2025-12-1",
+    "locations": [
+      {
+        "name": "chennai",
+        "latitude": 13.0843007,
+        "longitude": 80.2704622,
+        "country": "India",
+        "formatted_address": "Chennai, Tamil Nadu, India"
+      },
+      {
+        "name": "bangalore",
+        "latitude": 12.9628669,
+        "longitude": 77.57750899999999,
+        "country": "India",
+        "formatted_address": "Bengaluru, Karnataka, India"
+      },
+      {
+        "name": "delhi",
+        "latitude": 28.7040592,
+        "longitude": 77.10249019999999,
+        "country": "India",
+        "formatted_address": "Delhi, India"
+      }
+    ],
+    "budget": {
+      "total": 200.0,
+      "per_day": 12.0,
+      "currency": "188"
+    },
+    "traveler_profile": {
+      "experience_level": "beginner",
+      "preferences": [
+        "beaches",
+        "parks",
+        "festivals",
+        "temples"
+      ],
+      "group_size": 3
+    }
+  },
+  "recommendation": {
+    "success": true,
+    "data": {
+      "recommendation": {
+        "overall_score": 0.59,
+        "recommendation": "reconsider",
+        "confidence": 0.59,
+        "key_factors": [],
+        "suggestions": [
+          "\ud83e\udd14 Consider alternative dates or destinations",
+          "\ud83d\udccb Review all concerns before booking",
+          "\ud83c\udf92 Prepare for challenging conditions"
+        ],
+        "warnings": []
+      },
+      "weather_analysis": {
+        "overall_weather_score": 0.5055360306368352,
+        "locations": {
+          "chennai": {
+            "weather_score": 0.42,
+            "temperature_range": "25-35\u00b0C (Warm to Hot)",
+            "precipitation_risk": "Low",
+            "humidity_level": "High (70-90%)",
+            "wind_conditions": "Light to Moderate",
+            "visibility": "Good to Excellent",
+            "uv_index": "High (7-10)",
+            "air_quality": "Good"
+          },
+          "bangalore": {
+            "weather_score": 0.63,
+            "temperature_range": "25-35\u00b0C (Warm to Hot)",
+            "precipitation_risk": "Low",
+            "humidity_level": "High (70-90%)",
+            "wind_conditions": "Light to Moderate",
+            "visibility": "Good to Excellent",
+            "uv_index": "High (7-10)",
+            "air_quality": "Good"
+          },
+          "delhi": {
+            "weather_score": 0.46,
+            "temperature_range": "25-35\u00b0C (Warm to Hot)",
+            "precipitation_risk": "Moderate",
+            "humidity_level": "High (70-90%)",
+            "wind_conditions": "Light to Moderate",
+            "visibility": "Good to Excellent",
+            "uv_index": "High (7-10)",
+            "air_quality": "Good"
+          }
+        },
+        "weather_recommendations": [],
+        "extreme_weather_warnings": [],
+        "trip_duration_days": 10,
+        "analysis_date": "2025-09-21T07:58:33.989510"
+      },
+      "tourist_analysis": {
+        "overall_tourist_score": 0.7603786930766084,
+        "locations": {
+          "chennai": {
+            "tourist_score": 0.69,
+            "peak_season": "Off Season - Better prices, fewer crowds",
+            "local_events": "Local festival",
+            "cultural_factors": "Tourist-friendly with some cultural considerations",
+            "transport_availability": "Good - Multiple options available",
+            "safety_advisories": "No major safety concerns",
+            "health_requirements": "Standard vaccinations recommended",
+            "language_barrier": "English widely spoken"
+          },
+          "bangalore": {
+            "tourist_score": 0.68,
+            "peak_season": "Off Season - Better prices, fewer crowds",
+            "local_events": "Cultural celebration",
+            "cultural_factors": "Tourist-friendly with some cultural considerations",
+            "transport_availability": "Good - Multiple options available",
+            "safety_advisories": "No major safety concerns",
+            "health_requirements": "Standard vaccinations recommended",
+            "language_barrier": "English widely spoken"
+          },
+          "delhi": {
+            "tourist_score": 0.91,
+            "peak_season": "Off Season - Better prices, fewer crowds",
+            "local_events": "No major events",
+            "cultural_factors": "Tourist-friendly with some cultural considerations",
+            "transport_availability": "Good - Multiple options available",
+            "safety_advisories": "No major safety concerns",
+            "health_requirements": "Standard vaccinations recommended",
+            "language_barrier": "English widely spoken"
+          }
+        },
+        "tourist_recommendations": [
+          "Excellent tourist conditions in delhi"
+        ],
+        "safety_warnings": [],
+        "trip_duration_days": 10,
+        "analysis_date": "2025-09-21T07:58:33.989510"
+      },
+      "safety_analysis": {
+        "locations": {
+          "chennai": {
+            "safety_score": 0.44,
+            "normalized_score": 0.44,
+            "has_sufficient_feedback": false,
+            "feedback_count": 0,
+            "scoring_method": "ai_only"
+          },
+          "bangalore": {
+            "safety_score": 0.41,
+            "normalized_score": 0.41,
+            "has_sufficient_feedback": false,
+            "feedback_count": 0,
+            "scoring_method": "ai_only"
+          },
+          "delhi": {
+            "safety_score": 0.81,
+            "normalized_score": 0.81,
+            "has_sufficient_feedback": false,
+            "feedback_count": 0,
+            "scoring_method": "ai_only"
+          }
+        },
+        "overall_safety_score": 0.5529202265918362,
+        "safety_recommendations": [],
+        "high_risk_locations": []
+      },
+      "feedback_analysis": {
+        "locations": {},
+        "overall_feedback_score": 0.5,
+        "feedback_recommendations": [],
+        "locations_needing_feedback": []
+      },
+      "cost_analysis": {
+        "cost_effectiveness_score": 0.7,
+        "budget_compatibility": "good",
+        "cost_recommendations": []
+      }
+    }
+  },
+  "generated_at": "2025-09-21T07:59:03.693520"
+}

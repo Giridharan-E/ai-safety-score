@@ -1493,5 +1493,262 @@
       "lon": 80.2824026,
       "radius": 1000.0
     }
+  },
+  "tourist_places_tn_13.05_80.282_800": {
+    "timestamp": 1758419977.638728,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2805333,
+              13.0504233
+            ]
+          },
+          "properties": {
+            "artwork_type": "statue",
+            "name": "Annie Besant",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2803965,
+              13.049125
+            ]
+          },
+          "properties": {
+            "artwork_type": "statue",
+            "name": "Swami Vivekananda",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2804468,
+              13.0492
+            ]
+          },
+          "properties": {
+            "artwork_type": "statue",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2803258,
+              13.0491814
+            ]
+          },
+          "properties": {
+            "artwork_type": "statue",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2803112,
+              13.0490904
+            ]
+          },
+          "properties": {
+            "artwork_type": "statue",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2804189,
+              13.0490429
+            ]
+          },
+          "properties": {
+            "artwork_type": "statue",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2803176,
+              13.0455704
+            ]
+          },
+          "properties": {
+            "board_type": "welcome_sign",
+            "information": "board",
+            "name": "Chennai Sign",
+            "tourism": "information"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2803485,
+              13.0462537
+            ]
+          },
+          "properties": {
+            "artwork_type": "statue",
+            "name": "Avvaiyar",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2806395,
+              13.0483888
+            ]
+          },
+          "properties": {
+            "artwork_type": "statue",
+            "name": "Bharathidasan",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2811571,
+              13.0518929
+            ]
+          },
+          "properties": {
+            "artwork_type": "statue",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2815681,
+              13.0544375
+            ]
+          },
+          "properties": {
+            "artwork_type": "statue",
+            "name": "Thiruvalluvar",
+            "name:en": "Thiruvalluvar",
+            "name:ta": "திருவள்ளுவர்",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2819141,
+              13.0561486
+            ]
+          },
+          "properties": {
+            "artwork_type": "statue",
+            "name": "Subhas Chandra Bose",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2800846,
+              13.0474769
+            ]
+          },
+          "properties": {
+            "artwork_type": "statue",
+            "name": "Jayaram Jayalalithaa",
+            "tourism": "artwork"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2811507,
+              13.0490081
+            ]
+          },
+          "properties": {
+            "addr:street": "Marina Beach Road",
+            "name": "மாற்று திறனாளிகளுக்கான மரப்பாதை",
+            "name:en": "Differently Abled Wooden Path",
+            "tourism": "information"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2802685,
+              13.0495709
+            ]
+          },
+          "properties": {
+            "area": "yes",
+            "name": "Vivekanandar Illam",
+            "tourism": "attraction",
+            "wikidata": "Q3350092",
+            "wikimedia_commons": "Category:Vivekanandar Illam",
+            "wikipedia": "en:Vivekanandar Illam"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2803222,
+              13.049483
+            ]
+          },
+          "properties": {
+            "building": "yes",
+            "building:levels": "3",
+            "name": "Vivekananda Heritage Museum",
+            "name:etymology:wikidata": "Q47478",
+            "tourism": "museum"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 13.049953,
+      "lon": 80.282403,
+      "radius": 800.0
+    }
   }
 }

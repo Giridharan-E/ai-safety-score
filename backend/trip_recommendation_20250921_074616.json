@@ -1,0 +1,175 @@
+{
+  "trip_details": {
+    "start_date": "2025-11-23",
+    "end_date": "2025-12-11",
+    "locations": [
+      {
+        "name": "chennai",
+        "latitude": 13.0843,
+        "longitude": 80.2705,
+        "country": "india"
+      },
+      {
+        "name": "Madurai",
+        "latitude": 9.9252,
+        "longitude": 78.1198,
+        "country": "india"
+      },
+      {
+        "name": "madurai",
+        "latitude": 9.9252,
+        "longitude": 78.1198,
+        "country": "india"
+      }
+    ],
+    "budget": {
+      "total": 100.0,
+      "per_day": 12.0,
+      "currency": "98"
+    },
+    "traveler_profile": {
+      "experience_level": "beginner",
+      "preferences": [
+        "beaches"
+      ],
+      "group_size": 3
+    }
+  },
+  "recommendation": {
+    "success": true,
+    "data": {
+      "recommendation": {
+        "overall_score": 0.59,
+        "recommendation": "reconsider",
+        "confidence": 0.59,
+        "key_factors": [],
+        "suggestions": [
+          "\ud83e\udd14 Consider alternative dates or destinations",
+          "\ud83d\udccb Review all concerns before booking",
+          "\ud83c\udf92 Prepare for challenging conditions"
+        ],
+        "warnings": []
+      },
+      "weather_analysis": {
+        "overall_weather_score": 0.4872662192065742,
+        "locations": {
+          "chennai": {
+            "weather_score": 0.58,
+            "temperature_range": "25-35\u00b0C (Warm to Hot)",
+            "precipitation_risk": "High",
+            "humidity_level": "High (70-90%)",
+            "wind_conditions": "Light to Moderate",
+            "visibility": "Good to Excellent",
+            "uv_index": "High (7-10)",
+            "air_quality": "Good"
+          },
+          "Madurai": {
+            "weather_score": 0.45,
+            "temperature_range": "25-35\u00b0C (Warm to Hot)",
+            "precipitation_risk": "Low",
+            "humidity_level": "High (70-90%)",
+            "wind_conditions": "Light to Moderate",
+            "visibility": "Good to Excellent",
+            "uv_index": "High (7-10)",
+            "air_quality": "Good"
+          },
+          "madurai": {
+            "weather_score": 0.43,
+            "temperature_range": "25-35\u00b0C (Warm to Hot)",
+            "precipitation_risk": "Moderate",
+            "humidity_level": "High (70-90%)",
+            "wind_conditions": "Light to Moderate",
+            "visibility": "Good to Excellent",
+            "uv_index": "High (7-10)",
+            "air_quality": "Good"
+          }
+        },
+        "weather_recommendations": [],
+        "extreme_weather_warnings": [],
+        "trip_duration_days": 19,
+        "analysis_date": "2025-09-21T07:45:32.834104"
+      },
+      "tourist_analysis": {
+        "overall_tourist_score": 0.7177429461511807,
+        "locations": {
+          "chennai": {
+            "tourist_score": 0.81,
+            "peak_season": "Off Season - Better prices, fewer crowds",
+            "local_events": "No major events",
+            "cultural_factors": "Tourist-friendly with some cultural considerations",
+            "transport_availability": "Good - Multiple options available",
+            "safety_advisories": "No major safety concerns",
+            "health_requirements": "Standard vaccinations recommended",
+            "language_barrier": "English widely spoken"
+          },
+          "Madurai": {
+            "tourist_score": 0.71,
+            "peak_season": "Off Season - Better prices, fewer crowds",
+            "local_events": "Local festival",
+            "cultural_factors": "Tourist-friendly with some cultural considerations",
+            "transport_availability": "Good - Multiple options available",
+            "safety_advisories": "No major safety concerns",
+            "health_requirements": "Standard vaccinations recommended",
+            "language_barrier": "English widely spoken"
+          },
+          "madurai": {
+            "tourist_score": 0.64,
+            "peak_season": "Off Season - Better prices, fewer crowds",
+            "local_events": "Sports event",
+            "cultural_factors": "Tourist-friendly with some cultural considerations",
+            "transport_availability": "Good - Multiple options available",
+            "safety_advisories": "No major safety concerns",
+            "health_requirements": "Standard vaccinations recommended",
+            "language_barrier": "English widely spoken"
+          }
+        },
+        "tourist_recommendations": [
+          "Excellent tourist conditions in chennai"
+        ],
+        "safety_warnings": [],
+        "trip_duration_days": 19,
+        "analysis_date": "2025-09-21T07:45:32.834104"
+      },
+      "safety_analysis": {
+        "locations": {
+          "chennai": {
+            "safety_score": 0.56,
+            "normalized_score": 0.56,
+            "has_sufficient_feedback": false,
+            "feedback_count": 0,
+            "scoring_method": "ai_only"
+          },
+          "Madurai": {
+            "safety_score": 0.58,
+            "normalized_score": 0.58,
+            "has_sufficient_feedback": false,
+            "feedback_count": 0,
+            "scoring_method": "ai_only"
+          },
+          "madurai": {
+            "safety_score": 0.67,
+            "normalized_score": 0.67,
+            "has_sufficient_feedback": false,
+            "feedback_count": 0,
+            "scoring_method": "ai_only"
+          }
+        },
+        "overall_safety_score": 0.6061912032940046,
+        "safety_recommendations": [],
+        "high_risk_locations": []
+      },
+      "feedback_analysis": {
+        "locations": {},
+        "overall_feedback_score": 0.5,
+        "feedback_recommendations": [],
+        "locations_needing_feedback": []
+      },
+      "cost_analysis": {
+        "cost_effectiveness_score": 0.7,
+        "budget_compatibility": "good",
+        "cost_recommendations": []
+      }
+    }
+  },
+  "generated_at": "2025-09-21T07:46:16.450273"
+}

@@ -1228,5 +1228,57 @@
       "lon": 80.2824026,
       "radius": 1000.0
     }
+  },
+  "temples_tn_13.05_80.282_800": {
+    "timestamp": 1758419979.2588162,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2764546,
+              13.0539647
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "denomination": "vaishnavism",
+            "name": "Sri Parthasarathy Koil",
+            "name:ta": "ஶ்ரீ பார்த்தாசாரதி கோயில்",
+            "religion": "hindu",
+            "wikidata": "Q3522649",
+            "wikimedia_commons": "Category:Parthasarathy Temple, Triplicane",
+            "wikipedia": "en:Parthasarathy Temple, Chennai"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2763571,
+              13.0539452
+            ]
+          },
+          "properties": {
+            "amenity": "place_of_worship",
+            "building": "temple",
+            "denomination": "vaishnavism",
+            "name": "Arulmigu Parthasarathy Swamy Temple",
+            "name:ta": "அருள்மிகு பார்த்தசாரதி சுவாமி திருக்கோயில்",
+            "religion": "hindu",
+            "type": "multipolygon"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 13.049953,
+      "lon": 80.282403,
+      "radius": 800.0
+    }
   }
 }

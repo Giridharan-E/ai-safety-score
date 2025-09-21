@@ -5973,5 +5973,202 @@
       "lon": 80.2824026,
       "radius": 1000.0
     }
+  },
+  "sidewalks_pedestrian_13.05_80.282_800": {
+    "timestamp": 1758419976.1624541,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2811657,
+              13.0509921
+            ]
+          },
+          "properties": {
+            "highway": "service",
+            "sidewalk": "both",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2805365,
+              13.0523486
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "sidewalk": "both"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2813244,
+              13.0525943
+            ]
+          },
+          "properties": {
+            "highway": "footway"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2814235,
+              13.0518503
+            ]
+          },
+          "properties": {
+            "highway": "footway"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2811604,
+              13.0505516
+            ]
+          },
+          "properties": {
+            "highway": "footway"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2806566,
+              13.0480821
+            ]
+          },
+          "properties": {
+            "highway": "footway"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2819467,
+              13.0557662
+            ]
+          },
+          "properties": {
+            "highway": "primary",
+            "lit": "yes",
+            "name": "Kamarajar Salai",
+            "name:en": "Kamarajar Promenade",
+            "name:etymology:wikidata": "Q522048",
+            "name:ta": "காமராஜர் சாலை",
+            "oneway": "yes",
+            "sidewalk": "both",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2770576,
+              13.0453215
+            ]
+          },
+          "properties": {
+            "highway": "pedestrian"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2807413,
+              13.0553928
+            ]
+          },
+          "properties": {
+            "highway": "pedestrian"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2803323,
+              13.0553206
+            ]
+          },
+          "properties": {
+            "highway": "pedestrian"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2804245,
+              13.055326
+            ]
+          },
+          "properties": {
+            "bridge": "yes",
+            "highway": "pedestrian",
+            "layer": "1"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2803234,
+              13.0451153
+            ]
+          },
+          "properties": {
+            "highway": "footway"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2808108,
+              13.0515641
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "service",
+            "sidewalk": "both"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 13.049953,
+      "lon": 80.282403,
+      "radius": 800.0
+    }
   }
 }

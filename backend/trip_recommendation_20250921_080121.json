@@ -1,0 +1,178 @@
+{
+  "trip_details": {
+    "start_date": "2025-11-12",
+    "end_date": "2025-12-2",
+    "locations": [
+      {
+        "name": "chennai",
+        "latitude": 13.0843007,
+        "longitude": 80.2704622,
+        "country": "India",
+        "formatted_address": "Chennai, Tamil Nadu, India"
+      },
+      {
+        "name": "bangalore",
+        "latitude": 12.9628669,
+        "longitude": 77.57750899999999,
+        "country": "India",
+        "formatted_address": "Bengaluru, Karnataka, India"
+      },
+      {
+        "name": "mysore",
+        "latitude": 12.2958104,
+        "longitude": 76.6393805,
+        "country": "India",
+        "formatted_address": "Mysuru, Karnataka, India"
+      }
+    ],
+    "budget": {
+      "total": 200.0,
+      "per_day": 10.0,
+      "currency": "190"
+    },
+    "traveler_profile": {
+      "experience_level": "beginner",
+      "preferences": [
+        "beaches",
+        "parks",
+        "hill stations"
+      ],
+      "group_size": 4
+    }
+  },
+  "recommendation": {
+    "success": true,
+    "data": {
+      "recommendation": {
+        "overall_score": 0.66,
+        "recommendation": "proceed_with_caution",
+        "confidence": 0.66,
+        "key_factors": [],
+        "suggestions": [
+          "\u26a0\ufe0f Trip is recommended with some precautions",
+          "\ud83d\udccb Research specific locations and plan accordingly",
+          "\ud83c\udf92 Pack for variable conditions"
+        ],
+        "warnings": []
+      },
+      "weather_analysis": {
+        "overall_weather_score": 0.6613011719291608,
+        "locations": {
+          "chennai": {
+            "weather_score": 0.52,
+            "temperature_range": "25-35\u00b0C (Warm to Hot)",
+            "precipitation_risk": "Low",
+            "humidity_level": "High (70-90%)",
+            "wind_conditions": "Light to Moderate",
+            "visibility": "Good to Excellent",
+            "uv_index": "High (7-10)",
+            "air_quality": "Good"
+          },
+          "bangalore": {
+            "weather_score": 0.75,
+            "temperature_range": "25-35\u00b0C (Warm to Hot)",
+            "precipitation_risk": "Moderate",
+            "humidity_level": "High (70-90%)",
+            "wind_conditions": "Light to Moderate",
+            "visibility": "Good to Excellent",
+            "uv_index": "High (7-10)",
+            "air_quality": "Good"
+          },
+          "mysore": {
+            "weather_score": 0.72,
+            "temperature_range": "25-35\u00b0C (Warm to Hot)",
+            "precipitation_risk": "High",
+            "humidity_level": "High (70-90%)",
+            "wind_conditions": "Light to Moderate",
+            "visibility": "Good to Excellent",
+            "uv_index": "High (7-10)",
+            "air_quality": "Good"
+          }
+        },
+        "weather_recommendations": [],
+        "extreme_weather_warnings": [],
+        "trip_duration_days": 21,
+        "analysis_date": "2025-09-21T08:00:36.703641"
+      },
+      "tourist_analysis": {
+        "overall_tourist_score": 0.7221493780299229,
+        "locations": {
+          "chennai": {
+            "tourist_score": 0.79,
+            "peak_season": "Off Season - Better prices, fewer crowds",
+            "local_events": "Cultural celebration",
+            "cultural_factors": "Tourist-friendly with some cultural considerations",
+            "transport_availability": "Good - Multiple options available",
+            "safety_advisories": "No major safety concerns",
+            "health_requirements": "Standard vaccinations recommended",
+            "language_barrier": "English widely spoken"
+          },
+          "bangalore": {
+            "tourist_score": 0.75,
+            "peak_season": "Off Season - Better prices, fewer crowds",
+            "local_events": "Cultural celebration",
+            "cultural_factors": "Tourist-friendly with some cultural considerations",
+            "transport_availability": "Good - Multiple options available",
+            "safety_advisories": "No major safety concerns",
+            "health_requirements": "Standard vaccinations recommended",
+            "language_barrier": "English widely spoken"
+          },
+          "mysore": {
+            "tourist_score": 0.63,
+            "peak_season": "Off Season - Better prices, fewer crowds",
+            "local_events": "Cultural celebration",
+            "cultural_factors": "Tourist-friendly with some cultural considerations",
+            "transport_availability": "Good - Multiple options available",
+            "safety_advisories": "No major safety concerns",
+            "health_requirements": "Standard vaccinations recommended",
+            "language_barrier": "English widely spoken"
+          }
+        },
+        "tourist_recommendations": [],
+        "safety_warnings": [],
+        "trip_duration_days": 21,
+        "analysis_date": "2025-09-21T08:00:36.703641"
+      },
+      "safety_analysis": {
+        "locations": {
+          "chennai": {
+            "safety_score": 0.82,
+            "normalized_score": 0.82,
+            "has_sufficient_feedback": false,
+            "feedback_count": 0,
+            "scoring_method": "ai_only"
+          },
+          "bangalore": {
+            "safety_score": 0.56,
+            "normalized_score": 0.56,
+            "has_sufficient_feedback": false,
+            "feedback_count": 0,
+            "scoring_method": "ai_only"
+          },
+          "mysore": {
+            "safety_score": 0.68,
+            "normalized_score": 0.68,
+            "has_sufficient_feedback": false,
+            "feedback_count": 0,
+            "scoring_method": "ai_only"
+          }
+        },
+        "overall_safety_score": 0.6870351806101173,
+        "safety_recommendations": [],
+        "high_risk_locations": []
+      },
+      "feedback_analysis": {
+        "locations": {},
+        "overall_feedback_score": 0.5,
+        "feedback_recommendations": [],
+        "locations_needing_feedback": []
+      },
+      "cost_analysis": {
+        "cost_effectiveness_score": 0.7,
+        "budget_compatibility": "good",
+        "cost_recommendations": []
+      }
+    }
+  },
+  "generated_at": "2025-09-21T08:01:21.610939"
+}

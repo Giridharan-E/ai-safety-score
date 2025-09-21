@@ -50530,5 +50530,1647 @@
       "lon": 80.2824026,
       "radius": 1000.0
     }
+  },
+  "visibility_factors_13.05_80.282_800": {
+    "timestamp": 1758419984.026719,
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2803664,
+              13.050668
+            ]
+          },
+          "properties": {
+            "highway": "secondary",
+            "name": "Besant Road",
+            "name:etymology:wikidata": "Q464318",
+            "oneway": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2762809,
+              13.0518543
+            ]
+          },
+          "properties": {
+            "highway": "secondary",
+            "name": "Besant Road",
+            "name:etymology:wikidata": "Q464318"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2728671,
+              13.0470797
+            ]
+          },
+          "properties": {
+            "highway": "tertiary",
+            "name": "Avvai Shanmugam Salai",
+            "name:etymology:wikidata": "Q16749799",
+            "old_name": "Lloyds Road"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2782127,
+              13.0568206
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "Car Street"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2787669,
+              13.0545193
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "Venkatrangam Street",
+            "name:ta": "வெங்கடரங்கன் தெரு"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2808511,
+              13.053091
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "Sunkuwar Street"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2750024,
+              13.0506065
+            ]
+          },
+          "properties": {
+            "highway": "tertiary",
+            "name": "Irusappa Gramani Street"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.276367,
+              13.054193
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "Peyalwar Koil Street",
+            "name:ta": "பேயாழ்வார் கோயில் தெரு"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2771621,
+              13.0522793
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "Bandala Venugopal Naidu Street"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2777651,
+              13.0534871
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "South Tank Square Street"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2794119,
+              13.0545037
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "surface": "dirt"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2801819,
+              13.0541209
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2795511,
+              13.0530206
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "Arimuthu Achari Street"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2790586,
+              13.0525222
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "Arimuthu Maistry Street"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2782079,
+              13.0524671
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "Hanumantha Rayan Koil Street"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2775522,
+              13.0524091
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "Thulasinga perumal koil lane 2"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2770537,
+              13.0529832
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "Thulasinga Perumal Koil 1st Lane"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2765361,
+              13.0531657
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2765938,
+              13.0537333
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "South Mada Street",
+            "name:ta": "தெற்கு மாட வீதி"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2797303,
+              13.0549865
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2769438,
+              13.0558034
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "Singarachari Street",
+            "name:ta": "சிங்கராச்சாரி தெரு"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.278574,
+              13.0553544
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "V.R. Pillai Street"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2782662,
+              13.054247
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "North Tank Square Street"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2761325,
+              13.0450102
+            ]
+          },
+          "properties": {
+            "highway": "tertiary",
+            "name": "Rotary Nagar Main Road"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2766611,
+              13.0509572
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "Gajapathy Lala Street"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2760052,
+              13.0506488
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2750923,
+              13.0488945
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2751665,
+              13.0494515
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2756633,
+              13.0494235
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2756898,
+              13.0497927
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2753388,
+              13.0506907
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2756356,
+              13.0490164
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2756133,
+              13.049232
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2758746,
+              13.048636
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2758594,
+              13.0488233
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2756797,
+              13.0496127
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2765864,
+              13.0521891
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2778364,
+              13.0527523
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2783548,
+              13.0470545
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "Nadukupam 5th Street"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2754141,
+              13.0483016
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2765529,
+              13.0464587
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2769737,
+              13.0449297
+            ]
+          },
+          "properties": {
+            "highway": "tertiary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2820808,
+              13.0557333
+            ]
+          },
+          "properties": {
+            "highway": "primary",
+            "lit": "yes",
+            "name": "Kamarajar Salai",
+            "name:en": "Kamarajar Promenade",
+            "name:etymology:wikidata": "Q522048",
+            "name:ta": "காமராஜர் சாலை",
+            "oneway": "yes",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.276745,
+              13.0523716
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2812417,
+              13.0560855
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2806524,
+              13.0547021
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2780685,
+              13.0482638
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2806819,
+              13.0562263
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "Mattankuppam Foot Bridge"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.276159,
+              13.0492883
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2754542,
+              13.0499291
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "Kandappa Mudali Street"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2756333,
+              13.0541472
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "T. P. Koil Street",
+            "name:ta": "துளசிங்க பெருமாள் கோயில் தெரு"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2763804,
+              13.0516646
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2802845,
+              13.0555548
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.276864,
+              13.0549081
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2786918,
+              13.0546608
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.277744,
+              13.054615
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "Car Street",
+            "name:ta": "தேரடித் தெரு"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2782367,
+              13.0537569
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "East Tank Square Street"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2786931,
+              13.055994
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2804675,
+              13.0562755
+            ]
+          },
+          "properties": {
+            "bridge": "yes",
+            "highway": "residential",
+            "layer": "1",
+            "name": "Mattankuppam Foot Bridge"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2794649,
+              13.0506782
+            ]
+          },
+          "properties": {
+            "highway": "secondary",
+            "name": "Besant Road",
+            "name:etymology:wikidata": "Q464318"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2787473,
+              13.0464207
+            ]
+          },
+          "properties": {
+            "highway": "tertiary",
+            "name": "Avvai Shanmugam Salai",
+            "name:etymology:wikidata": "Q16749799",
+            "old_name": "Lloyds Road"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2803358,
+              13.0532849
+            ]
+          },
+          "properties": {
+            "bridge": "yes",
+            "highway": "residential",
+            "layer": "1",
+            "name": "Sunkuwar Street"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2780131,
+              13.0433728
+            ]
+          },
+          "properties": {
+            "highway": "primary",
+            "name": "Dr Radhakrishnan Salai",
+            "name:etymology:wikidata": "Q156349",
+            "name:ta": "டாக்டர் ராதாகிருஷ்ணன் சாலை",
+            "old_name": "Edward Elliots Road",
+            "oneway": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2795606,
+              13.0536916
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "Sunkuwar Street"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2789506,
+              13.0508771
+            ]
+          },
+          "properties": {
+            "bridge": "yes",
+            "highway": "secondary",
+            "layer": "1",
+            "name": "Besant Road",
+            "name:etymology:wikidata": "Q464318"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2770964,
+              13.046625
+            ]
+          },
+          "properties": {
+            "bridge": "yes",
+            "highway": "tertiary",
+            "layer": "1",
+            "name": "Avvai Shanmugam Salai",
+            "name:etymology:wikidata": "Q16749799",
+            "old_name": "Lloyds Road"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2776258,
+              13.0488726
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "Venkatrangam Street"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2805365,
+              13.0523486
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "sidewalk": "both"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2754413,
+              13.0466871
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2756491,
+              13.0492245
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "Ramnagar 4th Lane"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2788852,
+              13.0497174
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "Neelam Basha Dargha Street"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.277264,
+              13.0552906
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "Nagoji Street"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2802284,
+              13.0508351
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2765925,
+              13.054493
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2798128,
+              13.0520079
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2802535,
+              13.0516471
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2819467,
+              13.0557662
+            ]
+          },
+          "properties": {
+            "highway": "primary",
+            "lit": "yes",
+            "name": "Kamarajar Salai",
+            "name:en": "Kamarajar Promenade",
+            "name:etymology:wikidata": "Q522048",
+            "name:ta": "காமராஜர் சாலை",
+            "oneway": "yes",
+            "sidewalk": "both",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2773266,
+              13.0540295
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "North Mada Street"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2770604,
+              13.0540871
+            ]
+          },
+          "properties": {
+            "covered": "yes",
+            "highway": "residential",
+            "name": "North Mada Street"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2800539,
+              13.0515237
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2800853,
+              13.0520586
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2800869,
+              13.0517697
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2798323,
+              13.0512111
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2797159,
+              13.0507871
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.280006,
+              13.0511866
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2800797,
+              13.0481425
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "source": "maxar"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2785971,
+              13.0479843
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "DIET Chennai Road",
+            "source": "maxar"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2798114,
+              13.0538832
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "source": "maxar"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2792108,
+              13.0566284
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "source": "maxar"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2784213,
+              13.0532379
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential",
+            "name": "South Tank Square Street"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2802777,
+              13.0562778
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "Station Road",
+            "name:ur": "اسٹیشن روڈ"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2762276,
+              13.0524346
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2760437,
+              13.0522891
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2759475,
+              13.0525412
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2761154,
+              13.0525466
+            ]
+          },
+          "properties": {
+            "access": "private",
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2758811,
+              13.0529664
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2763231,
+              13.0507348
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2793813,
+              13.0545883
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2778884,
+              13.0531293
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2763095,
+              13.0463912
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2759502,
+              13.0464416
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2762513,
+              13.0459683
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2800302,
+              13.0484069
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2771659,
+              13.0490486
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2781341,
+              13.0532774
+            ]
+          },
+          "properties": {
+            "highway": "residential",
+            "name": "South Tank Square Street"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2765642,
+              13.0542208
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2761584,
+              13.0519964
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2782677,
+              13.0528737
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2783748,
+              13.0484246
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2774423,
+              13.0484181
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2776528,
+              13.0491863
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2781765,
+              13.0478439
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2789257,
+              13.0558679
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2804166,
+              13.0520099
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2792192,
+              13.054141
+            ]
+          },
+          "properties": {
+            "highway": "residential"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2803189,
+              13.0502872
+            ]
+          },
+          "properties": {
+            "highway": "secondary",
+            "name": "Besant Road",
+            "name:etymology:wikidata": "Q464318",
+            "oneway": "yes"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              80.2797078,
+              13.0433252
+            ]
+          },
+          "properties": {
+            "highway": "primary",
+            "oneway": "yes"
+          }
+        }
+      ]
+    },
+    "location": {
+      "lat": 13.049953,
+      "lon": 80.282403,
+      "radius": 800.0
+    }
   }
 }

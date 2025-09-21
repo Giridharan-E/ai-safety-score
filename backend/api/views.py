@@ -946,6 +946,177 @@ def feedback_analytics_view(request):
         return _error_response("analytics_error", f"Could not fetch feedback analytics: {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 
+@api_view(["POST"])
+@csrf_exempt
+def trip_recommendation_view(request):
+    """Generate comprehensive trip recommendation based on multiple factors."""
+    try:
+        data = request.data or {}
+        
+        # Validate required fields
+        required_fields = ["start_date", "end_date", "locations"]
+        missing_fields = [field for field in required_fields if field not in data]
+        
+        if missing_fields:
+            return _error_response(
+                "missing_fields", 
+                f"Missing required fields: {', '.join(missing_fields)}", 
+                status.HTTP_400_BAD_REQUEST
+            )
+        
+        # Validate locations
+        locations = data.get("locations", [])
+        if not isinstance(locations, list) or len(locations) == 0:
+            return _error_response(
+                "invalid_locations", 
+                "Locations must be a non-empty list", 
+                status.HTTP_400_BAD_REQUEST
+            )
+        
+        # Validate each location
+        for i, location in enumerate(locations):
+            if not isinstance(location, dict):
+                return _error_response(
+                    "invalid_location", 
+                    f"Location {i+1} must be a dictionary", 
+                    status.HTTP_400_BAD_REQUEST
+                )
+            
+            required_location_fields = ["latitude", "longitude"]
+            missing_location_fields = [
+                field for field in required_location_fields 
+                if field not in location or location[field] is None
+            ]
+            
+            if missing_location_fields:
+                return _error_response(
+                    "invalid_location", 
+                    f"Location {i+1} missing required fields: {', '.join(missing_location_fields)}", 
+                    status.HTTP_400_BAD_REQUEST
+                )
+            
+            # Validate coordinates
+            try:
+                lat = float(location["latitude"])
+                lon = float(location["longitude"])
+                if not (-90.0 <= lat <= 90.0 and -180.0 <= lon <= 180.0):
+                    return _error_response(
+                        "invalid_coordinates", 
+                        f"Location {i+1} has invalid coordinates", 
+                        status.HTTP_400_BAD_REQUEST
+                    )
+            except (ValueError, TypeError):
+                return _error_response(
+                    "invalid_coordinates", 
+                    f"Location {i+1} has invalid coordinate format", 
+                    status.HTTP_400_BAD_REQUEST
+                )
+        
+        # Prepare trip details
+        trip_details = {
+            "start_date": data["start_date"],
+            "end_date": data["end_date"],
+            "locations": locations,
+            "budget": data.get("budget"),
+            "traveler_profile": data.get("traveler_profile", {})
+        }
+        
+        # Generate trip recommendation
+        from .services.trip_recommendation_engine import trip_recommendation_engine
+        recommendation = trip_recommendation_engine.generate_trip_recommendation(trip_details)
+        
+        return Response({
+            "success": True,
+            "data": recommendation
+        })
+        
+    except Exception as e:
+        print(f"❌ Error in trip_recommendation_view: {e}")
+        return _error_response("recommendation_error", f"Could not generate trip recommendation: {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+
+@api_view(["GET"])
+def trip_weather_analysis_view(request):
+    """Get weather analysis for trip planning."""
+    try:
+        start_date = request.GET.get('start_date')
+        end_date = request.GET.get('end_date')
+        locations_param = request.GET.get('locations')
+        
+        if not all([start_date, end_date, locations_param]):
+            return _error_response(
+                "missing_parameters", 
+                "Missing required parameters: start_date, end_date, locations", 
+                status.HTTP_400_BAD_REQUEST
+            )
+        
+        # Parse locations (JSON string)
+        try:
+            import json
+            locations = json.loads(locations_param)
+        except json.JSONDecodeError:
+            return _error_response(
+                "invalid_locations", 
+                "Locations must be a valid JSON array", 
+                status.HTTP_400_BAD_REQUEST
+            )
+        
+        from .services.trip_weather_service import trip_weather_service
+        weather_analysis = trip_weather_service.analyze_trip_weather(
+            locations, start_date, end_date
+        )
+        
+        return Response({
+            "success": True,
+            "data": weather_analysis
+        })
+        
+    except Exception as e:
+        print(f"❌ Error in trip_weather_analysis_view: {e}")
+        return _error_response("weather_error", f"Could not analyze weather: {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+
+@api_view(["GET"])
+def trip_tourist_factors_view(request):
+    """Get tourist factors analysis for trip planning."""
+    try:
+        start_date = request.GET.get('start_date')
+        end_date = request.GET.get('end_date')
+        locations_param = request.GET.get('locations')
+        
+        if not all([start_date, end_date, locations_param]):
+            return _error_response(
+                "missing_parameters", 
+                "Missing required parameters: start_date, end_date, locations", 
+                status.HTTP_400_BAD_REQUEST
+            )
+        
+        # Parse locations (JSON string)
+        try:
+            import json
+            locations = json.loads(locations_param)
+        except json.JSONDecodeError:
+            return _error_response(
+                "invalid_locations", 
+                "Locations must be a valid JSON array", 
+                status.HTTP_400_BAD_REQUEST
+            )
+        
+        from .services.trip_tourist_factors_service import trip_tourist_factors_service
+        tourist_analysis = trip_tourist_factors_service.analyze_tourist_factors(
+            locations, start_date, end_date
+        )
+        
+        return Response({
+            "success": True,
+            "data": tourist_analysis
+        })
+        
+    except Exception as e:
+        print(f"❌ Error in trip_tourist_factors_view: {e}")
+        return _error_response("tourist_error", f"Could not analyze tourist factors: {str(e)}", status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+
 @api_view(["GET"])
 def google_maps_key_view(request):
     """Get Google Maps API key for frontend autocomplete"""
