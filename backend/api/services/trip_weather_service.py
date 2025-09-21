@@ -5,6 +5,7 @@ This service analyzes weather and climate conditions for trip planning,
 considering factors like temperature, precipitation, humidity, and extreme weather events.
 """
 
+import os
 import requests
 import json
 import logging
@@ -47,7 +48,7 @@ class TripWeatherService:
     """
     
     def __init__(self):
-        self.openweather_api_key = None  # Will be set from environment
+        self.openweather_api_key = os.getenv('OPENWEATHER_API_KEY') # Will be set from environment
         self.base_url = "http://api.openweathermap.org/data/2.5"
         
     def analyze_trip_weather(self, locations: List[Dict], start_date: str, end_date: str) -> Dict:
